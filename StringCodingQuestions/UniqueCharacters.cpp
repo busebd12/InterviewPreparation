@@ -11,6 +11,10 @@
 #include <functional>
 using namespace std;
 
+/*This code corresponds to the question from the chapter on arrays and strings in which 
+you are asked to write a funtion to determine whether or not a string contains all unique characters
+*/
+
 void hasUniqueCharacters(string S)
 {
 	/*sort the string from least to greatest using the sort function 

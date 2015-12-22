@@ -4,6 +4,11 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code corresponds to the following question:
+Given a circular linked list, implement an algorithm that returns the node at the beginning of the loop
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

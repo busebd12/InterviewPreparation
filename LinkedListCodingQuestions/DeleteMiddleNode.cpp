@@ -4,6 +4,11 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code is for the question which asks you to implement an algorithm that deletes a node in the middle of
+a singly-linked list (i.e. any node that is not the first or the last node), given only access to that node
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

@@ -4,6 +4,11 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code corresponds to the following questions:
+Implement a function to check if a linked list is a palindrome
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

@@ -4,6 +4,11 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code is for the question which asks you to write a function to find the 
+kth to last element in a singly linked list
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

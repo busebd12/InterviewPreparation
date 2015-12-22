@@ -4,6 +4,12 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code is for the question that asks you to write a functioin 
+that partitions a linked list around a value x, such that all nodes 
+less than x come before all nodes greater than or equal to x
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

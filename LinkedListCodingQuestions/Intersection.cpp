@@ -4,6 +4,12 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code corresponds to the following question:
+Given two (singly) linked lists, determine if the two lists intersect. 
+Return the intersecting node. Note that the intersection is based on reference, not value
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

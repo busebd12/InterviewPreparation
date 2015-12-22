@@ -4,6 +4,13 @@ IT IS GENERALLY NOT GOOD PRACTICE TO DO THIS, SO FOR REAL LIFE PRODUCTION CODE,
 DON'T DO THIS
 */
 
+/*
+This code corresponds to the the following quesiton:
+You have two number represented by a linkes list, where ach node contains a single digit
+The digits are stored in reverse order, such that the 1's digit is at the head of the list. 
+Write a function that adds the two numbers and returns the sum as a linked list
+*/
+
 #include <iostream>
 
 #ifndef NODE_H

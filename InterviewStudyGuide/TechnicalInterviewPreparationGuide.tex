@@ -18,6 +18,8 @@
 
 \usepackage{commath}
 
+\usepackage{adjustbox}
+
 \begin{document}
 
 \title {Technical Interview Prep Guide}
@@ -1078,8 +1080,7 @@ Data structures
 
 \vspace{3mm}
 
-\resizebox{\columnwidth}{!}
-{
+\begin{adjustbox}{max height=6in, max width=6in}
 
     \begin{tabular}{l*{6}{c}r}
     
@@ -1102,7 +1103,8 @@ Data structures
     AVL Tree & $\mathcal{O}(\log{} n)$ & $\mathcal{O}(\log{} n)$ & $\mathcal{O}(\log{} n)$ & $\mathcal{O}(\log{} n)$ & $\mathcal{O}(n)$
     
     \end{tabular}
-}
+    
+\end{adjustbox}
 
 \vspace{3mm}
 
@@ -1110,8 +1112,7 @@ Data structures
 
 \vspace{3mm}
 
-\resizebox{!}{!}
-{
+\begin{adjustbox}{max height=4in, max width=4in}
 
     \begin{tabular}{l*{6}{c}r}
     
@@ -1134,7 +1135,8 @@ Data structures
    Breadth First Search (Graph(s)) & $\mathcal{O}(\abs{V} + \abs{E})$ & $\mathcal{O}(\abs{V})$
     
     \end{tabular}
-}
+    
+\end{adjustbox}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%END OF COMPLEXITIES SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \pagebreak

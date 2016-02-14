@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 FEB 2016 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 FEB 2016 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -296,37 +296,87 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip50
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/commath/commath.sty)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+)
+\XKV@depth=\count118
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box28
+)
+\tc@llx=\dimen140
+\tc@lly=\dimen141
+\tc@urx=\dimen142
+\tc@ury=\dimen143
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen144
+\adjbox@Height=\dimen145
+\adjbox@Depth=\dimen146
+\adjbox@Totalheight=\dimen147
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count119
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box29
+\sift@deathcycles=\count120
+\@vwid@loff=\dimen148
+\@vwid@roff=\dimen149
+))
 (./TechnicalInterviewPreparationGuide.aux)
 \openout1 = `TechnicalInterviewPreparationGuide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count118
-\scratchdimen=\dimen140
-\scratchbox=\box28
-\nofMPsegments=\count119
-\nofMParguments=\count120
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count121
-\MPscratchDim=\dimen141
-\MPnumerator=\count122
-\makeMPintoPDFobject=\count123
-\everyMPtoPDFconversion=\toks21
+\scratchcounter=\count121
+\scratchdimen=\dimen150
+\scratchbox=\box30
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen151
+\MPnumerator=\count125
+\makeMPintoPDFobject=\count126
+\everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -342,8 +392,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 21.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -351,36 +401,36 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count124
+\c@section@level=\count127
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./TechnicalInterviewPreparationGuide.out)
 (./TechnicalInterviewPreparationGuide.out)
 \@outlinefile=\write3
 \openout3 = `TechnicalInterviewPreparationGuide.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.78854pt too wide) in paragraph at lines 59--61
+Overfull \hbox (6.78854pt too wide) in paragraph at lines 61--63
 \OT1/cmr/m/n/12 the run-time will of-ten (but not al-ways) look like $\OMS/cmsy
 /m/n/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 branches[]\OT1/cmr/m/n/12 )$,
  []
 
 
-Overfull \hbox (7.17928pt too wide) in paragraph at lines 59--61
+Overfull \hbox (7.17928pt too wide) in paragraph at lines 61--63
 \OT1/cmr/m/n/12 where branches is the num-ber of times each re-cur-sive call br
 anches
  []
@@ -388,29 +438,24 @@ anches
 [2] [3] <QuickSort.png, id=49, 409.53pt x 471.7625pt>
 File: QuickSort.png Graphic file (type png)
  <use QuickSort.png>
-Package pdftex.def Info: QuickSort.png used on input line 123.
+Package pdftex.def Info: QuickSort.png used on input line 125.
 (pdftex.def)             Requested size: 204.7645pt x 235.88066pt.
 
 [4 <./QuickSort.png>] <MergeSortPart1.png, id=66, 612.2875pt x 381.425pt>
 File: MergeSortPart1.png Graphic file (type png)
 
 <use MergeSortPart1.png>
-Package pdftex.def Info: MergeSortPart1.png used on input line 169.
+Package pdftex.def Info: MergeSortPart1.png used on input line 171.
 (pdftex.def)             Requested size: 306.143pt x 190.71202pt.
 
 <MergeSortPart2.png, id=67, 545.03625pt x 615.29875pt>
 File: MergeSortPart2.png Graphic file (type png)
 
 <use MergeSortPart2.png>
-Package pdftex.def Info: MergeSortPart2.png used on input line 173.
+Package pdftex.def Info: MergeSortPart2.png used on input line 175.
 (pdftex.def)             Requested size: 272.51746pt x 307.64862pt.
  [5 <./MergeSortPart1.png> <./MergeSortPart2.png>]
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 236--237
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
@@ -435,12 +480,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
@@ -455,19 +500,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
 [8] <BreadthFirstTraversalForTree.png, id=106, 355.3275pt x 330.23375pt>
 File: BreadthFirstTraversalForTree.png Graphic file (type png)
 
 <use BreadthFirstTraversalForTree.png>
 Package pdftex.def Info: BreadthFirstTraversalForTree.png used on input line 34
-5.
+7.
 (pdftex.def)             Requested size: 177.6633pt x 165.11646pt.
  [9 <./BreadthFirstTraversalForTree.png>] <BreadthFirstSearchN-aryTree.png, id=
 131, 357.335pt x 240.9pt>
 File: BreadthFirstSearchN-aryTree.png Graphic file (type png)
 
 <use BreadthFirstSearchN-aryTree.png>
-Package pdftex.def Info: BreadthFirstSearchN-aryTree.png used on input line 393
+Package pdftex.def Info: BreadthFirstSearchN-aryTree.png used on input line 395
 .
 (pdftex.def)             Requested size: 178.66705pt x 120.44969pt.
 
@@ -475,7 +525,7 @@ Package pdftex.def Info: BreadthFirstSearchN-aryTree.png used on input line 393
 File: DepthFirstSearchN-aryTree.png Graphic file (type png)
 
 <use DepthFirstSearchN-aryTree.png>
-Package pdftex.def Info: DepthFirstSearchN-aryTree.png used on input line 405.
+Package pdftex.def Info: DepthFirstSearchN-aryTree.png used on input line 407.
 (pdftex.def)             Requested size: 173.64832pt x 122.95906pt.
  [10 <./BreadthFirstSearchN-aryTree.png> <./DepthFirstSearchN-aryTree.png>] [11
 ]
@@ -483,51 +533,51 @@ Package pdftex.def Info: DepthFirstSearchN-aryTree.png used on input line 405.
 File: RotationCase1AVLTree.png Graphic file (type png)
 
 <use RotationCase1AVLTree.png>
-Package pdftex.def Info: RotationCase1AVLTree.png used on input line 492.
+Package pdftex.def Info: RotationCase1AVLTree.png used on input line 494.
 (pdftex.def)             Requested size: 207.27386pt x 74.77919pt.
 
 <RotationCase2AVLTree.png, id=173, 521.95pt x 135.50626pt>
 File: RotationCase2AVLTree.png Graphic file (type png)
 
 <use RotationCase2AVLTree.png>
-Package pdftex.def Info: RotationCase2AVLTree.png used on input line 498.
+Package pdftex.def Info: RotationCase2AVLTree.png used on input line 500.
 (pdftex.def)             Requested size: 260.97435pt x 67.75294pt.
 
 <RotationCase3AVLTree.png, id=174, 354.32375pt x 131.49126pt>
 File: RotationCase3AVLTree.png Graphic file (type png)
 
 <use RotationCase3AVLTree.png>
-Package pdftex.def Info: RotationCase3AVLTree.png used on input line 504.
+Package pdftex.def Info: RotationCase3AVLTree.png used on input line 506.
 (pdftex.def)             Requested size: 177.16144pt x 65.74545pt.
 
 <RotationCase4AVLTree.png, id=175, 464.73625pt x 134.5025pt>
 File: RotationCase4AVLTree.png Graphic file (type png)
 
 <use RotationCase4AVLTree.png>
-Package pdftex.def Info: RotationCase4AVLTree.png used on input line 510.
+Package pdftex.def Info: RotationCase4AVLTree.png used on input line 512.
 (pdftex.def)             Requested size: 232.36755pt x 67.25107pt.
  [12 <./RotationCase1AVLTree.png> <./RotationCase2AVLTree.png> <./RotationCase3
 AVLTree.png> <./RotationCase4AVLTree.png>]
 File: RotationCase1AVLTree.png Graphic file (type png)
 
 <use RotationCase1AVLTree.png>
-Package pdftex.def Info: RotationCase1AVLTree.png used on input line 554.
+Package pdftex.def Info: RotationCase1AVLTree.png used on input line 556.
 (pdftex.def)             Requested size: 207.27386pt x 74.77919pt.
 File: RotationCase2AVLTree.png Graphic file (type png)
  <use RotationCase2AVLTree.png>
-Package pdftex.def Info: RotationCase2AVLTree.png used on input line 560.
+Package pdftex.def Info: RotationCase2AVLTree.png used on input line 562.
 (pdftex.def)             Requested size: 260.97435pt x 67.75294pt.
 File: RotationCase3AVLTree.png Graphic file (type png)
 
 <use RotationCase3AVLTree.png>
-Package pdftex.def Info: RotationCase3AVLTree.png used on input line 566.
+Package pdftex.def Info: RotationCase3AVLTree.png used on input line 568.
 (pdftex.def)             Requested size: 177.16144pt x 65.74545pt.
 File: RotationCase4AVLTree.png Graphic file (type png)
  <use RotationCase4AVLTree.png>
-Package pdftex.def Info: RotationCase4AVLTree.png used on input line 572.
+Package pdftex.def Info: RotationCase4AVLTree.png used on input line 574.
 (pdftex.def)             Requested size: 232.36755pt x 67.25107pt.
  [13]
-Overfull \hbox (3.42815pt too wide) in paragraph at lines 622--623
+Overfull \hbox (3.42815pt too wide) in paragraph at lines 624--625
 []\OT1/cmr/m/n/12 If so-lu-tions are fre-quent and lo-cated deep in the tree, b
 readth
  []
@@ -536,7 +586,7 @@ readth
 File: BreadthFirstSearchForGraph.png Graphic file (type png)
 
 <use BreadthFirstSearchForGraph.png>
-Package pdftex.def Info: BreadthFirstSearchForGraph.png used on input line 759.
+Package pdftex.def Info: BreadthFirstSearchForGraph.png used on input line 761.
 
 (pdftex.def)             Requested size: 242.9069pt x 260.97435pt.
  [16 <./BreadthFirstSearchForGraph.png>]
@@ -544,7 +594,7 @@ Package pdftex.def Info: BreadthFirstSearchForGraph.png used on input line 759.
 File: DepthFirstSearchGraph.png Graphic file (type png)
 
 <use DepthFirstSearchGraph.png>
-Package pdftex.def Info: DepthFirstSearchGraph.png used on input line 777.
+Package pdftex.def Info: DepthFirstSearchGraph.png used on input line 779.
 (pdftex.def)             Requested size: 280.54744pt x 169.63333pt.
 
 <DepthFirstSearchGraphIterative.png, id=275, 550.055pt x 167.62625pt>
@@ -552,7 +602,7 @@ File: DepthFirstSearchGraphIterative.png Graphic file (type png)
 
 <use DepthFirstSearchGraphIterative.png>
 Package pdftex.def Info: DepthFirstSearchGraphIterative.png used on input line 
-781.
+783.
 (pdftex.def)             Requested size: 275.02682pt x 83.81291pt.
 
 <DijkstraAlgorithmDescription.png, id=276, 811.03pt x 322.20375pt>
@@ -560,10 +610,10 @@ File: DijkstraAlgorithmDescription.png Graphic file (type png)
 
 <use DijkstraAlgorithmDescription.png>
 Package pdftex.def Info: DijkstraAlgorithmDescription.png used on input line 79
-1.
+3.
 (pdftex.def)             Requested size: 324.40625pt x 128.87921pt.
 
-Overfull \hbox (22.60284pt too wide) in paragraph at lines 791--792
+Overfull \hbox (22.60284pt too wide) in paragraph at lines 793--794
 [][] 
  []
 
@@ -573,197 +623,197 @@ kstraAlgorithmDescription.png>]
 File: DijkstraPseudoCode.png Graphic file (type png)
 
 <use DijkstraPseudoCode.png>
-Package pdftex.def Info: DijkstraPseudoCode.png used on input line 801.
+Package pdftex.def Info: DijkstraPseudoCode.png used on input line 803.
 (pdftex.def)             Requested size: 314.36893pt x 160.19566pt.
 
-Overfull \hbox (12.56552pt too wide) in paragraph at lines 801--802
+Overfull \hbox (12.56552pt too wide) in paragraph at lines 803--804
 [][] 
  []
 
 
-Overfull \hbox (9.4378pt too wide) in paragraph at lines 817--818
+Overfull \hbox (9.4378pt too wide) in paragraph at lines 819--820
 []\OT1/cmr/m/n/12 When talk-ing about the al-go-rithm, $\OML/cmm/m/it/12 h\OT1/
 cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 )$ rep-re-sents the heuris-
  []
 
 [18 <./DijkstraPseudoCode.png>] [19] [20]
-Overfull \hbox (8.97232pt too wide) in paragraph at lines 941--942
+Overfull \hbox (8.97232pt too wide) in paragraph at lines 943--944
 []\OT1/cmr/m/n/12 Real world ex-am-ple: imag-ine two chil-dren are rum-mag-ing 
 through
  []
 
 [21] [22]
-Overfull \hbox (14.00304pt too wide) in paragraph at lines 1029--1030
+Overfull \hbox (14.00304pt too wide) in paragraph at lines 1031--1032
 []\OT1/cmr/m/n/12 Non-trivial sys-tems will have to ini-ti-ate a hardware-prote
 ction-
  []
 
 
-Overfull \hbox (14.5947pt too wide) in paragraph at lines 1029--1030
+Overfull \hbox (14.5947pt too wide) in paragraph at lines 1031--1032
 \OT1/cmr/m/n/12 level change to en-ter a kernel-state so that the ker-nel code/
 data
  []
 
 [23]
-Overfull \hbox (17.64214pt too wide) in paragraph at lines 1081--1106
-[][] 
+Overfull \hbox (54.62605pt too wide) in paragraph at lines 1107--1108
+[] 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 [][]$\OT1/cmtt/m/n/12 https : / / en . wikibooks . org / wiki / Algorithm _ Imp
 lementation /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1171--1172
+Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 730620 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
+Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 5262308 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1179--1180
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
 [][]$\OT1/cmtt/m/n/12 http : / / www . cs . cmu . edu / []pattis / 15-[]1XX / 1
 5-[]200 / lectures /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 5987867 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1199--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 3332947 /
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1207--1208
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 3287003 /
  []
 
 
-Overfull \hbox (51.82779pt too wide) in paragraph at lines 1207--1208
+Overfull \hbox (51.82779pt too wide) in paragraph at lines 1209--1210
 \OT1/cmtt/m/n/12 three-[]ways-[]to-[]store-[]a-[]graph-[]in-[]memory-[]advantag
 es-[]and-[]disadvantages$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1211--1212
+Underfull \hbox (badness 10000) in paragraph at lines 1213--1214
 [][]$\OT1/cmtt/m/n/12 https : / / www . khanacademy . org / computing / compute
 r-[]science /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1215--1216
+Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
 [][]$\OT1/cmtt/m/n/12 http : / / www . algorithmist . com / index . php / Graph
  _ data _
  []
 
 
-Overfull \hbox (5.10277pt too wide) in paragraph at lines 1219--1220
+Overfull \hbox (5.10277pt too wide) in paragraph at lines 1221--1222
 [][]$\OT1/cmtt/m/n/12 http : / / www . geeksforgeeks . org / graph-[]and-[]its-
 []representations/$[] 
  []
 
 
-Overfull \hbox (43.15279pt too wide) in paragraph at lines 1223--1224
+Overfull \hbox (43.15279pt too wide) in paragraph at lines 1225--1226
 [][]$\OT1/cmtt/m/n/12 http : / / www . geeksforgeeks . org / breadth-[]first-[]
 traversal-[]for-[]a-[]graph/$[] 
  []
 
 
-Overfull \hbox (30.80278pt too wide) in paragraph at lines 1227--1228
+Overfull \hbox (30.80278pt too wide) in paragraph at lines 1229--1230
 [][]$\OT1/cmtt/m/n/12 http : / / www . geeksforgeeks . org / depth-[]first-[]tr
 aversal-[]for-[]a-[]graph/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1239--1240
+Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
 [][]$\OT1/cmtt/m/n/12 http : / / theory . stanford . edu / []amitp / GameProgra
 mming /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1243--1244
+Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 111307 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1247--1248
+Underfull \hbox (badness 10000) in paragraph at lines 1249--1250
 [][]$\OT1/cmtt/m/n/12 http : / / math . stackexchange . com / questions / 726 /
 
  []
 
 
-Overfull \hbox (8.60277pt too wide) in paragraph at lines 1247--1248
+Overfull \hbox (8.60277pt too wide) in paragraph at lines 1249--1250
 \OT1/cmtt/m/n/12 what-[]are-[]np-[]complete-[]problems-[]and-[]why-[]are-[]they
 -[]so-[]important$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1255--1256
+Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
 [][]$\OT1/cmtt/m/n/12 https : / / www . cs . uic . edu / []jbell / CourseNotes 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1259--1260
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
 [][]$\OT1/cmtt/m/n/12 https : / / www . cs . uic . edu / []jbell / CourseNotes 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
 [][]$\OT1/cmtt/m/n/12 http : / / www . programmerinterview . com / index . php 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1267--1268
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
 [][]$\OT1/cmtt/m/n/12 https : / / www . cs . mtu . edu / []shene / NSF-[]3 / e-
 []Book / MONITOR / basics .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1273
+Underfull \hbox (badness 10000) in paragraph at lines 1274--1275
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 7439608 /
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1281
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 5440128 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1282--1283
+Underfull \hbox (badness 10000) in paragraph at lines 1284--1285
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 7294634 /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1292.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1294.
 [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1292.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1294.
  (./TechnicalInterviewPreparationGuide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1292.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1292.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1294.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1294.
 
 Package rerunfilecheck Info: File `TechnicalInterviewPreparationGuide.out' has 
 not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1294.
  ) 
 Here is how much of TeX's memory you used:
- 6847 strings out of 493089
- 100392 string characters out of 6134842
- 191293 words of memory out of 5000000
- 9944 multiletter control sequences out of 15000+600000
+ 7575 strings out of 493089
+ 112322 string characters out of 6134842
+ 209291 words of memory out of 5000000
+ 10637 multiletter control sequences out of 15000+600000
  12305 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,10n,24p,611b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,9n,35p,611b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -773,7 +823,7 @@ local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TechnicalInterviewPreparationGuide.pdf (27 pages, 491765 byte
+Output written on TechnicalInterviewPreparationGuide.pdf (27 pages, 505234 byte
 s).
 PDF statistics:
  577 PDF objects out of 1000 (max. 8388607)

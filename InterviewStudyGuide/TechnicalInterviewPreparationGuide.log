@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 FEB 2016 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 FEB 2016 22:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -346,37 +346,62 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen148
 \@vwid@roff=\dimen149
 ))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count121
+\lst@gtempboxa=\box30
+\lst@token=\toks22
+\lst@length=\count122
+\lst@currlwidth=\dimen150
+\lst@column=\count123
+\lst@pos=\count124
+\lst@lostspace=\dimen151
+\lst@width=\dimen152
+\lst@newlines=\count125
+\lst@lineno=\count126
+\lst@maxwidth=\dimen153
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count127
+\lst@skipnumbers=\count128
+\lst@framebox=\box31
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
 (./TechnicalInterviewPreparationGuide.aux)
 \openout1 = `TechnicalInterviewPreparationGuide.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen150
-\scratchbox=\box30
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen151
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count129
+\scratchdimen=\dimen154
+\scratchbox=\box32
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count132
+\MPscratchDim=\dimen155
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -392,8 +417,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 23.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -401,36 +426,37 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count127
+\c@section@level=\count135
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (./TechnicalInterviewPreparationGuide.out)
 (./TechnicalInterviewPreparationGuide.out)
 \@outlinefile=\write3
 \openout3 = `TechnicalInterviewPreparationGuide.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+\c@lstlisting=\count136
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (6.78854pt too wide) in paragraph at lines 61--63
+Overfull \hbox (6.78854pt too wide) in paragraph at lines 63--65
 \OT1/cmr/m/n/12 the run-time will of-ten (but not al-ways) look like $\OMS/cmsy
 /m/n/12 O\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 branches[]\OT1/cmr/m/n/12 )$,
  []
 
 
-Overfull \hbox (7.17928pt too wide) in paragraph at lines 61--63
+Overfull \hbox (7.17928pt too wide) in paragraph at lines 63--65
 \OT1/cmr/m/n/12 where branches is the num-ber of times each re-cur-sive call br
 anches
  []
@@ -438,29 +464,24 @@ anches
 [2] [3] <QuickSort.png, id=49, 409.53pt x 471.7625pt>
 File: QuickSort.png Graphic file (type png)
  <use QuickSort.png>
-Package pdftex.def Info: QuickSort.png used on input line 125.
+Package pdftex.def Info: QuickSort.png used on input line 127.
 (pdftex.def)             Requested size: 204.7645pt x 235.88066pt.
 
 [4 <./QuickSort.png>] <MergeSortPart1.png, id=66, 612.2875pt x 381.425pt>
 File: MergeSortPart1.png Graphic file (type png)
 
 <use MergeSortPart1.png>
-Package pdftex.def Info: MergeSortPart1.png used on input line 171.
+Package pdftex.def Info: MergeSortPart1.png used on input line 173.
 (pdftex.def)             Requested size: 306.143pt x 190.71202pt.
 
 <MergeSortPart2.png, id=67, 545.03625pt x 615.29875pt>
 File: MergeSortPart2.png Graphic file (type png)
 
 <use MergeSortPart2.png>
-Package pdftex.def Info: MergeSortPart2.png used on input line 175.
+Package pdftex.def Info: MergeSortPart2.png used on input line 177.
 (pdftex.def)             Requested size: 272.51746pt x 307.64862pt.
  [5 <./MergeSortPart1.png> <./MergeSortPart2.png>]
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 238--239
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
@@ -485,12 +506,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
-
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
@@ -505,315 +526,554 @@ Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[8] <BreadthFirstTraversalForTree.png, id=106, 355.3275pt x 330.23375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
+
+ []
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 272.
+ (./Node.h
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 3.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 3.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+) [8]
+(./HashTable.h
+Overfull \hbox (228.4737pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (179.12378pt too wide) in paragraph at lines 15--17
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (122.72388pt too wide) in paragraph at lines 20--21
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (313.07355pt too wide) in paragraph at lines 22--23
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (179.12378pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (31.07404pt too wide) in paragraph at lines 29--30
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (193.22375pt too wide) in paragraph at lines 33--35
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (16.97406pt too wide) in paragraph at lines 35--37
+[][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 42.
+
+Overfull \hbox (630.323pt too wide) in paragraph at lines 42--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (404.72339pt too wide) in paragraph at lines 49--51
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.224pt too wide) in paragraph at lines 56--58
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (101.57391pt too wide) in paragraph at lines 58--60
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (263.72363pt too wide) in paragraph at lines 60--62
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (143.87384pt too wide) in paragraph at lines 62--63
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (157.97382pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (369.47345pt too wide) in paragraph at lines 66--68
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (898.22253pt too wide) in paragraph at lines 68--70
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (101.57391pt too wide) in paragraph at lines 70--72
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (891.17255pt too wide) in paragraph at lines 72--74
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (679.67291pt too wide) in paragraph at lines 74--76
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (108.6239pt too wide) in paragraph at lines 76--78
+[][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (179.12378pt too wide) in paragraph at lines 78--80
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.224pt too wide) in paragraph at lines 87--89
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (101.57391pt too wide) in paragraph at lines 89--91
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (143.87384pt too wide) in paragraph at lines 91--92
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (200.27374pt too wide) in paragraph at lines 93--95
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (115.67389pt too wide) in paragraph at lines 95--97
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.52393pt too wide) in paragraph at lines 97--98
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (165.0238pt too wide) in paragraph at lines 99--101
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.47394pt too wide) in paragraph at lines 101--103
+[][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (186.17377pt too wide) in paragraph at lines 103--104
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (9.92407pt too wide) in paragraph at lines 108--109
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.224pt too wide) in paragraph at lines 110--112
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (87.47394pt too wide) in paragraph at lines 112--114
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (714.92285pt too wide) in paragraph at lines 114--116
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][] 
+ []
+
+
+Overfull \hbox (150.92383pt too wide) in paragraph at lines 128--129
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (108.6239pt too wide) in paragraph at lines 130--131
+[][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (150.92383pt too wide) in paragraph at lines 138--139
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (341.2735pt too wide) in paragraph at lines 140--141
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (327.17352pt too wide) in paragraph at lines 142--143
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (475.22327pt too wide) in paragraph at lines 144--145
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [9] <BreadthFirstTraversalForTree.png, id=298, 355.3275pt x 330.23375pt>
 File: BreadthFirstTraversalForTree.png Graphic file (type png)
 
 <use BreadthFirstTraversalForTree.png>
-Package pdftex.def Info: BreadthFirstTraversalForTree.png used on input line 34
+Package pdftex.def Info: BreadthFirstTraversalForTree.png used on input line 36
 7.
 (pdftex.def)             Requested size: 177.6633pt x 165.11646pt.
- [9 <./BreadthFirstTraversalForTree.png>] <BreadthFirstSearchN-aryTree.png, id=
-131, 357.335pt x 240.9pt>
+ [10 <./BreadthFirstTraversalForTree.png>] <BreadthFirstSearchN-aryTree.png, id
+=322, 357.335pt x 240.9pt>
 File: BreadthFirstSearchN-aryTree.png Graphic file (type png)
 
 <use BreadthFirstSearchN-aryTree.png>
-Package pdftex.def Info: BreadthFirstSearchN-aryTree.png used on input line 395
+Package pdftex.def Info: BreadthFirstSearchN-aryTree.png used on input line 415
 .
 (pdftex.def)             Requested size: 178.66705pt x 120.44969pt.
 
-<DepthFirstSearchN-aryTree.png, id=132, 347.2975pt x 245.91875pt>
+<DepthFirstSearchN-aryTree.png, id=323, 347.2975pt x 245.91875pt>
 File: DepthFirstSearchN-aryTree.png Graphic file (type png)
 
 <use DepthFirstSearchN-aryTree.png>
-Package pdftex.def Info: DepthFirstSearchN-aryTree.png used on input line 407.
+Package pdftex.def Info: DepthFirstSearchN-aryTree.png used on input line 427.
 (pdftex.def)             Requested size: 173.64832pt x 122.95906pt.
- [10 <./BreadthFirstSearchN-aryTree.png> <./DepthFirstSearchN-aryTree.png>] [11
+ [11 <./BreadthFirstSearchN-aryTree.png> <./DepthFirstSearchN-aryTree.png>] [12
 ]
-<RotationCase1AVLTree.png, id=172, 414.54875pt x 149.55875pt>
+<RotationCase1AVLTree.png, id=364, 414.54875pt x 149.55875pt>
 File: RotationCase1AVLTree.png Graphic file (type png)
 
 <use RotationCase1AVLTree.png>
-Package pdftex.def Info: RotationCase1AVLTree.png used on input line 494.
+Package pdftex.def Info: RotationCase1AVLTree.png used on input line 514.
 (pdftex.def)             Requested size: 207.27386pt x 74.77919pt.
 
-<RotationCase2AVLTree.png, id=173, 521.95pt x 135.50626pt>
+<RotationCase2AVLTree.png, id=365, 521.95pt x 135.50626pt>
 File: RotationCase2AVLTree.png Graphic file (type png)
 
 <use RotationCase2AVLTree.png>
-Package pdftex.def Info: RotationCase2AVLTree.png used on input line 500.
+Package pdftex.def Info: RotationCase2AVLTree.png used on input line 520.
 (pdftex.def)             Requested size: 260.97435pt x 67.75294pt.
 
-<RotationCase3AVLTree.png, id=174, 354.32375pt x 131.49126pt>
+<RotationCase3AVLTree.png, id=366, 354.32375pt x 131.49126pt>
 File: RotationCase3AVLTree.png Graphic file (type png)
 
 <use RotationCase3AVLTree.png>
-Package pdftex.def Info: RotationCase3AVLTree.png used on input line 506.
+Package pdftex.def Info: RotationCase3AVLTree.png used on input line 526.
 (pdftex.def)             Requested size: 177.16144pt x 65.74545pt.
 
-<RotationCase4AVLTree.png, id=175, 464.73625pt x 134.5025pt>
+<RotationCase4AVLTree.png, id=367, 464.73625pt x 134.5025pt>
 File: RotationCase4AVLTree.png Graphic file (type png)
 
 <use RotationCase4AVLTree.png>
-Package pdftex.def Info: RotationCase4AVLTree.png used on input line 512.
+Package pdftex.def Info: RotationCase4AVLTree.png used on input line 532.
 (pdftex.def)             Requested size: 232.36755pt x 67.25107pt.
- [12 <./RotationCase1AVLTree.png> <./RotationCase2AVLTree.png> <./RotationCase3
+ [13 <./RotationCase1AVLTree.png> <./RotationCase2AVLTree.png> <./RotationCase3
 AVLTree.png> <./RotationCase4AVLTree.png>]
 File: RotationCase1AVLTree.png Graphic file (type png)
 
 <use RotationCase1AVLTree.png>
-Package pdftex.def Info: RotationCase1AVLTree.png used on input line 556.
+Package pdftex.def Info: RotationCase1AVLTree.png used on input line 576.
 (pdftex.def)             Requested size: 207.27386pt x 74.77919pt.
 File: RotationCase2AVLTree.png Graphic file (type png)
  <use RotationCase2AVLTree.png>
-Package pdftex.def Info: RotationCase2AVLTree.png used on input line 562.
+Package pdftex.def Info: RotationCase2AVLTree.png used on input line 582.
 (pdftex.def)             Requested size: 260.97435pt x 67.75294pt.
 File: RotationCase3AVLTree.png Graphic file (type png)
 
 <use RotationCase3AVLTree.png>
-Package pdftex.def Info: RotationCase3AVLTree.png used on input line 568.
+Package pdftex.def Info: RotationCase3AVLTree.png used on input line 588.
 (pdftex.def)             Requested size: 177.16144pt x 65.74545pt.
 File: RotationCase4AVLTree.png Graphic file (type png)
  <use RotationCase4AVLTree.png>
-Package pdftex.def Info: RotationCase4AVLTree.png used on input line 574.
+Package pdftex.def Info: RotationCase4AVLTree.png used on input line 594.
 (pdftex.def)             Requested size: 232.36755pt x 67.25107pt.
- [13]
-Overfull \hbox (3.42815pt too wide) in paragraph at lines 624--625
+ [14]
+Overfull \hbox (3.42815pt too wide) in paragraph at lines 644--645
 []\OT1/cmr/m/n/12 If so-lu-tions are fre-quent and lo-cated deep in the tree, b
 readth
  []
 
-[14] [15] <BreadthFirstSearchForGraph.png, id=258, 485.815pt x 521.95pt>
+[15] [16] <BreadthFirstSearchForGraph.png, id=449, 485.815pt x 521.95pt>
 File: BreadthFirstSearchForGraph.png Graphic file (type png)
 
 <use BreadthFirstSearchForGraph.png>
-Package pdftex.def Info: BreadthFirstSearchForGraph.png used on input line 761.
+Package pdftex.def Info: BreadthFirstSearchForGraph.png used on input line 781.
 
 (pdftex.def)             Requested size: 242.9069pt x 260.97435pt.
- [16 <./BreadthFirstSearchForGraph.png>]
-<DepthFirstSearchGraph.png, id=274, 561.09625pt x 339.2675pt>
+ [17 <./BreadthFirstSearchForGraph.png>]
+<DepthFirstSearchGraph.png, id=466, 561.09625pt x 339.2675pt>
 File: DepthFirstSearchGraph.png Graphic file (type png)
 
 <use DepthFirstSearchGraph.png>
-Package pdftex.def Info: DepthFirstSearchGraph.png used on input line 779.
+Package pdftex.def Info: DepthFirstSearchGraph.png used on input line 799.
 (pdftex.def)             Requested size: 280.54744pt x 169.63333pt.
 
-<DepthFirstSearchGraphIterative.png, id=275, 550.055pt x 167.62625pt>
+<DepthFirstSearchGraphIterative.png, id=467, 550.055pt x 167.62625pt>
 File: DepthFirstSearchGraphIterative.png Graphic file (type png)
 
 <use DepthFirstSearchGraphIterative.png>
 Package pdftex.def Info: DepthFirstSearchGraphIterative.png used on input line 
-783.
+803.
 (pdftex.def)             Requested size: 275.02682pt x 83.81291pt.
 
-<DijkstraAlgorithmDescription.png, id=276, 811.03pt x 322.20375pt>
+<DijkstraAlgorithmDescription.png, id=468, 811.03pt x 322.20375pt>
 File: DijkstraAlgorithmDescription.png Graphic file (type png)
 
 <use DijkstraAlgorithmDescription.png>
-Package pdftex.def Info: DijkstraAlgorithmDescription.png used on input line 79
+Package pdftex.def Info: DijkstraAlgorithmDescription.png used on input line 81
 3.
 (pdftex.def)             Requested size: 324.40625pt x 128.87921pt.
 
-Overfull \hbox (22.60284pt too wide) in paragraph at lines 793--794
+Overfull \hbox (22.60284pt too wide) in paragraph at lines 813--814
 [][] 
  []
 
-[17 <./DepthFirstSearchGraph.png> <./DepthFirstSearchGraphIterative.png> <./Dij
+[18 <./DepthFirstSearchGraph.png> <./DepthFirstSearchGraphIterative.png> <./Dij
 kstraAlgorithmDescription.png>]
-<DijkstraPseudoCode.png, id=289, 785.93625pt x 400.49625pt>
+<DijkstraPseudoCode.png, id=481, 785.93625pt x 400.49625pt>
 File: DijkstraPseudoCode.png Graphic file (type png)
 
 <use DijkstraPseudoCode.png>
-Package pdftex.def Info: DijkstraPseudoCode.png used on input line 803.
+Package pdftex.def Info: DijkstraPseudoCode.png used on input line 823.
 (pdftex.def)             Requested size: 314.36893pt x 160.19566pt.
 
-Overfull \hbox (12.56552pt too wide) in paragraph at lines 803--804
+Overfull \hbox (12.56552pt too wide) in paragraph at lines 823--824
 [][] 
  []
 
 
-Overfull \hbox (9.4378pt too wide) in paragraph at lines 819--820
+Overfull \hbox (9.4378pt too wide) in paragraph at lines 839--840
 []\OT1/cmr/m/n/12 When talk-ing about the al-go-rithm, $\OML/cmm/m/it/12 h\OT1/
 cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 )$ rep-re-sents the heuris-
  []
 
-[18 <./DijkstraPseudoCode.png>] [19] [20]
-Overfull \hbox (8.97232pt too wide) in paragraph at lines 943--944
+[19 <./DijkstraPseudoCode.png>] [20] [21]
+Overfull \hbox (8.97232pt too wide) in paragraph at lines 963--964
 []\OT1/cmr/m/n/12 Real world ex-am-ple: imag-ine two chil-dren are rum-mag-ing 
 through
  []
 
-[21] [22]
-Overfull \hbox (14.00304pt too wide) in paragraph at lines 1031--1032
+[22] [23]
+Overfull \hbox (14.00304pt too wide) in paragraph at lines 1051--1052
 []\OT1/cmr/m/n/12 Non-trivial sys-tems will have to ini-ti-ate a hardware-prote
 ction-
  []
 
-
-Overfull \hbox (14.5947pt too wide) in paragraph at lines 1031--1032
-\OT1/cmr/m/n/12 level change to en-ter a kernel-state so that the ker-nel code/
-data
- []
-
-[23]
-Overfull \hbox (54.62605pt too wide) in paragraph at lines 1107--1108
+[24]
+Overfull \hbox (54.62605pt too wide) in paragraph at lines 1127--1128
 [] 
  []
 
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
 [][]$\OT1/cmtt/m/n/12 https : / / en . wikibooks . org / wiki / Algorithm _ Imp
 lementation /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 730620 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1197--1198
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 5262308 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
+Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
 [][]$\OT1/cmtt/m/n/12 http : / / www . cs . cmu . edu / []pattis / 15-[]1XX / 1
 5-[]200 / lectures /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1189--1190
+Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 5987867 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1201--1202
+Underfull \hbox (badness 10000) in paragraph at lines 1221--1222
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 3332947 /
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 1209--1210
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 1229--1230
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 3287003 /
  []
 
 
-Overfull \hbox (51.82779pt too wide) in paragraph at lines 1209--1210
+Overfull \hbox (51.82779pt too wide) in paragraph at lines 1229--1230
 \OT1/cmtt/m/n/12 three-[]ways-[]to-[]store-[]a-[]graph-[]in-[]memory-[]advantag
 es-[]and-[]disadvantages$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1214
+Underfull \hbox (badness 10000) in paragraph at lines 1233--1234
 [][]$\OT1/cmtt/m/n/12 https : / / www . khanacademy . org / computing / compute
 r-[]science /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1217--1218
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
 [][]$\OT1/cmtt/m/n/12 http : / / www . algorithmist . com / index . php / Graph
  _ data _
  []
 
 
-Overfull \hbox (5.10277pt too wide) in paragraph at lines 1221--1222
+Overfull \hbox (5.10277pt too wide) in paragraph at lines 1241--1242
 [][]$\OT1/cmtt/m/n/12 http : / / www . geeksforgeeks . org / graph-[]and-[]its-
 []representations/$[] 
  []
 
 
-Overfull \hbox (43.15279pt too wide) in paragraph at lines 1225--1226
+Overfull \hbox (43.15279pt too wide) in paragraph at lines 1245--1246
 [][]$\OT1/cmtt/m/n/12 http : / / www . geeksforgeeks . org / breadth-[]first-[]
 traversal-[]for-[]a-[]graph/$[] 
  []
 
 
-Overfull \hbox (30.80278pt too wide) in paragraph at lines 1229--1230
+Overfull \hbox (30.80278pt too wide) in paragraph at lines 1249--1250
 [][]$\OT1/cmtt/m/n/12 http : / / www . geeksforgeeks . org / depth-[]first-[]tr
 aversal-[]for-[]a-[]graph/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1241--1242
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
 [][]$\OT1/cmtt/m/n/12 http : / / theory . stanford . edu / []amitp / GameProgra
 mming /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
+Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 111307 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1249--1250
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
 [][]$\OT1/cmtt/m/n/12 http : / / math . stackexchange . com / questions / 726 /
 
  []
 
 
-Overfull \hbox (8.60277pt too wide) in paragraph at lines 1249--1250
+Overfull \hbox (8.60277pt too wide) in paragraph at lines 1269--1270
 \OT1/cmtt/m/n/12 what-[]are-[]np-[]complete-[]problems-[]and-[]why-[]are-[]they
 -[]so-[]important$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1278
 [][]$\OT1/cmtt/m/n/12 https : / / www . cs . uic . edu / []jbell / CourseNotes 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
+Underfull \hbox (badness 10000) in paragraph at lines 1281--1282
 [][]$\OT1/cmtt/m/n/12 https : / / www . cs . uic . edu / []jbell / CourseNotes 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1286
 [][]$\OT1/cmtt/m/n/12 http : / / www . programmerinterview . com / index . php 
 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1269--1270
+Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
 [][]$\OT1/cmtt/m/n/12 https : / / www . cs . mtu . edu / []shene / NSF-[]3 / e-
 []Book / MONITOR / basics .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1274--1275
+Underfull \hbox (badness 10000) in paragraph at lines 1294--1295
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 7439608 /
  []
 
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 1280--1281
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 1300--1301
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 5440128 /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1284--1285
+Underfull \hbox (badness 10000) in paragraph at lines 1304--1305
 [][]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 7294634 /
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1294.
-[27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1294.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1314.
+[28]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1314.
  (./TechnicalInterviewPreparationGuide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1294.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1294.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1314.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1314.
 
 Package rerunfilecheck Info: File `TechnicalInterviewPreparationGuide.out' has 
 not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1294.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1314.
  ) 
 Here is how much of TeX's memory you used:
- 7575 strings out of 493089
- 112322 string characters out of 6134842
- 209291 words of memory out of 5000000
- 10637 multiletter control sequences out of 15000+600000
- 12305 words of font info for 48 fonts, out of 8000000 for 9000
+ 9269 strings out of 493089
+ 137005 string characters out of 6134842
+ 537130 words of memory out of 5000000
+ 12112 multiletter control sequences out of 15000+600000
+ 12612 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,9n,35p,611b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,9n,100p,611b,1486s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -823,11 +1083,11 @@ local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TechnicalInterviewPreparationGuide.pdf (27 pages, 505234 byte
+Output written on TechnicalInterviewPreparationGuide.pdf (28 pages, 519484 byte
 s).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 503 compressed objects within 6 object streams
- 300 named destinations out of 1000 (max. 500000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 728 compressed objects within 8 object streams
+ 486 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

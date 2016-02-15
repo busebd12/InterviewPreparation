@@ -20,6 +20,8 @@
 
 \usepackage{adjustbox}
 
+\usepackage{listings}
+
 \begin{document}
 
 \title {Technical Interview Prep Guide}
@@ -263,7 +265,25 @@ Ok, so that's basically how a hash table works.
 
 \end{enumerate}
 
-\item Implementation: Know your implementation like the back of your hand and study up on the ones provided by the C++ STL
+\item (One possible) Implementation:
+
+\begin{adjustbox}{max height=2in, max width=2in}
+
+\lstinputlisting[language=C++]{Node.h}
+
+\end{adjustbox}
+
+\pagebreak
+
+\vspace*{-40mm}
+
+\vspace{3mm}
+
+\begin{adjustbox}{max height=12in, max width=4in}
+
+\lstinputlisting[language=C++]{HashTable.h}
+
+\end{adjustbox}
 
 \item Complexities
 

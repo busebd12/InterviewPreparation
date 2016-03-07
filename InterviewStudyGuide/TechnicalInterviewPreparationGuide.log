@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 FEB 2016 23:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -893,7 +893,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1318.
 Here is how much of TeX's memory you used:
  9062 strings out of 493089
  134440 string characters out of 6134842
- 290130 words of memory out of 5000000
+ 290291 words of memory out of 5000000
  12054 multiletter control sequences out of 15000+600000
  12612 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -907,7 +907,7 @@ local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
 /texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on TechnicalInterviewPreparationGuide.pdf (29 pages, 627861 byte
+Output written on TechnicalInterviewPreparationGuide.pdf (29 pages, 628206 byte
 s).
 PDF statistics:
  634 PDF objects out of 1000 (max. 8388607)

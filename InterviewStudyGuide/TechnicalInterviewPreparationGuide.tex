@@ -53,17 +53,17 @@ $f(n) \leq c_{1} \cdot g(n)$ and $f(n) \geq c_{2} \cdot g(n)$. This means that $
 
 \begin{enumerate}
 
-\item If your algorithm is in the form "do this, then, when you're all done, do that," then you add the runtimes
+\item If your algorithm is in the form ``do this, then, when you're all done, do that," then you add the runtimes
 
-\item If your algorithm is in the form "do this fo each time you do that," then you multiply the runtimes
+\item If your algorithm is in the form ``do this for each time you do that," then you multiply the runtimes
 
 \item Any algorithm that repeatedly doubles or halves, you should be thinking logarithmic complexity aka $\mathcal{O}(\log{} n)$
-\item Amortized time allows us to describe that, yes, this worst case happens every once in a while. But, once this happens, it won't happen again for so long that the cost is "amortized"
+\item Amortized time allows us to describe that, yes, this worst case happens every once in a while. But, once this happens, it won't happen again for so long that the cost is ``amortized"
 
 \item When you have a recursive function that makes multiple calls, the runtime will often (but not always) look like $\mathcal{O}(branches^{depth})$, where branches is the number of times each recursive call branches aka 
 how many times the recursive function is called
 
-\item Memorization is a very common technique used to optimize exponential time recursive algorithms
+\item Memoization is a very common technique used to optimize exponential time recursive algorithms
 
 \end{enumerate}
 
@@ -112,7 +112,7 @@ how many times the recursive function is called
 
 \begin{enumerate}
 
-\item Not efficient if the elements are already sorted and if each element in the array are equal (gives worst case time complexity of $\mathcal{O}(n^2)$)
+\item Not efficient if the elements are already sorted and if each element in the array is equal (gives worst case time complexity of $\mathcal{O}(n^2)$)
 
 \item Might be space expensive for large data sets due to the fact that it uses $\mathcal{O}(\log{} n)$ auxiliary space for recursive function calls
 
@@ -265,7 +265,7 @@ Ok, so that's basically how a hash table works.
 
 \end{enumerate}
 
-\item (One possible) Implementation:
+\item (One possible) Implementation (please, note that for brevity, I have only provided the core functions of the Hash Table class. If the reader wants to run the code, you will have to complete the template class implementation):
 
 \begin{adjustbox}{max height=2in, max width=2in}
 
@@ -615,7 +615,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item If balance factor is greater than $1$, then the current node is unbalanced and we are either in Left Left case or Left Right case. To check whether it is Left Left case or Left Right case, get the balance factor of left subtree. If balance factor of the left subtree is greater than or equal to $0$, then it is Left Left case, else Left Right case.
 
-\item If balance factor is less than $-1$, then the current node is unbalanced and we are either in Right Right case or Right Left case. To check whether it is Right Right case or Right Left case, get the balance factor of right subtree. If the balance factor of the right subtree is smaller than or equal to $0$, then it is Right Right case, else Right Left case.
+\item If balance factor is less than $-1$, then the current node is unbalanced and we are either in Right Right case or Right Left case. To check whether it is Right Right case or Right Left case, get the balance factor of right subtree. If the balance factor of the right subtree is less than or equal to $0$, then it is Right Right case, else Right Left case.
 
 \end{enumerate}
 
@@ -688,7 +688,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Deleting an edge $\rightarrow \mathcal{O}(1)$
 
-\item Answering the question "is there an edge between two vertices" $\rightarrow \mathcal{O}(1)$
+\item Answering the question ``is there an edge between two vertices" $\rightarrow \mathcal{O}(1)$
 
 \item Finding the successors of a given vertex $\rightarrow \mathcal{O}(n)$
 
@@ -704,7 +704,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Removing and edge takes constant time
 
-\item Answering the question "is there an edge between two vertices" can be answered in constant time
+\item Answering the question ``is there an edge between two vertices" can be answered in constant time
 
 \end{enumerate}
 
@@ -820,7 +820,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \vspace*{-40mm}
 
-\item Implementation:
+\item Implementation (in pseudo code):
 
 \vspace{1mm}
 
@@ -836,7 +836,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item A* is like Greedy Best-First-Search in that it can use a heuristic to guide itself
 
-\item The secret to its success is that it combines the pieces of information that Dijkstra?s algorithm uses (favoring vertices that are close to the starting point) and information that Greedy Best-First-Search uses (favoring vertices that are close to the goal)
+\item The secret to its success is that it combines the pieces of information that Dijkstra's algorithm uses (favoring vertices that are close to the starting point) and information that Greedy Best-First-Search uses (favoring vertices that are close to the goal)
 
 \item When talking about the algorithm, $g(n)$ represents the exact cost of the path from the starting point to any vertex $n$
 

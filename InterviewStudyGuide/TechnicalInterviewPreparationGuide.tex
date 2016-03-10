@@ -90,11 +90,11 @@ how many times the recursive function is called
 
 \begin{enumerate}
 
-\item Choose the pivot value: we take the value of the middle element as the pivot value, but it can be any value, which is in range of sorted values, even if it does appear in the array.
+\item Choose the pivot value: we take the value of the middle element as the pivot value, but it can be any value, which is in range of sorted values, even if it doesn't appear in the array.
 
 \item Partition: Rearrange elements in a such a way that all elements which are less than the pivot go the left part of the array and all elements greater than the pivot go to the right part of the array. Values equal to pivot can stay in any part of the array. Note, that the array may be divided into non-equal parts.
 
-\item Sort both parts: apply Quicksort algorithm recursively to the left and right parts. 
+\item Sort both parts: apply the Quicksort algorithm recursively to the left and right parts. 
 
 \end{enumerate}
 
@@ -157,7 +157,7 @@ how many times the recursive function is called
 
 \begin{enumerate}
 
-\item Requires twice as much memory as than any other sophisticated sorting algorithm and likewise is not recommended for smaller arrays for the reason that it works recursively and it requires 
+\item Requires twice as much memory as any other sophisticated sorting algorithm and likewise is not recommended for smaller arrays for the reason that it works recursively and it requires 
 $\mathcal{O}(n)$ auxiliary space for sorting
 
 \item It is difficult to implement the merge operation
@@ -537,7 +537,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \end{enumerate}
 
-\item Implementation for insertion:
+\item Implementation (in words) for insertion:
 
 \begin{enumerate}
 
@@ -547,13 +547,13 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Get the balance factor (left subtree height - right subtree height)
 
-\item If balance factor is greater than $1$, then the current node is unbalanced and we are either in Left Left case or left Right case. We are in the Left Left case if the newly inserted key is less than the key of its left sub-tree. We are in the Left Right case if the newly inserted key is greater than the key of its left sub-tree.
+\item If the balance factor is greater than $1$, then the current node is unbalanced and we are either in the Left Left case or the Left Right case. We are in the Left Left case if the newly inserted key is less than the key of its left sub-tree. We are in the Left Right case if the newly inserted key is greater than the key of its left sub-tree.
 
 \pagebreak
 
 \vspace*{-40mm}
 
-\item If balance factor is less than $-1$, then the current node is unbalanced and we are either in Right Right case or Right Left case. We are in the Right Right case if the newly inserted key is greater than the key of its right sub-tree. We are in the Right Left case if the newly inserted key is less than the key of its right sub-tree.
+\item If the balance factor is less than $-1$, then the current node is unbalanced and we are either in the Right Right case or the Right Left case. We are in the Right Right case if the newly inserted key is greater than the key of its right sub-tree. We are in the Right Left case if the newly inserted key is less than the key of its right sub-tree.
 
 \end{enumerate}
 
@@ -613,9 +613,9 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Get the balance factor (left subtree height - right subtree height) of the current node
 
-\item If balance factor is greater than $1$, then the current node is unbalanced and we are either in Left Left case or Left Right case. To check whether it is Left Left case or Left Right case, get the balance factor of left subtree. If balance factor of the left subtree is greater than or equal to $0$, then it is Left Left case, else Left Right case.
+\item If the balance factor is greater than $1$, then the current node is unbalanced and we are either in Left Left case or Left Right case. To check whether it is the Left Left case or the Left Right case, get the balance factor of the left subtree. If the balance factor of the left subtree is greater than or equal to $0$, then it is the Left Left case, else it is the Left Right case.
 
-\item If balance factor is less than $-1$, then the current node is unbalanced and we are either in Right Right case or Right Left case. To check whether it is Right Right case or Right Left case, get the balance factor of right subtree. If the balance factor of the right subtree is less than or equal to $0$, then it is Right Right case, else Right Left case.
+\item If the balance factor is less than $-1$, then the current node is unbalanced and we are either in the Right Right case or the Right Left case. To check whether it is the Right Right case or the Right Left case, get the balance factor of right subtree. If the balance factor of the right subtree is less than or equal to $0$, then it is the Right Right case, else it is the Right Left case.
 
 \end{enumerate}
 
@@ -702,7 +702,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Representation is easier to implement and follow
 
-\item Removing and edge takes constant time
+\item Removing an edge takes constant time
 
 \item Answering the question ``is there an edge between two vertices" can be answered in constant time
 
@@ -847,7 +847,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 \end{enumerate}
 
 \end{enumerate}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%END OF GRAPH SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%END OF GRAPH SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%START OF NP-COMPLETE PROBLEM(S) SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{NP-Complete Problem(s)}
@@ -856,7 +856,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item NP stands for Non-deterministic Polynominal time
 
-\item A yes-or-no problems is said to be NP if a yes can be verified in polynominal time
+\item A yes-or-no problem is said to be NP if a yes can be verified in polynominal time
 
 \item NP-complete is a family of NP problems for which you know that if one had a polynominal time solution, then everyone of them has a polynominal time solution
 
@@ -870,7 +870,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Traveling Salesman problem: finding the shortest path (on a graph) that allows you to visit each city exactly once
 
-\item Bin packing problem: there are a number of fixed (integer) size bins and objects of varying sizes. Minimize the number of bins required to hold all of the object
+\item Bin packing problem: there are a number of fixed (integer) size bins and objects of varying sizes. Minimize the number of bins required to hold all of the objects
 
 \item Knapsack problem: given objects of various sizes and values and a knapsack with a fixed integer size, choose the objects that can fit inside with the most value
 
@@ -900,7 +900,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \item Process: an instance of computer program in execution
 
-\item Thread: a basic unit of CPU utilization, often called a "lightweight" process
+\item Thread: a basic unit of CPU utilization, often called a ``lightweight" process
 
 \item Concurrency issues
 
@@ -920,7 +920,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \begin{enumerate}
 
-\item Real world example: Imagine a mutex as a key to a toilet. One person can have the key - occupy the toilet - at the time. When they are finished, the person gives (frees) the key to the next person in the queue
+\item Real world example: Imagine a mutex as a key to a toilet. One person can have the key - occupy the toilet - at a time. When they are finished, the person gives (frees) the key to the next person in the queue
 
 \end{enumerate} 
 
@@ -934,7 +934,7 @@ If we make sure that height of the tree remains $\mathcal{O}(\log{} n)$ after ev
 
 \vspace*{-40mm}
 
-Now, when one person leaves the toilet, semaphore is increased to 1 (one free key), and given to the next person in the queue
+Now, when one person leaves the toilet, the semaphore count is increased to 1 (one free key), and given to the next person in the queue
 
 \end{enumerate}
 
@@ -986,7 +986,7 @@ Now, when one person leaves the toilet, semaphore is increased to 1 (one free ke
 
 \begin{enumerate}
 
-\item Process ID
+\item Thread ID
 
 \item Program counter
 
@@ -1016,7 +1016,7 @@ Now, when one person leaves the toilet, semaphore is increased to 1 (one free ke
 
 \item Accounting information such as user and kernel CPU time consumed, account numbers, limits, etc
 
-\item I/O status information such as Devices allocated, open file tables, etc
+\item I/O status information such as devices allocated, open file tables, etc
 
 \end{enumerate}
 
@@ -1038,7 +1038,7 @@ Now, when one person leaves the toilet, semaphore is increased to 1 (one free ke
 
 \begin{enumerate}
 
-\item This involves saving the state of all volatile data like registers, program counter, memory, etc. (in other words the "context" of the process)  to persistent storage and then loading up the context of a new process
+\item This involves saving the state of all volatile data like registers, program counter, memory, etc. (in other words the ``context" of the process)  to persistent storage and then loading up the context of a new process
 
 \end{enumerate}
 
@@ -1084,7 +1084,7 @@ Now, when one person leaves the toilet, semaphore is increased to 1 (one free ke
 
 \item At step 5 in the thread context switching process, the scheduler decides to run a thread belonging to a different process from the one that owned the previously-running thread
 
-\item The memory-management hardware has to be loaded with the address-space for the new process, ie whatever selectors/segments/flags/whatever that allow the thread/s of the new process to access its memory
+\item The memory-management hardware has to be loaded with the address-space for the new process, i.e. whatever selectors/segments/flags/whatever that allow the thread(s) of the new process to access its memory
 
 \item The context of any Floating Point Unit  hardware needs to be saved/restored from the Process Control Block
 

@@ -37,10 +37,3 @@ string solutionHelper(string Input)
 
 	return result;
 }
-
-int main(int argc, char** argv)
-{
-	string input="accabb";
-
-	cout << solutionHelper(input) << endl;
-}

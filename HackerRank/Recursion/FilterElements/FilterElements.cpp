@@ -38,7 +38,7 @@ void solutionHelper(vector<int> Input, size_t T, int K)
 
 	sort(begin(cache), end(cache), [](const auto & First, const auto & Second) {return First.second.first < Second.second.first;});
 
-	bool noElements=false;
+	bool noElements=true;
 
 	for(int index=0;index<cacheSize;++index)
 	{
@@ -48,11 +48,11 @@ void solutionHelper(vector<int> Input, size_t T, int K)
 		{
 			cout << current.first << " ";
 
-			noElements=true;
+			noElements=false;
 		}
 	}
 
-	if(noElements==false)
+	if(noElements)
 	{
 		cout << -1 << endl;
 	}

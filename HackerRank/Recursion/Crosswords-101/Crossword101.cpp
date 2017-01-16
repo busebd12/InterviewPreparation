@@ -25,10 +25,6 @@ void printCrosswordBoard(vector<string> CrosswordBoard)
 
 void solution(vector<string> CrosswordBoard, vector<string> & WordList)
 {
-	printCrosswordBoard(CrosswordBoard);
-
-	cout << endl;
-
 	vector<vector<pair<int, int>>> horizontalSpotsForWords;
 
 	vector<vector<pair<int, int>>> verticalSpotsForWords;

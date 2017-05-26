@@ -5,43 +5,47 @@
 #include <iterator>
 using namespace std;
 
-int getMinHelper(vector<int> DesiredArray, int Moves)
+class IncrementAndDoubling
 {
-    if(all_of(begin(DesiredArray), end(DesiredArray), [] (const int & element) {return element==0;}))
-    {   
-        return Moves;
-    }
-    
-    if(all_of(begin(DesiredArray), end(DesiredArray), [] (int & element) {return element%2==0;}))
-    {   
-        for(auto & element : DesiredArray)
+    public:
+        int getMinHelper(vector<int> DesiredArray, int Moves)
         {
-            element/=2;
-        }
-        
-        Moves++;
-    }
-    else
-    {   
-        for(auto & element : DesiredArray)
-        {
-            if(element%2==1)
-            {
-                element--;
+            if(all_of(begin(DesiredArray), end(DesiredArray), [] (const int & element) {return element==0;}))
+            {   
+                return Moves;
+            }
+            
+            if(all_of(begin(DesiredArray), end(DesiredArray), [] (int & element) {return element%2==0;}))
+            {   
+                for(auto & element : DesiredArray)
+                {
+                    element/=2;
+                }
                 
                 Moves++;
             }
+            else
+            {   
+                for(auto & element : DesiredArray)
+                {
+                    if(element%2==1)
+                    {
+                        element--;
+                        
+                        Moves++;
+                    }
+                }
+            }
+            
+            return getMinHelper(DesiredArray, Moves);
         }
-    }
-    
-    return getMinHelper(DesiredArray, Moves);
-}
 
-int getMin(vector<int> DesiredArray)
-{   
-    int moves{};
-    
-    int result=getMinHelper(DesiredArray, moves);
-    
-    return result;
-}
+        int getMin(vector<int> DesiredArray)
+        {   
+            int moves{};
+            
+            int result=getMinHelper(DesiredArray, moves);
+            
+            return result;
+        }
+};

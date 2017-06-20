@@ -1,52 +1,39 @@
 #include <iostream>
-#include <algorithm>
-#include <vector>
-#include <array>
-#include <set>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <stack>
-#include <queue>
-#include <tuple>
-#include <utility>
 #include <string>
-#include <iterator>
+#include <cstdlib>
+#include <vector>
 using namespace std;
 
-void stringReduction(string Input)
+string solution(string Input, vector<char> PreviouslySeenCharacters, int Index)
 {
-	vector<char> seenCharacters;
-
-	for(auto current=Input.begin();current!=Input.end();++current)
+	if(Index==Input.size())
 	{
-		char letter=*current;
+		string output(begin(PreviouslySeenCharacters), end(PreviouslySeenCharacters));
 
-		//check to see if we've already seen the character
-		auto result=find_if(seenCharacters.begin(), seenCharacters.end(), [letter] (const char & element) {return element==letter;});
-
-		//if we haven't, add it to the vector
-		if(result==seenCharacters.end())
-		{
-			seenCharacters.push_back(letter);
-		}
+		return output;
 	}
 
-	cout << "The string with characters removed that occured previously:" << endl;
+	char current=Input[Index];
 
-	copy(seenCharacters.begin(), seenCharacters.end(), ostream_iterator<char>(cout, ""));
+	auto result=find(begin(PreviouslySeenCharacters), end(PreviouslySeenCharacters), current);
 
-	cout << endl;
+	if(result!=end(PreviouslySeenCharacters))
+	{
+		return solution(Input, PreviouslySeenCharacters, Index+1);
+	}
+	else
+	{
+		PreviouslySeenCharacters.emplace_back(current);
+
+		return solution(Input, PreviouslySeenCharacters, Index+1);
+	}
 }
 
-int main(int argc, char *argv [])
+string solutionHelper(string Input)
 {
-	string input;
+	vector<char> previouslySeenCharacters;
 
-	while(cin.good())
-	{
-		cin >> input;
+	string result=solution(Input, previouslySeenCharacters, 0);
 
-		stringReduction(input);
-	}
+	return result;
 }

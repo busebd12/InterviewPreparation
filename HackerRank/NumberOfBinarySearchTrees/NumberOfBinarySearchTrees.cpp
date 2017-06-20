@@ -1,24 +1,61 @@
 #include <iostream>
-#include <array>
-#include <vector>
-#include <stack>
-#include <queue>
-#include <set>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <list>
-#include <deque>
-#include <algorithm>
-#include <iterator>
-#include <utility>
-#include <chrono>
-#include <cmath>
+#include <cstdlib>
 using namespace std;
 
-unsigned long int numberOfBinarySearchTreesHelper(unsigned int N, unsigned int K)
+int numberOfBinarySearchTrees(int N)
 {
-	unsigned long int result=1;
+	if(N==0)
+	{
+		return 1;
+	}
+
+	if(N==1)
+	{
+		return 1;
+	}
+
+	long long answer{};
+
+	long long left{};
+
+	long long right{};
+
+	for(int root=1;root<=N;++root)
+	{
+		left=numberOfBinarySearchTrees(root-1);
+
+		right=numberOfBinarySearchTrees(N-root);
+
+		answer+=(left * right);
+	}
+
+	return answer;
+}
+
+int factorial(int N)
+{
+	if(N==0)
+	{
+		return 1;
+	}
+
+	return N * factorial(N-1);
+}
+
+int numberOfBinarySearchTrees(int N)
+{
+	int twoNFactorial=factorial(2 * N);
+
+	int nPlusOneFactorial=factorial(N+1);
+
+	int nFactorial=factorial(N);
+
+	return (twoNFactorial)/((nPlusOneFactorial) * (nFactorial));
+}
+
+unsigned long long int binomialCoefficient(unsigned int N, unsigned int K)
+{
+	unsigned long long int result=1;
 
 	if(K > N-K)
 	{
@@ -29,40 +66,22 @@ unsigned long int numberOfBinarySearchTreesHelper(unsigned int N, unsigned int K
 	{
 		result*=(N-i);
 
-		result/=(i+1);
+		result/=(i-1);
 	}
 
 	return result;
 }
 
-
-int numberOfBinarySearchTrees(const unsigned int N)
+unsigned long long int catalanNumber(int N)
 {
-	unsigned long int answer=numberOfBinarySearchTreesHelper(2*N, N);
+	unsigned long long int catalan=binomialCoefficient(2 * N, N);
 
-	return answer/(N+1);
+	return catalan/(N+1);
 }
 
-int main(int argc, char * argv [])
+unsigned long int numberOfBinarySearchTrees(int N)
 {
-	int input;
+	unsigned long long int answer=catalanNumber(N);
 
-	auto start=chrono::steady_clock::now();
-
-	cout << "Enter a number: " << endl;
-
-	cin >> input;
-
-	for(int index=0;index<input;++index)
-	{
-		cout << numberOfBinarySearchTrees(index) << " ";
-	}
-
-	cout << endl;
-
-	auto end=chrono::steady_clock::now();
-
-	auto difference=end-start;
-
-	cout << "runtime: " << chrono::duration <double, milli> (difference).count() << " ms" << endl;
+	return answer;
 }

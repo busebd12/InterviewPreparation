@@ -28,7 +28,7 @@ void printRows(const vector<vector<int>> & Rows)
     }
 }
 
-vector<vector<int>> generate(int numRows)
+vector<vector<int>> generateHelper(int numRows, vector<vector<int>> & Rows)
 {
     vector<vector<int>> rows;
     

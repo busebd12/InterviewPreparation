@@ -13,7 +13,7 @@ bool validPalindrome(string s)
     
 bool validPalindrome(string s, int lo, int hi, int count)
 {
-    if (count > 1)
+    if(count > 1)
     {
     	return false;
     }

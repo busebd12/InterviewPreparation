@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-vector<vector<int> > threeSum(vector<int>& nums)
+vector<vector<int>> threeSum(vector<int>& nums)
 {
     const size_t numsSize=nums.size();
     

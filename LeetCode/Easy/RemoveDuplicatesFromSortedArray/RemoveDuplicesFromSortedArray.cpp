@@ -1,37 +1,36 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 using namespace std;
 
 int removeDuplicates(vector<int> & nums)
 {
-	if(nums.empty())
-	{
-		return 0;
-	}
+    if(nums.empty())
+    {
+        return 0;
+    }
 
-	if(nums.size()==1)
-	{
-		return 1;
-	}
+    const int numsSize=int(nums.size());
 
-	const size_t numsSize=nums.size();
+    if(numsSize==1)
+    {
+        return numsSize;
+    }
 
-	int minimumElement=nums[0];
+    int duplicates=0;
 
-	int replacementValue=minimumElement-1;
+    for(int i=0;i<numsSize;++i)
+    {
+        if(nums[i]==nums[i-1])
+        {
+            duplicates++;
+        }
+        else
+        {
+            nums[i-duplicates]=nums[i];
+        }
+    }
 
-	int replacements{};
+    nums.erase(end(nums)-duplicates, end(nums));
 
-	for(int index=0;index<numsSize;++index)
-	{
-		if(nums[index]==nums[index+1])
-		{
-			nums[index]=replacementValue;
-
-			++replacements;
-		}
-	}
-
-	return numsSize-replacements;
+    return int(nums.size());
 }

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.9)
+project(ConstructBinaryTreeFromPreorderAndInorderTraversal)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(ConstructBinaryTreeFromPreorderAndInorderTraversal main.cpp)

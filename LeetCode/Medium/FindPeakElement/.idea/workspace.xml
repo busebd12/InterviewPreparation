@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="LinkedListCycleII" targetName="LinkedListCycleII" />
+      <config projectName="FindPeakElement" targetName="FindPeakElement" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34738a1e-2a8e-4e93-a04c-f7a0665d07bc" name="Default" comment="" />
+    <list default="true" id="07bec83f-b1cf-467c-965a-1ffa6514981f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,20 +22,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,12 +72,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycleII">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LinkedListCycleII" RUN_TARGET_NAME="LinkedListCycleII" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="LinkedListCycleII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LinkedListCycleII" TARGET_NAME="LinkedListCycleII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LinkedListCycleII" RUN_TARGET_NAME="LinkedListCycleII" />
+  <component name="RunManager" selected="Application.FindPeakElement">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="FindPeakElement" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FindPeakElement" TARGET_NAME="FindPeakElement" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FindPeakElement" RUN_TARGET_NAME="FindPeakElement" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.LinkedListCycleII" />
+      <item itemvalue="Application.FindPeakElement" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -98,21 +85,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="34738a1e-2a8e-4e93-a04c-f7a0665d07bc" name="Default" comment="" />
-      <created>1533937047448</created>
+      <changelist id="07bec83f-b1cf-467c-965a-1ffa6514981f" name="Default" comment="" />
+      <created>1534469507203</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533937047448</updated>
-      <workItem from="1533937048900" duration="388000" />
+      <updated>1534469507203</updated>
+      <workItem from="1534469508743" duration="505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388000" />
+    <option name="totallyTimeSpent" value="505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="951" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -126,8 +112,8 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -145,8 +131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        <state relative-caret-position="32">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

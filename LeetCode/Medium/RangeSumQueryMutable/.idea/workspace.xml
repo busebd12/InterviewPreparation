@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="LongestIncreasingSubsequence" targetName="LongestIncreasingSubsequence" />
+      <config projectName="RangeSumQueryMutable" targetName="RangeSumQueryMutable" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,24 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dedfa1c-484d-4113-9e31-ac3d3cf6461b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BasicCalculatorII/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicCalculatorII/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BasicCalculatorII/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountCompleteTreeNodes/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountCompleteTreeNodes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DifferentWayToAddParentheses/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DifferentWayToAddParentheses/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MajorityElementII/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MajorityElementII/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MaximalSquare/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MaximalSquare/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RectangleArea/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RectangleArea/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingleNumberIII/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SingleNumberIII/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SummaryRanges/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SummaryRanges/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c10a15ce-2921-47eb-ab97-ed9c12638dd2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestIncreasingSubsequence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestIncreasingSubsequence/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +24,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="-903020101">
+    <session id="2136775828">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
@@ -49,14 +34,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="41" />
+          <entry key="cpp" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="41" />
+          <entry key="ObjectiveC" value="39" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.cidr.testingFrameworks.usages" />
+      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.open" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -89,8 +78,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,20 +99,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
+  <component name="RunManager" selected="Application.RangeSumQueryMutable">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestIncreasingSubsequence" TARGET_NAME="LongestIncreasingSubsequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestIncreasingSubsequence" RUN_TARGET_NAME="LongestIncreasingSubsequence">
+    <configuration name="RangeSumQueryMutable" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RangeSumQueryMutable" TARGET_NAME="RangeSumQueryMutable" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RangeSumQueryMutable" RUN_TARGET_NAME="RangeSumQueryMutable">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.LongestIncreasingSubsequence" />
+      <item itemvalue="Application.RangeSumQueryMutable" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -131,23 +120,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7dedfa1c-484d-4113-9e31-ac3d3cf6461b" name="Default Changelist" comment="" />
-      <created>1540079280842</created>
+      <changelist id="c10a15ce-2921-47eb-ab97-ed9c12638dd2" name="Default Changelist" comment="" />
+      <created>1540143328621</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1540079280842</updated>
-      <workItem from="1540079281959" duration="282000" />
+      <updated>1540143328621</updated>
+      <workItem from="1540143329775" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282000" />
+    <option name="totallyTimeSpent" value="229000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="952" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20757021" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23931624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -179,8 +168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

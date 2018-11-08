@@ -12,7 +12,135 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72144fac-9051-49a9-8661-4d8bc364b087" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/MinimumHeightTrees.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MinimumHeightTrees.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/MinimumHeightTrees" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/MinimumHeightTrees.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/RangeSumQuery2DImmutable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/RangeSumQuery2DImmutable.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/RangeSumQuery2DImmutable" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/RangeSumQuery2DImmutable.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQuery2DImmutable/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/.idea/RangeSumQueryMutable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/RangeSumQueryMutable.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/RangeSumQueryMutable.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RangeSumQueryMutable/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LongestIncreasingSubsequence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestIncreasingSubsequence/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -27,6 +155,7 @@
     <session id="-1871284396">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -48,20 +177,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -138,16 +254,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540158017964</updated>
-      <workItem from="1540158019083" duration="6463000" />
+      <workItem from="1540158019083" duration="6834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6463000" />
+    <option name="totallyTimeSpent" value="6834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20757021" />
@@ -160,7 +275,7 @@
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -183,8 +298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
+        <state relative-caret-position="431">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

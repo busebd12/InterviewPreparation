@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="GuessNumberHigherOrLowerII" targetName="GuessNumberHigherOrLowerII" />
+      <config projectName="DecodeString" targetName="DecodeString" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,12 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54adef72-e1fc-4fe4-9d25-32604439bb7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ReconstructItinerary/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ReconstructItinerary/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopKFrequentElements/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopKFrequentElements/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoinChange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoinChange/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9caf7ad4-3ca5-48f4-95fd-4ee8a7500252" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GuessNumberHigherOrLowerII/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessNumberHigherOrLowerII/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,28 +23,29 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FUSProjectUsageTrigger">
-    <session id="1958524235">
+    <session id="-1898816421">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="2829" />
+          <entry key="cpp" value="8024" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="2829" />
+          <entry key="ObjectiveC" value="8024" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -77,8 +74,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,20 +95,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuessNumberHigherOrLowerII">
+  <component name="RunManager" selected="Application.DecodeString">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessNumberHigherOrLowerII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GuessNumberHigherOrLowerII" TARGET_NAME="GuessNumberHigherOrLowerII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GuessNumberHigherOrLowerII" RUN_TARGET_NAME="GuessNumberHigherOrLowerII">
+    <configuration name="DecodeString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DecodeString" TARGET_NAME="DecodeString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DecodeString" RUN_TARGET_NAME="DecodeString">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.GuessNumberHigherOrLowerII" />
+      <item itemvalue="Application.DecodeString" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -119,30 +116,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="54adef72-e1fc-4fe4-9d25-32604439bb7d" name="Default Changelist" comment="" />
-      <created>1543774808850</created>
+      <changelist id="9caf7ad4-3ca5-48f4-95fd-4ee8a7500252" name="Default Changelist" comment="" />
+      <created>1546349255960</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1543774808850</updated>
-      <workItem from="1543774810026" duration="10278000" />
+      <updated>1546349255960</updated>
+      <workItem from="1546349257254" duration="16517000" />
+      <workItem from="1546670862393" duration="3042000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10278000" />
+    <option name="totallyTimeSpent" value="19559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32943925" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
@@ -150,10 +142,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32943925" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,11 +166,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-865">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>

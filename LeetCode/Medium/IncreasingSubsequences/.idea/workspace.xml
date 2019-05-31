@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MagicalString" targetName="MagicalString" />
+      <config projectName="IncreasingSubsequences" targetName="IncreasingSubsequences" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,11 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e29f783-826d-4a8b-bf49-2d336bd481b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AddTwoNumbersII/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MinimumNumberOfArrowsToBurstBalloons/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniqueSubstringsInAWraparoundString/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Non-overlappingIntervals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Non-overlappingIntervals/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2cfd4a34-7b4c-4c83-b7c4-00b79652c6ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MagicalString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MagicalString/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MagicalString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MagicalString" TARGET_NAME="MagicalString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MagicalString" RUN_TARGET_NAME="MagicalString">
+    <configuration name="IncreasingSubsequences" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IncreasingSubsequences" TARGET_NAME="IncreasingSubsequences" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IncreasingSubsequences" RUN_TARGET_NAME="IncreasingSubsequences">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -84,33 +81,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9e29f783-826d-4a8b-bf49-2d336bd481b1" name="Default Changelist" comment="" />
-      <created>1558230033790</created>
+      <changelist id="2cfd4a34-7b4c-4c83-b7c4-00b79652c6ef" name="Default Changelist" comment="" />
+      <created>1558747397304</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558230033790</updated>
-      <workItem from="1558230034955" duration="893000" />
+      <updated>1558747397304</updated>
+      <workItem from="1558747398445" duration="11579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="893000" />
+    <option name="totallyTimeSpent" value="11579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32946634" />
+      <window_info anchor="bottom" id="Messages" weight="0.32945284" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32946634" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32945284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -130,8 +127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        <state relative-caret-position="1035">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

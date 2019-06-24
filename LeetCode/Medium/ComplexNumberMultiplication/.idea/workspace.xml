@@ -11,15 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d3b1795-af9d-4468-8afd-6e32b76fca92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CoinChange2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ContinuousSubarraySum/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubsequence/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubsequence/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestPalindromicSubsequence/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Minesweeper/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiagonalTraverse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiagonalTraverse/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1d3b1795-af9d-4468-8afd-6e32b76fca92" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,12 +97,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561335106885</updated>
-      <workItem from="1561335108028" duration="63000" />
+      <workItem from="1561335108028" duration="271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63000" />
+    <option name="totallyTimeSpent" value="271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />

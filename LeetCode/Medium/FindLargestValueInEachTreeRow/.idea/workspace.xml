@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DiagonalTraverse" targetName="DiagonalTraverse" />
+      <config projectName="FindLargestValueInEachTreeRow" targetName="FindLargestValueInEachTreeRow" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeab0b63-c075-49f8-8112-28ef057eb3a9" name="Default Changelist" comment="" />
+    <list default="true" id="262a0e83-572b-4cdd-9940-4fd4d1fb866a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DiagonalTraverse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiagonalTraverse/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DiagonalTraverse" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DiagonalTraverse" TARGET_NAME="DiagonalTraverse" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DiagonalTraverse" RUN_TARGET_NAME="DiagonalTraverse">
+    <configuration name="FindLargestValueInEachTreeRow" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FindLargestValueInEachTreeRow" TARGET_NAME="FindLargestValueInEachTreeRow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FindLargestValueInEachTreeRow" RUN_TARGET_NAME="FindLargestValueInEachTreeRow">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="eeab0b63-c075-49f8-8112-28ef057eb3a9" name="Default Changelist" comment="" />
-      <created>1559079047323</created>
+      <changelist id="262a0e83-572b-4cdd-9940-4fd4d1fb866a" name="Default Changelist" comment="" />
+      <created>1559943132954</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1559079047323</updated>
-      <workItem from="1559079048410" duration="13543000" />
+      <updated>1559943132954</updated>
+      <workItem from="1559943134038" duration="220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13543000" />
+    <option name="totallyTimeSpent" value="220000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="6" />
@@ -99,13 +101,12 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32945284" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32945284" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -125,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="280" column="1" selection-start-line="280" selection-start-column="1" selection-end-line="280" selection-end-column="1" />
+        <state relative-caret-position="1080">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

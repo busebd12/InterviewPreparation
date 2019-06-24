@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/LongestUncommonSubsequenceII/main.cpp
+iostream
+-
+string
+-
+unordered_set
+-
+vector
+-
+algorithm
+-
+unordered_map
+-
+

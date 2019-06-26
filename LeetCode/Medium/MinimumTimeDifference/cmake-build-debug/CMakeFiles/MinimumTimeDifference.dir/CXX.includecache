@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/MinimumTimeDifference/main.cpp
+iostream
+-
+vector
+-
+unordered_set
+-
+string
+-
+cmath
+-
+algorithm
+-
+

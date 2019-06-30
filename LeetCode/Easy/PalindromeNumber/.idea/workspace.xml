@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ReverseInteger" targetName="ReverseInteger" />
+      <config projectName="PalindromeNumber" targetName="PalindromeNumber" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cff4f6cb-4bdd-4441-8e4d-aa53eb65b1a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ReverseInteger.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TwoSum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/main.cpp" afterDir="false" />
+    <list default="true" id="639632f3-5bd6-4cbe-ba08-227314306d41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PalindromeNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseInteger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseInteger/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,31 +42,18 @@
     <option name="width" value="1400" />
     <option name="height" value="912" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ReverseInteger" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ReverseInteger" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -83,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ReverseInteger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ReverseInteger" TARGET_NAME="ReverseInteger" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ReverseInteger" RUN_TARGET_NAME="ReverseInteger">
+    <configuration name="PalindromeNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PalindromeNumber" TARGET_NAME="PalindromeNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PalindromeNumber" RUN_TARGET_NAME="PalindromeNumber">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -94,25 +81,29 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cff4f6cb-4bdd-4441-8e4d-aa53eb65b1a7" name="Default Changelist" comment="" />
-      <created>1561853695214</created>
+      <changelist id="639632f3-5bd6-4cbe-ba08-227314306d41" name="Default Changelist" comment="" />
+      <created>1561860325856</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561853695214</updated>
-      <workItem from="1561853696379" duration="756000" />
-      <workItem from="1561854555704" duration="354000" />
+      <updated>1561860325856</updated>
+      <workItem from="1561860326983" duration="1192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1110000" />
+    <option name="totallyTimeSpent" value="1192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -120,15 +111,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="240">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

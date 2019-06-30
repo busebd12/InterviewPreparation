@@ -11,6 +11,10 @@ using namespace std;
  So, we add the current number and its index to the hash table.
  If we do find the difference in the hash table, that means we have
  found the second number in the pair that adds up to the target value.
+
+ Time Complexity: O(n)
+
+ Space Complexity: O(n) [worst case]
  */
 
 vector<int> twoSum(vector<int>& nums, int target)

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TwoSum" targetName="TwoSum" />
+      <config projectName="ReverseInteger" targetName="ReverseInteger" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5143fc56-a6a6-43cd-b6fb-6fa295e92fd0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ReverseInteger/ReverseInteger.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    <list default="true" id="cff4f6cb-4bdd-4441-8e4d-aa53eb65b1a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ReverseInteger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TwoSum/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSum/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +25,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -42,14 +55,26 @@
     <option name="width" value="1400" />
     <option name="height" value="912" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ReverseInteger" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReverseInteger" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,7 +96,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TwoSum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TwoSum" TARGET_NAME="TwoSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TwoSum" RUN_TARGET_NAME="TwoSum">
+    <configuration name="ReverseInteger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ReverseInteger" TARGET_NAME="ReverseInteger" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ReverseInteger" RUN_TARGET_NAME="ReverseInteger">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,24 +107,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5143fc56-a6a6-43cd-b6fb-6fa295e92fd0" name="Default Changelist" comment="" />
-      <created>1561846003467</created>
+      <changelist id="cff4f6cb-4bdd-4441-8e4d-aa53eb65b1a7" name="Default Changelist" comment="" />
+      <created>1561853695214</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561846003467</updated>
-      <workItem from="1561846004579" duration="106000" />
-      <workItem from="1561846111513" duration="776000" />
-      <workItem from="1561854497854" duration="57000" />
+      <updated>1561853695214</updated>
+      <workItem from="1561853696379" duration="756000" />
+      <workItem from="1561854555704" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="939000" />
+    <option name="totallyTimeSpent" value="799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -110,9 +135,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -124,14 +149,13 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TwoSum.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="195">
+          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

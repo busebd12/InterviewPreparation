@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LongestCommonPrefix"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LongestCommonPrefix">
+				<Option output="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/LongestCommonPrefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 LongestCommonPrefix"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LongestCommonPrefix/fast">
+				<Option output="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/LongestCommonPrefix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 LongestCommonPrefix/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/main.cpp">
+			<Option target="LongestCommonPrefix"/>
+		</Unit>
+		<Unit filename="/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/LongestCommonPrefix/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

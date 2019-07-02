@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LongestCommonPrefix" targetName="LongestCommonPrefix" />
+      <config projectName="ValidParenthesis" targetName="ValidParenthesis" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a8f9494-93e3-44c1-83d1-9514ac37c929" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RomanToInt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RomanToInt/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f03e3b9b-7de7-42aa-aecf-373a34ef48dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LongestCommonPrefix/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestCommonPrefix/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoSortedLinkedLists/MergeTwoSortedLinkedLists.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ValidParenthesis.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +50,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +72,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LongestCommonPrefix" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestCommonPrefix" TARGET_NAME="LongestCommonPrefix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestCommonPrefix" RUN_TARGET_NAME="LongestCommonPrefix">
+    <configuration name="ValidParenthesis" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ValidParenthesis" TARGET_NAME="ValidParenthesis" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ValidParenthesis" RUN_TARGET_NAME="ValidParenthesis">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +83,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a8f9494-93e3-44c1-83d1-9514ac37c929" name="Default Changelist" comment="" />
-      <created>1561930822616</created>
+      <changelist id="f03e3b9b-7de7-42aa-aecf-373a34ef48dc" name="Default Changelist" comment="" />
+      <created>1561941639918</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1561930822616</updated>
-      <workItem from="1561930823745" duration="515000" />
+      <updated>1561941639918</updated>
+      <workItem from="1561941641049" duration="529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515000" />
+    <option name="totallyTimeSpent" value="529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
@@ -121,18 +123,18 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-610">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="225">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

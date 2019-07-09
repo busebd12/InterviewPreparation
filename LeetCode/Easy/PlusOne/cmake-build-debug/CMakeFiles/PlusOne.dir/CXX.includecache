@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Easy/PlusOne/main.cpp
+iostream
+-
+vector
+-
+cmath
+-
+vector
+-
+algorithm
+-
+

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MergeTwoSortedLists" targetName="MergeTwoSortedLists" />
+      <config projectName="RemoveElement" targetName="RemoveElement" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63ea0b74-11ff-43f0-a7c3-8b7a169a5420" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e3357d84-a74c-4b61-bae8-fb6fdeccad3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ImplementstrStrFunction/ImplementstrStrFunction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeTwoSortedLists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeTwoSortedLists/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/RemoveDuplicesFromSortedArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RemoveElement.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +51,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +73,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MergeTwoSortedLists" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MergeTwoSortedLists" TARGET_NAME="MergeTwoSortedLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MergeTwoSortedLists" RUN_TARGET_NAME="MergeTwoSortedLists">
+    <configuration name="RemoveElement" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoveElement" TARGET_NAME="RemoveElement" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoveElement" RUN_TARGET_NAME="RemoveElement">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +84,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63ea0b74-11ff-43f0-a7c3-8b7a169a5420" name="Default Changelist" comment="" />
-      <created>1562028216113</created>
+      <changelist id="e3357d84-a74c-4b61-bae8-fb6fdeccad3b" name="Default Changelist" comment="" />
+      <created>1562373679892</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562028216113</updated>
-      <workItem from="1562028217263" duration="328000" />
+      <updated>1562373679892</updated>
+      <workItem from="1562373681083" duration="455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="328000" />
+    <option name="totallyTimeSpent" value="455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
@@ -126,8 +129,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

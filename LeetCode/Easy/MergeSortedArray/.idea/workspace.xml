@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="RemoveDuplicatesFromSortedArray" targetName="RemoveDuplicatesFromSortedArray" />
+      <config projectName="MergeSortedArray" targetName="MergeSortedArray" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,17 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="286cecb4-61f4-4bb9-92ff-131a7dee2f46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ClimbStairs/ClimbStairs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountAndSay/CountAndSay.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ImplementstrStrFunction/ImplementstrStrFunction.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LengthOfLastWord/LengthOfLastWord.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MaximumSubArray/MaximumSubArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeTwoSortedLists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeTwoSortedLists/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PlusOne/PlusOne.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RemoveDuplicesFromSortedArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RemoveElement/RemoveElement.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchInsertPosition/SearchInsertPosition.cpp" beforeDir="false" />
+    <list default="true" id="7890e53e-8e55-4c91-b6d8-5d0db780a08d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +23,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -44,10 +35,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="912" />
+    <option name="width" value="1680" />
+    <option name="height" value="954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -79,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="RemoveDuplicatesFromSortedArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RemoveDuplicatesFromSortedArray" TARGET_NAME="RemoveDuplicatesFromSortedArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RemoveDuplicatesFromSortedArray" RUN_TARGET_NAME="RemoveDuplicatesFromSortedArray">
+    <configuration name="MergeSortedArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MergeSortedArray" TARGET_NAME="MergeSortedArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MergeSortedArray" RUN_TARGET_NAME="MergeSortedArray">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -90,29 +81,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="286cecb4-61f4-4bb9-92ff-131a7dee2f46" name="Default Changelist" comment="" />
-      <created>1562632013884</created>
+      <changelist id="7890e53e-8e55-4c91-b6d8-5d0db780a08d" name="Default Changelist" comment="" />
+      <created>1562716844587</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562632013884</updated>
-      <workItem from="1562632015008" duration="648000" />
+      <updated>1562716844587</updated>
+      <workItem from="1562716845776" duration="467000" />
+      <workItem from="1562884576268" duration="809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="648000" />
+    <option name="totallyTimeSpent" value="1276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -120,10 +107,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,8 +127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

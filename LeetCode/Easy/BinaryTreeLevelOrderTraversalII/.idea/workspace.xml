@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SameTree" targetName="SameTree" />
+      <config projectName="BinaryTreeLevelOrderTraversalII" targetName="BinaryTreeLevelOrderTraversalII" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b5f02c3-b016-470b-af38-9ec52b16dd96" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RemoveDuplicatesFromSortedArray/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SameTree.cpp" beforeDir="false" />
+    <list default="true" id="490a46b7-be45-4a6e-9812-bb4284234649" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BinaryTreeLevelOrderTraversalII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SymmetricTree/SymmetricTree.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +72,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SameTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SameTree" TARGET_NAME="SameTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SameTree" RUN_TARGET_NAME="SameTree">
+    <configuration name="BinaryTreeLevelOrderTraversalII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinaryTreeLevelOrderTraversalII" TARGET_NAME="BinaryTreeLevelOrderTraversalII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinaryTreeLevelOrderTraversalII" RUN_TARGET_NAME="BinaryTreeLevelOrderTraversalII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +83,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9b5f02c3-b016-470b-af38-9ec52b16dd96" name="Default Changelist" comment="" />
-      <created>1562962632947</created>
+      <changelist id="490a46b7-be45-4a6e-9812-bb4284234649" name="Default Changelist" comment="" />
+      <created>1563225196448</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562962632947</updated>
-      <workItem from="1562962634461" duration="513000" />
+      <updated>1563225196448</updated>
+      <workItem from="1563225197565" duration="314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="513000" />
+    <option name="totallyTimeSpent" value="314000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
@@ -100,11 +101,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -127,10 +128,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

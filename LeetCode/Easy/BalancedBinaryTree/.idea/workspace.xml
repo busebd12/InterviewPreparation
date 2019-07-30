@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConvertSortedArrayToBST" targetName="ConvertSortedArrayToBST" />
+      <config projectName="BalancedBinaryTree" targetName="BalancedBinaryTree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,11 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20d678cd-7876-4242-927d-5c0ae6ecd996" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeLevelOrderTraversalII/BinaryTreeLevelOrderTraversalII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConvertSortedArrayToBinarySearchTree/ConvertSortedArrayToBinarySearchTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SymmetricTree/SymmetricTree.cpp" beforeDir="false" />
+    <list default="true" id="251d4ed3-2332-48c5-abf9-cd8ff0f12c8f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BalancedBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvertSortedArrayToBST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertSortedArrayToBST/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConvertSortedArrayToBST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertSortedArrayToBST" TARGET_NAME="ConvertSortedArrayToBST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertSortedArrayToBST" RUN_TARGET_NAME="ConvertSortedArrayToBST">
+    <configuration name="BalancedBinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BalancedBinaryTree" TARGET_NAME="BalancedBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BalancedBinaryTree" RUN_TARGET_NAME="BalancedBinaryTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -84,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20d678cd-7876-4242-927d-5c0ae6ecd996" name="Default Changelist" comment="" />
-      <created>1563234866656</created>
+      <changelist id="251d4ed3-2332-48c5-abf9-cd8ff0f12c8f" name="Default Changelist" comment="" />
+      <created>1563312445429</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563234866656</updated>
-      <workItem from="1563234867848" duration="520000" />
+      <updated>1563312445429</updated>
+      <workItem from="1563312446579" duration="626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="520000" />
+    <option name="totallyTimeSpent" value="626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
@@ -129,8 +127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

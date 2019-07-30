@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConvertSortedArrayToBST" targetName="ConvertSortedArrayToBST" />
+      <config projectName="PascalsTriangle" targetName="PascalsTriangle" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,11 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20d678cd-7876-4242-927d-5c0ae6ecd996" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeLevelOrderTraversalII/BinaryTreeLevelOrderTraversalII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConvertSortedArrayToBinarySearchTree/ConvertSortedArrayToBinarySearchTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SymmetricTree/SymmetricTree.cpp" beforeDir="false" />
+    <list default="true" id="f21849a4-d737-4c1c-aa60-844dd682a72b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BalancedBinaryTree/BalancedBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvertSortedArrayToBST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertSortedArrayToBST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PascalsTriangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +52,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -73,7 +74,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConvertSortedArrayToBST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertSortedArrayToBST" TARGET_NAME="ConvertSortedArrayToBST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertSortedArrayToBST" RUN_TARGET_NAME="ConvertSortedArrayToBST">
+    <configuration name="PascalsTriangle" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PascalsTriangle" TARGET_NAME="PascalsTriangle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PascalsTriangle" RUN_TARGET_NAME="PascalsTriangle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -84,17 +85,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20d678cd-7876-4242-927d-5c0ae6ecd996" name="Default Changelist" comment="" />
-      <created>1563234866656</created>
+      <changelist id="f21849a4-d737-4c1c-aa60-844dd682a72b" name="Default Changelist" comment="" />
+      <created>1563395068543</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563234866656</updated>
-      <workItem from="1563234867848" duration="520000" />
+      <updated>1563395068543</updated>
+      <workItem from="1563395069699" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="520000" />
+    <option name="totallyTimeSpent" value="323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="954" extended-state="6" />
@@ -129,10 +130,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="150">
+          <caret line="10" column="89" selection-start-line="10" selection-start-column="89" selection-end-line="10" selection-end-column="89" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

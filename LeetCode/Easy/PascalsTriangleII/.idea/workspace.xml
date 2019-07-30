@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConvertSortedArrayToBST" targetName="ConvertSortedArrayToBST" />
+      <config projectName="PascalsTriangleII" targetName="PascalsTriangleII" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,11 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20d678cd-7876-4242-927d-5c0ae6ecd996" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeLevelOrderTraversalII/BinaryTreeLevelOrderTraversalII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConvertSortedArrayToBinarySearchTree/ConvertSortedArrayToBinarySearchTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SameTree/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SymmetricTree/SymmetricTree.cpp" beforeDir="false" />
+    <list default="true" id="c8782172-0851-4f96-8b86-52ced8b4ebe5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BalancedBinaryTree/BalancedBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvertSortedArrayToBST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertSortedArrayToBST/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinimumDepthOfBinaryTree/MinimumDepthOfBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PascalsTriangle/PascalsTriangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PascalsTriangle/a.out" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +42,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="954" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -73,7 +74,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConvertSortedArrayToBST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertSortedArrayToBST" TARGET_NAME="ConvertSortedArrayToBST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertSortedArrayToBST" RUN_TARGET_NAME="ConvertSortedArrayToBST">
+    <configuration name="PascalsTriangleII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PascalsTriangleII" TARGET_NAME="PascalsTriangleII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PascalsTriangleII" RUN_TARGET_NAME="PascalsTriangleII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -84,20 +85,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="20d678cd-7876-4242-927d-5c0ae6ecd996" name="Default Changelist" comment="" />
-      <created>1563234866656</created>
+      <changelist id="c8782172-0851-4f96-8b86-52ced8b4ebe5" name="Default Changelist" comment="" />
+      <created>1563395392965</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563234866656</updated>
-      <workItem from="1563234867848" duration="520000" />
+      <updated>1563395392965</updated>
+      <workItem from="1563395394118" duration="351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="520000" />
+    <option name="totallyTimeSpent" value="351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="954" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -129,10 +130,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

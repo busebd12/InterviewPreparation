@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="HihiAndCrazyBits" targetName="HihiAndCrazyBits" />
+      <config projectName="TheCastleGate" targetName="TheCastleGate" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,18 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dcb2680-9964-49f5-8c45-65bb85eb3d90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../LeetCode/Easy/ExcelSheetColumnNumber/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LeetCode/Easy/FactorialTrailingZeroes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../LeetCode/Easy/TwoSumIIIDataStructureDesign/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/FactorialTrailingZeros/FactorialTrailingZeros.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/IntersectionOfTwoLinkedLists/IntersectionOfTwoLinkedLists.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/LinkedListCycle/LinkedListCycle.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/MajorityElement/MajorityElement.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/MinStack/MinStack.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/RotateArray/RotateArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/SingleNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../LeetCode/Easy/SingleNumber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../LeetCode/Easy/TwoSumII/TwoSumII.cpp" beforeDir="false" />
+    <list default="true" id="031e4076-3e48-4896-825f-5bbf766684bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HihiAndCrazyBits/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HihiAndCrazyBits/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -80,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HihiAndCrazyBits" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HihiAndCrazyBits" TARGET_NAME="HihiAndCrazyBits" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HihiAndCrazyBits" RUN_TARGET_NAME="HihiAndCrazyBits">
+    <configuration name="TheCastleGate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TheCastleGate" TARGET_NAME="TheCastleGate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TheCastleGate" RUN_TARGET_NAME="TheCastleGate">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -91,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4dcb2680-9964-49f5-8c45-65bb85eb3d90" name="Default Changelist" comment="" />
-      <created>1564528099127</created>
+      <changelist id="031e4076-3e48-4896-825f-5bbf766684bf" name="Default Changelist" comment="" />
+      <created>1564606259537</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564528099127</updated>
-      <workItem from="1564528100379" duration="222000" />
+      <updated>1564606259537</updated>
+      <workItem from="1564606260716" duration="217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="222000" />
+    <option name="totallyTimeSpent" value="217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -136,8 +126,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="915">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

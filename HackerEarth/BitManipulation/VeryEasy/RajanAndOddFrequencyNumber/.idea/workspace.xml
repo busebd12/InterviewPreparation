@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="HelpYourRoommate" targetName="HelpYourRoommate" />
+      <config projectName="RajanAndOddFrequencyNumber" targetName="RajanAndOddFrequencyNumber" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24d0f235-159c-40f3-9761-e69a7f5f479a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../HihiAndCrazyBits/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HihiAndCrazyBits/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d8463ee5-65fe-428c-a2b8-6ffcde9246e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HelpYourRoommate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelpYourRoommate/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -80,7 +80,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HelpYourRoommate" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HelpYourRoommate" TARGET_NAME="HelpYourRoommate" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HelpYourRoommate" RUN_TARGET_NAME="HelpYourRoommate">
+    <configuration name="RajanAndOddFrequencyNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RajanAndOddFrequencyNumber" TARGET_NAME="RajanAndOddFrequencyNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RajanAndOddFrequencyNumber" RUN_TARGET_NAME="RajanAndOddFrequencyNumber">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -91,17 +91,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24d0f235-159c-40f3-9761-e69a7f5f479a" name="Default Changelist" comment="" />
-      <created>1564608218468</created>
+      <changelist id="d8463ee5-65fe-428c-a2b8-6ffcde9246e0" name="Default Changelist" comment="" />
+      <created>1564693505066</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564608218468</updated>
-      <workItem from="1564608219616" duration="27000" />
+      <updated>1564693505066</updated>
+      <workItem from="1564693506312" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27000" />
+    <option name="totallyTimeSpent" value="21000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -110,11 +110,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -137,8 +137,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>

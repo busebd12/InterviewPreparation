@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MonkAndTasks" targetName="MonkAndTasks" />
+      <config projectName="AaryanSubsequencesAndGreatXOR" targetName="AaryanSubsequencesAndGreatXOR" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5986cc2b-5983-400c-91ac-0a3e276c389d" name="Default Changelist" comment="" />
+    <list default="true" id="03d88d93-6bc9-4971-8931-0c4f2a8282cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MonkAndTasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MonkAndTasks/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MonkAndTasks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MonkAndTasks" TARGET_NAME="MonkAndTasks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MonkAndTasks" RUN_TARGET_NAME="MonkAndTasks">
+    <configuration name="AaryanSubsequencesAndGreatXOR" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AaryanSubsequencesAndGreatXOR" TARGET_NAME="AaryanSubsequencesAndGreatXOR" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AaryanSubsequencesAndGreatXOR" RUN_TARGET_NAME="AaryanSubsequencesAndGreatXOR">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5986cc2b-5983-400c-91ac-0a3e276c389d" name="Default Changelist" comment="" />
-      <created>1564706887576</created>
+      <changelist id="03d88d93-6bc9-4971-8931-0c4f2a8282cd" name="Default Changelist" comment="" />
+      <created>1564774753175</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564706887576</updated>
-      <workItem from="1564706888790" duration="169000" />
+      <updated>1564774753175</updated>
+      <workItem from="1564774754254" duration="99000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169000" />
+    <option name="totallyTimeSpent" value="99000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -124,11 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="420">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>

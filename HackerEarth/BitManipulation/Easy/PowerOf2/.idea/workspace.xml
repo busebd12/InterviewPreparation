@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MonkAndTasks" targetName="MonkAndTasks" />
+      <config projectName="PowerOf2" targetName="PowerOf2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5986cc2b-5983-400c-91ac-0a3e276c389d" name="Default Changelist" comment="" />
+    <list default="true" id="13a4011b-ba64-412f-8252-ea5ba95aec94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MonkAndTasks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MonkAndTasks/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MonkAndTasks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MonkAndTasks" TARGET_NAME="MonkAndTasks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MonkAndTasks" RUN_TARGET_NAME="MonkAndTasks">
+    <configuration name="PowerOf2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PowerOf2" TARGET_NAME="PowerOf2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PowerOf2" RUN_TARGET_NAME="PowerOf2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5986cc2b-5983-400c-91ac-0a3e276c389d" name="Default Changelist" comment="" />
-      <created>1564706887576</created>
+      <changelist id="13a4011b-ba64-412f-8252-ea5ba95aec94" name="Default Changelist" comment="" />
+      <created>1564774860812</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564706887576</updated>
-      <workItem from="1564706888790" duration="169000" />
+      <updated>1564774860812</updated>
+      <workItem from="1564774861964" duration="117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169000" />
+    <option name="totallyTimeSpent" value="117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -124,11 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>

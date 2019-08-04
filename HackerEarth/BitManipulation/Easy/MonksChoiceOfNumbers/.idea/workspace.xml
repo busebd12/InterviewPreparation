@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SumOfNumbers" targetName="SumOfNumbers" />
+      <config projectName="MonksChoiceOfNumbers" targetName="MonksChoiceOfNumbers" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ae9473-ebea-4b57-9eaa-d26d3107d7e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c87329cf-0d2f-4678-8342-fc9c5affc36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SumOfNumbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumOfNumbers/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SumOfNumbers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SumOfNumbers" TARGET_NAME="SumOfNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SumOfNumbers" RUN_TARGET_NAME="SumOfNumbers">
+    <configuration name="MonksChoiceOfNumbers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MonksChoiceOfNumbers" TARGET_NAME="MonksChoiceOfNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MonksChoiceOfNumbers" RUN_TARGET_NAME="MonksChoiceOfNumbers">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e8ae9473-ebea-4b57-9eaa-d26d3107d7e1" name="Default Changelist" comment="" />
-      <created>1564797743623</created>
+      <changelist id="c87329cf-0d2f-4678-8342-fc9c5affc36f" name="Default Changelist" comment="" />
+      <created>1564941773267</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564797743623</updated>
-      <workItem from="1564797744791" duration="150000" />
+      <updated>1564941773267</updated>
+      <workItem from="1564941774337" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150000" />
+    <option name="totallyTimeSpent" value="258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -126,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

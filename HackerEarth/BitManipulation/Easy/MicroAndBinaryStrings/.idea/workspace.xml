@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SumOfNumbers" targetName="SumOfNumbers" />
+      <config projectName="MicroAndBinaryStrings" targetName="MicroAndBinaryStrings" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ae9473-ebea-4b57-9eaa-d26d3107d7e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b5346191-a1d8-4fa4-934f-27ea26983781" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SumOfNumbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumOfNumbers/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SumOfNumbers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SumOfNumbers" TARGET_NAME="SumOfNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SumOfNumbers" RUN_TARGET_NAME="SumOfNumbers">
+    <configuration name="MicroAndBinaryStrings" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MicroAndBinaryStrings" TARGET_NAME="MicroAndBinaryStrings" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MicroAndBinaryStrings" RUN_TARGET_NAME="MicroAndBinaryStrings">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,12 +81,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e8ae9473-ebea-4b57-9eaa-d26d3107d7e1" name="Default Changelist" comment="" />
-      <created>1564797743623</created>
+      <changelist id="b5346191-a1d8-4fa4-934f-27ea26983781" name="Default Changelist" comment="" />
+      <created>1564951953010</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564797743623</updated>
-      <workItem from="1564797744791" duration="150000" />
+      <updated>1564951953010</updated>
+      <workItem from="1564951954157" duration="150000" />
     </task>
     <servers />
   </component>
@@ -126,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="722">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

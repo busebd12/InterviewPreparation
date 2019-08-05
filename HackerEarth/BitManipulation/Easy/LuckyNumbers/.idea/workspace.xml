@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LazyPanda" targetName="LazyPanda" />
+      <config projectName="LuckyNumbers" targetName="LuckyNumbers" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0db326b-712a-4218-9a0d-ab23a4c056bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SumOfNumbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumOfNumbers/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3330d20e-05c5-431f-bbeb-8b336654d95b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LazyPanda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LazyPanda/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LazyPanda" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LazyPanda" TARGET_NAME="LazyPanda" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LazyPanda" RUN_TARGET_NAME="LazyPanda">
+    <configuration name="LuckyNumbers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LuckyNumbers" TARGET_NAME="LuckyNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LuckyNumbers" RUN_TARGET_NAME="LuckyNumbers">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,12 +81,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d0db326b-712a-4218-9a0d-ab23a4c056bc" name="Default Changelist" comment="" />
-      <created>1564953024638</created>
+      <changelist id="3330d20e-05c5-431f-bbeb-8b336654d95b" name="Default Changelist" comment="" />
+      <created>1564963174636</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564953024638</updated>
-      <workItem from="1564953025720" duration="127000" />
+      <updated>1564963174636</updated>
+      <workItem from="1564963175702" duration="127000" />
     </task>
     <servers />
   </component>
@@ -126,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="405">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
         </state>
       </provider>
     </entry>

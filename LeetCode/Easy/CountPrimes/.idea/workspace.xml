@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LazyHash" targetName="LazyHash" />
+      <config projectName="CountPrimes" targetName="CountPrimes" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878c9f08-ce9b-47d6-96f1-1d74044fcdb8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="75dff03c-5c8d-4d5e-9eb2-2e96ee0d8386" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../HackerEarth/BitManipulation/Easy/LazyHash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HackerEarth/BitManipulation/Easy/LazyHash/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CountPrimes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HappyNumber/HappyNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HouseRobber/HouseRobber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberOfOneBits/NumberOfOneBits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseBits/ReverseBits.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +31,7 @@
     <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -40,9 +45,7 @@
     <option name="width" value="1680" />
     <option name="height" value="951" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -70,7 +73,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LazyHash" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LazyHash" TARGET_NAME="LazyHash" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LazyHash" RUN_TARGET_NAME="LazyHash">
+    <configuration name="CountPrimes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CountPrimes" TARGET_NAME="CountPrimes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CountPrimes" RUN_TARGET_NAME="CountPrimes">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +84,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="878c9f08-ce9b-47d6-96f1-1d74044fcdb8" name="Default Changelist" comment="" />
-      <created>1565040597328</created>
+      <changelist id="75dff03c-5c8d-4d5e-9eb2-2e96ee0d8386" name="Default Changelist" comment="" />
+      <created>1565382520902</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565040597328</updated>
-      <workItem from="1565040598551" duration="151000" />
+      <updated>1565382520902</updated>
+      <workItem from="1565382522100" duration="305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151000" />
+    <option name="totallyTimeSpent" value="305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -99,11 +102,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -126,8 +129,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="105">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

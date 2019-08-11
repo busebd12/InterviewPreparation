@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ReverseLinkedList" targetName="ReverseLinkedList" />
+      <config projectName="PowerOfTwo" targetName="PowerOfTwo" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,15 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3615bbd8-c8fc-41b0-b850-dbe74dc3f276" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../HackerEarth/BitManipulation/Easy/LazyHash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HackerEarth/BitManipulation/Easy/LazyHash/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CountPrimes/CountPrimes.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HappyNumber/HappyNumber.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HouseRobber/HouseRobber.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IsomorphicStrings/IsomorphicStrings.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NumberOfOneBits/NumberOfOneBits.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseBits/ReverseBits.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReverseLinkedList.cpp" beforeDir="false" />
+    <list default="true" id="f5b41627-a266-4acd-8711-24d61153fd31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicatesI/ContainsDuplicates.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ContainsDuplicatesII/ContainsDuplicatesII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImplementStackUsingQueues/ImplementStackUsingQueues.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InvertBinaryTree/InvertBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PowerOfTwo.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ReverseLinkedList/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +28,17 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -55,8 +63,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -77,7 +85,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ReverseLinkedList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ReverseLinkedList" TARGET_NAME="ReverseLinkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ReverseLinkedList" RUN_TARGET_NAME="ReverseLinkedList">
+    <configuration name="PowerOfTwo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PowerOfTwo" TARGET_NAME="PowerOfTwo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PowerOfTwo" RUN_TARGET_NAME="PowerOfTwo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -88,20 +96,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3615bbd8-c8fc-41b0-b850-dbe74dc3f276" name="Default Changelist" comment="" />
-      <created>1565398388823</created>
+      <changelist id="f5b41627-a266-4acd-8711-24d61153fd31" name="Default Changelist" comment="" />
+      <created>1565551041386</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565398388823</updated>
-      <workItem from="1565398390008" duration="633000" />
+      <updated>1565551041386</updated>
+      <workItem from="1565551042537" duration="558000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="633000" />
+    <option name="totallyTimeSpent" value="558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -133,11 +142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1333">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="345">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
     </entry>

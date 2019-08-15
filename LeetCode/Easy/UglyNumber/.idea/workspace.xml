@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="PalindromeLinkedList" targetName="PalindromeLinkedList" />
+      <config projectName="UglyNumber" targetName="UglyNumber" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6558812e-2bf4-4bd0-9773-74370c0bfb5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ImplementQueueUsingStacks/ImplementQueueUsingStacks.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PalindromeLinkedList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PowerOfTwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PowerOfTwo/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6a5ac9e5-ce81-477a-b4cc-c610d66ae6bc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AddDigits/AddDigits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreePaths/BinaryTreePaths.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeleteNodeInALinkedList/DeleteNodeInAlinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LowestCommonAncestorOfBinarySearchTree/LowestCommonAncestorOfBinarySearchTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PalindromeLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeLinkedList/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UglyNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ValidAnagram/ValidAnagram.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +29,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -50,8 +67,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -72,7 +89,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="PalindromeLinkedList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PalindromeLinkedList" TARGET_NAME="PalindromeLinkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PalindromeLinkedList" RUN_TARGET_NAME="PalindromeLinkedList">
+    <configuration name="UglyNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UglyNumber" TARGET_NAME="UglyNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UglyNumber" RUN_TARGET_NAME="UglyNumber">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -83,29 +100,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6558812e-2bf4-4bd0-9773-74370c0bfb5d" name="Default Changelist" comment="" />
-      <created>1565569267884</created>
+      <changelist id="6a5ac9e5-ce81-477a-b4cc-c610d66ae6bc" name="Default Changelist" comment="" />
+      <created>1565906077739</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565569267884</updated>
-      <workItem from="1565569269076" duration="475000" />
+      <updated>1565906077739</updated>
+      <workItem from="1565906078918" duration="224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="475000" />
+    <option name="totallyTimeSpent" value="224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -128,10 +146,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="16" lean-forward="true" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

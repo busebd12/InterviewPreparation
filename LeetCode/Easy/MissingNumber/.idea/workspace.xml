@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="UglyNumber" targetName="UglyNumber" />
+      <config projectName="MissingNumber" targetName="MissingNumber" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,14 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a5ac9e5-ce81-477a-b4cc-c610d66ae6bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AddDigits/AddDigits.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTreePaths/BinaryTreePaths.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DeleteNodeInALinkedList/DeleteNodeInAlinkedList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LowestCommonAncestorOfBinarySearchTree/LowestCommonAncestorOfBinarySearchTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PalindromeLinkedList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PalindromeLinkedList/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UglyNumber.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ValidAnagram/ValidAnagram.cpp" beforeDir="false" />
+    <list default="true" id="11d8bc9b-01d8-4a45-afd6-4ef0485ca0d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MissingNumber.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UglyNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UglyNumber/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="UglyNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UglyNumber" TARGET_NAME="UglyNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UglyNumber" RUN_TARGET_NAME="UglyNumber">
+    <configuration name="MissingNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MissingNumber" TARGET_NAME="MissingNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MissingNumber" RUN_TARGET_NAME="MissingNumber">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -87,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a5ac9e5-ce81-477a-b4cc-c610d66ae6bc" name="Default Changelist" comment="" />
-      <created>1565906077739</created>
+      <changelist id="11d8bc9b-01d8-4a45-afd6-4ef0485ca0d0" name="Default Changelist" comment="" />
+      <created>1565912202794</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565906077739</updated>
-      <workItem from="1565906078918" duration="465000" />
+      <updated>1565912202794</updated>
+      <workItem from="1565912203868" duration="479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465000" />
+    <option name="totallyTimeSpent" value="479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -132,8 +127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ClosestBinarySearchTreeValue" targetName="ClosestBinarySearchTreeValue" />
+      <config projectName="PaintFence" targetName="PaintFence" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb7165a-bd0b-4f7f-9e5e-27666266d1b7" name="Default Changelist" comment="" />
+    <list default="true" id="1323c1bd-6a19-47cd-920d-826c520d84d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ClosestBinarySearchTreeValue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClosestBinarySearchTreeValue/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ClosestBinarySearchTreeValue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClosestBinarySearchTreeValue" TARGET_NAME="ClosestBinarySearchTreeValue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ClosestBinarySearchTreeValue" RUN_TARGET_NAME="ClosestBinarySearchTreeValue">
+    <configuration name="PaintFence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PaintFence" TARGET_NAME="PaintFence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PaintFence" RUN_TARGET_NAME="PaintFence">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cb7165a-bd0b-4f7f-9e5e-27666266d1b7" name="Default Changelist" comment="" />
-      <created>1565987997067</created>
+      <changelist id="1323c1bd-6a19-47cd-920d-826c520d84d8" name="Default Changelist" comment="" />
+      <created>1566079757192</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565987997067</updated>
-      <workItem from="1565987998167" duration="479000" />
+      <updated>1566079757192</updated>
+      <workItem from="1566079758346" duration="637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479000" />
+    <option name="totallyTimeSpent" value="637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -124,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        <state relative-caret-position="195">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

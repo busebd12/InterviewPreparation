@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ClosestBinarySearchTreeValue" targetName="ClosestBinarySearchTreeValue" />
+      <config projectName="FirstBadVersion" targetName="FirstBadVersion" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cb7165a-bd0b-4f7f-9e5e-27666266d1b7" name="Default Changelist" comment="" />
+    <list default="true" id="980bea89-336b-403e-890d-3553be8a8623" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ClosestBinarySearchTreeValue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClosestBinarySearchTreeValue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstBadVersion.cpp" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +49,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -68,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ClosestBinarySearchTreeValue" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClosestBinarySearchTreeValue" TARGET_NAME="ClosestBinarySearchTreeValue" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ClosestBinarySearchTreeValue" RUN_TARGET_NAME="ClosestBinarySearchTreeValue">
+    <configuration name="FirstBadVersion" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FirstBadVersion" TARGET_NAME="FirstBadVersion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FirstBadVersion" RUN_TARGET_NAME="FirstBadVersion">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3cb7165a-bd0b-4f7f-9e5e-27666266d1b7" name="Default Changelist" comment="" />
-      <created>1565987997067</created>
+      <changelist id="980bea89-336b-403e-890d-3553be8a8623" name="Default Changelist" comment="" />
+      <created>1566082031101</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565987997067</updated>
-      <workItem from="1565987998167" duration="479000" />
+      <updated>1566082031101</updated>
+      <workItem from="1566082032236" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479000" />
+    <option name="totallyTimeSpent" value="357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -124,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

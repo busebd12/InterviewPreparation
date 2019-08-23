@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MovingAverageFromData" targetName="MovingAverageFromData" />
+      <config projectName="FindTheDifference" targetName="FindTheDifference" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,15 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396ce370-accb-4d02-ae83-7313321f9475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BullsAndCows/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ReverseString/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NimGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NimGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PowerOfFour/PowerOfFour.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PowerOfThree/PowerOfThree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RangeSumQueryImmutable/RangeSumQueryImmutable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseString/ReverseString.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseTheVowelsOfAString/ReverseTheVowelsOfAString.cpp" beforeDir="false" />
+    <list default="true" id="ffd69007-827d-4827-b984-782c8540ec53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/FindTheDifference.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FirstUniqueCharacterInAString/FirstUniqueCharacterInAString.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessNumberHigherOrLower/GuessNumberHigherOrLower.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntersectionOfTwoArrays/IntersectionOfTwoArrays.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IntersectionOfTwoArraysII/IntersectionOfTwoArraysII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MovingAverageFromData/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MovingAverageFromData/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RansomNote/RansomNote.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOfTwoIntegers/SumOfTwoIntegers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ValidPerfectSquare/ValidPerfectSquare.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +56,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -77,7 +78,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MovingAverageFromData" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MovingAverageFromData" TARGET_NAME="MovingAverageFromData" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MovingAverageFromData" RUN_TARGET_NAME="MovingAverageFromData">
+    <configuration name="FindTheDifference" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FindTheDifference" TARGET_NAME="FindTheDifference" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FindTheDifference" RUN_TARGET_NAME="FindTheDifference">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -88,17 +89,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="396ce370-accb-4d02-ae83-7313321f9475" name="Default Changelist" comment="" />
-      <created>1566356467315</created>
+      <changelist id="ffd69007-827d-4827-b984-782c8540ec53" name="Default Changelist" comment="" />
+      <created>1566524141995</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566356467315</updated>
-      <workItem from="1566356468542" duration="442000" />
+      <updated>1566524141995</updated>
+      <workItem from="1566524143088" duration="920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="442000" />
+    <option name="totallyTimeSpent" value="920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -133,8 +134,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

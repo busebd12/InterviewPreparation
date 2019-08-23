@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SumOfLeftLeaves" targetName="SumOfLeftLeaves" />
+      <config projectName="ConvertANumberToHexadecimal" targetName="ConvertANumberToHexadecimal" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85d2493-1aa2-4fc9-9d38-0cc79b2a28fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="96498a5b-7ece-4b88-965d-ac1876cb749e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SumOfLeftLeaves/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SumOfLeftLeaves/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -48,8 +61,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +83,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SumOfLeftLeaves" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SumOfLeftLeaves" TARGET_NAME="SumOfLeftLeaves" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SumOfLeftLeaves" RUN_TARGET_NAME="SumOfLeftLeaves">
+    <configuration name="ConvertANumberToHexadecimal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertANumberToHexadecimal" TARGET_NAME="ConvertANumberToHexadecimal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertANumberToHexadecimal" RUN_TARGET_NAME="ConvertANumberToHexadecimal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,20 +94,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e85d2493-1aa2-4fc9-9d38-0cc79b2a28fb" name="Default Changelist" comment="" />
-      <created>1566576334647</created>
+      <changelist id="96498a5b-7ece-4b88-965d-ac1876cb749e" name="Default Changelist" comment="" />
+      <created>1566583138830</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566576334647</updated>
-      <workItem from="1566576335730" duration="404000" />
+      <updated>1566583138830</updated>
+      <workItem from="1566583139922" duration="308000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="404000" />
+    <option name="totallyTimeSpent" value="308000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -126,10 +140,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="722">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

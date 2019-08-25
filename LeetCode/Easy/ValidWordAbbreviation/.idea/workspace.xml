@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConvertANumberToHexadecimal" targetName="ConvertANumberToHexadecimal" />
+      <config projectName="ValidWordAbbreviation" targetName="ValidWordAbbreviation" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96498a5b-7ece-4b88-965d-ac1876cb749e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4432c4e8-30c6-4c31-bf47-475b23e12623" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ConvertANumberToHexadecimal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertANumberToHexadecimal/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConvertANumberToHexadecimal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertANumberToHexadecimal" TARGET_NAME="ConvertANumberToHexadecimal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertANumberToHexadecimal" RUN_TARGET_NAME="ConvertANumberToHexadecimal">
+    <configuration name="ValidWordAbbreviation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ValidWordAbbreviation" TARGET_NAME="ValidWordAbbreviation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ValidWordAbbreviation" RUN_TARGET_NAME="ValidWordAbbreviation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96498a5b-7ece-4b88-965d-ac1876cb749e" name="Default Changelist" comment="" />
-      <created>1566583138830</created>
+      <changelist id="4432c4e8-30c6-4c31-bf47-475b23e12623" name="Default Changelist" comment="" />
+      <created>1566679065970</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566583138830</updated>
-      <workItem from="1566583139922" duration="551000" />
+      <updated>1566679065970</updated>
+      <workItem from="1566679067075" duration="304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551000" />
+    <option name="totallyTimeSpent" value="304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -99,11 +99,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -126,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="706">
+          <caret line="104" column="32" lean-forward="true" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConvertANumberToHexadecimal" targetName="ConvertANumberToHexadecimal" />
+      <config projectName="ThirdMaximumNumber" targetName="ThirdMaximumNumber" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96498a5b-7ece-4b88-965d-ac1876cb749e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0efb3298-41d3-4a88-a3a8-fface1235f5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ConvertANumberToHexadecimal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConvertANumberToHexadecimal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FizzBuzz/FizzBuzz.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestPalindrome/LongestPalindrome.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ThirdMaximumNumber.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +26,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -70,7 +86,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConvertANumberToHexadecimal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConvertANumberToHexadecimal" TARGET_NAME="ConvertANumberToHexadecimal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConvertANumberToHexadecimal" RUN_TARGET_NAME="ConvertANumberToHexadecimal">
+    <configuration name="ThirdMaximumNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ThirdMaximumNumber" TARGET_NAME="ThirdMaximumNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ThirdMaximumNumber" RUN_TARGET_NAME="ThirdMaximumNumber">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,20 +97,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96498a5b-7ece-4b88-965d-ac1876cb749e" name="Default Changelist" comment="" />
-      <created>1566583138830</created>
+      <changelist id="0efb3298-41d3-4a88-a3a8-fface1235f5e" name="Default Changelist" comment="" />
+      <created>1566708217330</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566583138830</updated>
-      <workItem from="1566583139922" duration="551000" />
+      <updated>1566708217330</updated>
+      <workItem from="1566708218479" duration="190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551000" />
+    <option name="totallyTimeSpent" value="190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -126,8 +143,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

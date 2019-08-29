@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="AssignCookies" targetName="AssignCookies" />
+      <config projectName="Heaters" targetName="Heaters" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,16 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26d34970-9364-479b-9bcd-84eaabd2baca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AddingStrings/AddingStrings.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ArrangingCoins/ArrangingCoins.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AssignCookies.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FindAllDisappearedNumbersInAnArray/FindAllDisappearedNumbersInAnArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MinimumMovesToEqualArrayElements/MinimumMovesToEqualArrayElements.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NumberOfBoomerangs/NumberOfBoomerangs.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NumberOfSegmentsInAString/NumberOfSegmentsInAString.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PathSumIII/PathSumIII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ThirdMaximumNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThirdMaximumNumber/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6bf94df0-65e5-47ef-ac31-d1ed80964649" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AssignCookies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssignCookies/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HammingDistance/HammingDistance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Heaters.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IslandPerimeter/IslandPerimeter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RepeatedSubstringPattern/RepeatedSubstringPattern.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,8 +52,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -78,7 +74,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AssignCookies" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AssignCookies" TARGET_NAME="AssignCookies" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AssignCookies" RUN_TARGET_NAME="AssignCookies">
+    <configuration name="Heaters" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Heaters" TARGET_NAME="Heaters" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Heaters" RUN_TARGET_NAME="Heaters">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -89,17 +85,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="26d34970-9364-479b-9bcd-84eaabd2baca" name="Default Changelist" comment="" />
-      <created>1566940356581</created>
+      <changelist id="6bf94df0-65e5-47ef-ac31-d1ed80964649" name="Default Changelist" comment="" />
+      <created>1567112338217</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566940356581</updated>
-      <workItem from="1566940357741" duration="161000" />
+      <updated>1567112338217</updated>
+      <workItem from="1567112339300" duration="172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161000" />
+    <option name="totallyTimeSpent" value="172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
@@ -134,8 +130,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="150">
+          <caret line="10" column="120" selection-start-line="10" selection-start-column="120" selection-end-line="10" selection-end-column="120" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

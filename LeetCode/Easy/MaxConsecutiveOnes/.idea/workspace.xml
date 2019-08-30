@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="NumberComplement" targetName="NumberComplement" />
+      <config projectName="MaxConsecutiveOnes" targetName="MaxConsecutiveOnes" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,13 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ed671c1-84f0-446f-8418-6bcb5cedb910" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AssignCookies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AssignCookies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HammingDistance/HammingDistance.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Heaters/Heaters.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IslandPerimeter/IslandPerimeter.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NumberComplement.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RepeatedSubstringPattern/RepeatedSubstringPattern.cpp" beforeDir="false" />
+    <list default="true" id="8421c5f4-a815-4223-992d-d5767b006ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LicenseKeyFormatting/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MaxConsecutiveOnes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NumberComplement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NumberComplement/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +25,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -75,7 +85,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="NumberComplement" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NumberComplement" TARGET_NAME="NumberComplement" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NumberComplement" RUN_TARGET_NAME="NumberComplement">
+    <configuration name="MaxConsecutiveOnes" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaxConsecutiveOnes" TARGET_NAME="MaxConsecutiveOnes" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaxConsecutiveOnes" RUN_TARGET_NAME="MaxConsecutiveOnes">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -86,20 +96,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3ed671c1-84f0-446f-8418-6bcb5cedb910" name="Default Changelist" comment="" />
-      <created>1567112523549</created>
+      <changelist id="8421c5f4-a815-4223-992d-d5767b006ef5" name="Default Changelist" comment="" />
+      <created>1567123342690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567112523549</updated>
-      <workItem from="1567112524678" duration="172000" />
+      <updated>1567123342690</updated>
+      <workItem from="1567123343838" duration="158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172000" />
+    <option name="totallyTimeSpent" value="158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -131,8 +142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="165">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

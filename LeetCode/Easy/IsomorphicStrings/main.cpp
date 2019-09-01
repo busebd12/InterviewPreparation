@@ -7,7 +7,7 @@ using namespace std;
 
 /*
  * Approach:
- * Use to hash tables that keep track of the frequency and indices where each letter appears
+ * Use two hash tables that keep track of the frequency and indices where each letter appears
  * in the strings s and t. Then, for each letter in s, check if there exists a letter in t
  * that appears the same number of times and has the same indices.
  *

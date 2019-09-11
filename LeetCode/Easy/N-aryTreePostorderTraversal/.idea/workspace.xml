@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FibonacciNumber" targetName="FibonacciNumber" />
+      <config projectName="N_aryTreePostorderTraversal" targetName="N_aryTreePostorderTraversal" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b5a3d0-fcf3-49d7-a7dc-0a474ac1c758" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../IsomorphicStrings/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../IsomorphicStrings/main.cpp" afterDir="false" />
+    <list default="true" id="8973793b-98ba-498d-92ef-fc0b3bdb2b83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ArrayPartitionI/ArrayPartitionI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeTilt/BinaryTreeTilt.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConvertBSTToGreaterTree/ConvertBSTToGreaterTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DetectCapital/DetectCapital.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DistributeCandies/DistributeCandies.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibonacciNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibonacciNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../K-diffPairsInAnArray/KDiffPairsInAnArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestUncommonSubsequenceI/LongestUncommonSubsequenceI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinimumAbsoluteDifferenceInBST/MinimumAbsoluteDifferenceInBST.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReshapeMatrix/ReshapeMatrix.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseStringII/ReverseStringII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReverseWordsInAStringIII/ReverseWordsInAStringIII.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ShortestUnsortedContinuousSubarray/ShortestUnsortedContinuousSubarray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentAttendanceRecordI/StudentAttendanceRecordI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SubtreeOfAnotherTree/SubtreeOfAnotherTree.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +46,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/../IsomorphicStrings/main.cpp" />
       </list>
     </option>
   </component>
@@ -49,8 +62,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,7 +84,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FibonacciNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FibonacciNumber" TARGET_NAME="FibonacciNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FibonacciNumber" RUN_TARGET_NAME="FibonacciNumber">
+    <configuration name="N_aryTreePostorderTraversal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="N_aryTreePostorderTraversal" TARGET_NAME="N_aryTreePostorderTraversal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="N_aryTreePostorderTraversal" RUN_TARGET_NAME="N_aryTreePostorderTraversal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +95,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5b5a3d0-fcf3-49d7-a7dc-0a474ac1c758" name="Default Changelist" comment="" />
-      <created>1567313741716</created>
+      <changelist id="8973793b-98ba-498d-92ef-fc0b3bdb2b83" name="Default Changelist" comment="" />
+      <created>1568148848233</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567313741716</updated>
-      <workItem from="1567313742784" duration="513000" />
+      <updated>1568148848233</updated>
+      <workItem from="1568148849369" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="513000" />
+    <option name="totallyTimeSpent" value="368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -127,20 +140,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../IsomorphicStrings/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FibonacciNumber" targetName="FibonacciNumber" />
+      <config projectName="K_diffPairsInAnArray" targetName="K_diffPairsInAnArray" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b5a3d0-fcf3-49d7-a7dc-0a474ac1c758" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../IsomorphicStrings/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../IsomorphicStrings/main.cpp" afterDir="false" />
+    <list default="true" id="ca223e05-c3b9-41da-9cfe-4af1e796cccc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DetectCapital/DetectCapital.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FibonacciNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibonacciNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KDiffPairsInAnArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestUncommonSubsequenceI/LongestUncommonSubsequenceI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinimumAbsoluteDifferenceInBST/MinimumAbsoluteDifferenceInBST.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +36,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/../IsomorphicStrings/main.cpp" />
       </list>
     </option>
   </component>
@@ -49,8 +52,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,7 +74,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FibonacciNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FibonacciNumber" TARGET_NAME="FibonacciNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FibonacciNumber" RUN_TARGET_NAME="FibonacciNumber">
+    <configuration name="K_diffPairsInAnArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="K_diffPairsInAnArray" TARGET_NAME="K_diffPairsInAnArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="K_diffPairsInAnArray" RUN_TARGET_NAME="K_diffPairsInAnArray">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,29 +85,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5b5a3d0-fcf3-49d7-a7dc-0a474ac1c758" name="Default Changelist" comment="" />
-      <created>1567313741716</created>
+      <changelist id="ca223e05-c3b9-41da-9cfe-4af1e796cccc" name="Default Changelist" comment="" />
+      <created>1567455376099</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567313741716</updated>
-      <workItem from="1567313742784" duration="513000" />
+      <updated>1567455376099</updated>
+      <workItem from="1567455377160" duration="678000" />
+      <workItem from="1567550306565" duration="177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="513000" />
+    <option name="totallyTimeSpent" value="855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -112,10 +111,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,18 +131,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../IsomorphicStrings/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

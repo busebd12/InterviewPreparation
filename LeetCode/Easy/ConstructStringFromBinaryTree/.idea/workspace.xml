@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LongestHarmoniousSubsequence" targetName="LongestHarmoniousSubsequence" />
+      <config projectName="ConstructStringFromBinaryTree" targetName="ConstructStringFromBinaryTree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,23 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a70ac0f-f210-4252-aff0-c7e962f1d7c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ArrayPartitionI/ArrayPartitionI.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeTilt/BinaryTreeTilt.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConvertBSTToGreaterTree/ConvertBSTToGreaterTree.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DetectCapital/DetectCapital.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DistributeCandies/DistributeCandies.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FibonacciNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FibonacciNumber/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../K-diffPairsInAnArray/KDiffPairsInAnArray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongestHarmoniousSubsequence.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LongestUncommonSubsequenceI/LongestUncommonSubsequenceI.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MinimumAbsoluteDifferenceInBST/MinimumAbsoluteDifferenceInBST.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReshapeMatrix/ReshapeMatrix.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseStringII/ReverseStringII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ReverseWordsInAStringIII/ReverseWordsInAStringIII.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ShortestUnsortedContinuousSubarray/ShortestUnsortedContinuousSubarray.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentAttendanceRecordI/StudentAttendanceRecordI.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SubtreeOfAnotherTree/SubtreeOfAnotherTree.cpp" beforeDir="false" />
+    <list default="true" id="bb48a3fe-a46a-4545-9a09-0fd4d7488851" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CanPlaceFlowers/CanPlaceFlowers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConstructStringFromBinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestHarmoniousSubsequence/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LongestHarmoniousSubsequence/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MinimumIndexSumOfTwoLists/MinimumIndexSumOfTwoLists.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RangeAdditionII/RangeAdditionII.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +27,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -63,8 +65,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -85,7 +87,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LongestHarmoniousSubsequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestHarmoniousSubsequence" TARGET_NAME="LongestHarmoniousSubsequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestHarmoniousSubsequence" RUN_TARGET_NAME="LongestHarmoniousSubsequence">
+    <configuration name="ConstructStringFromBinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConstructStringFromBinaryTree" TARGET_NAME="ConstructStringFromBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConstructStringFromBinaryTree" RUN_TARGET_NAME="ConstructStringFromBinaryTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -96,20 +98,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2a70ac0f-f210-4252-aff0-c7e962f1d7c9" name="Default Changelist" comment="" />
-      <created>1568156441098</created>
+      <changelist id="bb48a3fe-a46a-4545-9a09-0fd4d7488851" name="Default Changelist" comment="" />
+      <created>1568408547863</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568156441098</updated>
-      <workItem from="1568156442210" duration="506000" />
+      <updated>1568408547863</updated>
+      <workItem from="1568408548989" duration="196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="506000" />
+    <option name="totallyTimeSpent" value="196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -141,10 +144,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+        <state relative-caret-position="195">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

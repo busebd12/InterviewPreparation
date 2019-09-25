@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConstructStringFromBinaryTree" targetName="ConstructStringFromBinaryTree" />
+      <config projectName="SecondMinimumNodeInABinaryTree" targetName="SecondMinimumNodeInABinaryTree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb48a3fe-a46a-4545-9a09-0fd4d7488851" name="Default Changelist" comment="">
+    <list default="true" id="51347f7e-3a63-4054-8a61-defdfde24153" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SumOfSquareNumbers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AverageOfLevelsInABinaryTree/AverageOfLevelsInABinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConstructStringFromBinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConstructStringFromBinaryTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageSmoother/ImageSmoother.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LongestContinuousIncreasingSubsequence/LongestContinuousIncreasingSubsequence.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaximumAverageSubarrayI/MaximumAverageSubarrayI.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaximumProductOfThreeNumbers/MaximumProductOfThreeNumbers.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MergeTwoBinaryTrees/MergeTwoBinaryTrees.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NonDecreasingArray/NonDecreasingArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondMinimumNodeInABinaryTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SetMismatch/SetMismatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumOfSquareNumbers/SumOfSquareNumbers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TrimBST/TrimBST.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +82,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ConstructStringFromBinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConstructStringFromBinaryTree" TARGET_NAME="ConstructStringFromBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConstructStringFromBinaryTree" RUN_TARGET_NAME="ConstructStringFromBinaryTree">
+    <configuration name="SecondMinimumNodeInABinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SecondMinimumNodeInABinaryTree" TARGET_NAME="SecondMinimumNodeInABinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SecondMinimumNodeInABinaryTree" RUN_TARGET_NAME="SecondMinimumNodeInABinaryTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +93,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb48a3fe-a46a-4545-9a09-0fd4d7488851" name="Default Changelist" comment="" />
-      <created>1568408547863</created>
+      <changelist id="51347f7e-3a63-4054-8a61-defdfde24153" name="Default Changelist" comment="" />
+      <created>1569189199877</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568408547863</updated>
-      <workItem from="1568408548989" duration="385000" />
+      <updated>1569189199877</updated>
+      <workItem from="1569189201016" duration="368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="385000" />
+    <option name="totallyTimeSpent" value="368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -126,8 +138,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="135">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BaseballGame" targetName="BaseballGame" />
+      <config projectName="LongestUnivaluePath" targetName="LongestUnivaluePath" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24531983-b256-4b41-b2e9-bb656aeb5280" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e745e44c-a19c-4181-94da-61cfb3b514a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BaseballGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BaseballGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LongestUnivaluePath.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +49,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BaseballGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BaseballGame" TARGET_NAME="BaseballGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BaseballGame" RUN_TARGET_NAME="BaseballGame">
+    <configuration name="LongestUnivaluePath" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestUnivaluePath" TARGET_NAME="LongestUnivaluePath" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestUnivaluePath" RUN_TARGET_NAME="LongestUnivaluePath">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="24531983-b256-4b41-b2e9-bb656aeb5280" name="Default Changelist" comment="" />
-      <created>1569370367437</created>
+      <changelist id="e745e44c-a19c-4181-94da-61cfb3b514a5" name="Default Changelist" comment="" />
+      <created>1569636184563</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569370367437</updated>
-      <workItem from="1569370369120" duration="945000" />
+      <updated>1569636184563</updated>
+      <workItem from="1569636185810" duration="489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="945000" />
+    <option name="totallyTimeSpent" value="489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -126,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        <state relative-caret-position="210">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

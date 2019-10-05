@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="MaxStack" targetName="MaxStack" />
+      <config projectName="FindPivotIndex" targetName="FindPivotIndex" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,10 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c9aa52f-1fe6-4409-9320-a9b136672977" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../BaseballGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BaseballGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EmployeeImportance/EmployeeImportance.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LongestUnivaluePath/LongestUnivaluePath.cpp" beforeDir="false" />
+    <list default="true" id="a438ffa6-c844-434a-a6b0-816b99f47355" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../MaxStack/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaxStack/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -72,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="MaxStack" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaxStack" TARGET_NAME="MaxStack" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaxStack" RUN_TARGET_NAME="MaxStack">
+    <configuration name="FindPivotIndex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FindPivotIndex" TARGET_NAME="FindPivotIndex" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FindPivotIndex" RUN_TARGET_NAME="FindPivotIndex">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -83,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c9aa52f-1fe6-4409-9320-a9b136672977" name="Default Changelist" comment="" />
-      <created>1570144752073</created>
+      <changelist id="a438ffa6-c844-434a-a6b0-816b99f47355" name="Default Changelist" comment="" />
+      <created>1570220186096</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570144752073</updated>
-      <workItem from="1570144753142" duration="694000" />
+      <updated>1570220186096</updated>
+      <workItem from="1570220187201" duration="441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694000" />
+    <option name="totallyTimeSpent" value="441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -128,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

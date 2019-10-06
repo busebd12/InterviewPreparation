@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FloodFill" targetName="FloodFill" />
+      <config projectName="SentenceSimilarity" targetName="SentenceSimilarity" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b5c3b11-fec4-4a5c-a62c-06cd8caf1974" name="Default Changelist" comment="" />
+    <list default="true" id="bb64fa02-56a3-4d50-93c2-846f7fd7c07c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FloodFill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FloodFill/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FloodFill" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FloodFill" TARGET_NAME="FloodFill" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FloodFill" RUN_TARGET_NAME="FloodFill">
+    <configuration name="SentenceSimilarity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SentenceSimilarity" TARGET_NAME="SentenceSimilarity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SentenceSimilarity" RUN_TARGET_NAME="SentenceSimilarity">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1b5c3b11-fec4-4a5c-a62c-06cd8caf1974" name="Default Changelist" comment="" />
-      <created>1570310259456</created>
+      <changelist id="bb64fa02-56a3-4d50-93c2-846f7fd7c07c" name="Default Changelist" comment="" />
+      <created>1570327875034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570310259456</updated>
-      <workItem from="1570310260522" duration="838000" />
+      <updated>1570327875034</updated>
+      <workItem from="1570327876161" duration="601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="838000" />
+    <option name="totallyTimeSpent" value="601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -124,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="32" selection-end-line="106" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="22" column="75" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

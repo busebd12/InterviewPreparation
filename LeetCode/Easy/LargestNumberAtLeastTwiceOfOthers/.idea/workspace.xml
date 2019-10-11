@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FindSmallestLetterGreaterThanTarget" targetName="FindSmallestLetterGreaterThanTarget" />
+      <config projectName="LargestNumberAtLeastTwiceOfOthers" targetName="LargestNumberAtLeastTwiceOfOthers" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4aaf0d26-e76a-44b9-9e66-fee72bf92874" name="Default Changelist" comment="" />
+    <list default="true" id="51d8fee0-285d-4056-9699-5ed3d23d2c0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FindSmallestLetterGreaterThanTarget/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FindSmallestLetterGreaterThanTarget/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FindSmallestLetterGreaterThanTarget" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FindSmallestLetterGreaterThanTarget" TARGET_NAME="FindSmallestLetterGreaterThanTarget" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FindSmallestLetterGreaterThanTarget" RUN_TARGET_NAME="FindSmallestLetterGreaterThanTarget">
+    <configuration name="LargestNumberAtLeastTwiceOfOthers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LargestNumberAtLeastTwiceOfOthers" TARGET_NAME="LargestNumberAtLeastTwiceOfOthers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LargestNumberAtLeastTwiceOfOthers" RUN_TARGET_NAME="LargestNumberAtLeastTwiceOfOthers">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4aaf0d26-e76a-44b9-9e66-fee72bf92874" name="Default Changelist" comment="" />
-      <created>1570333576410</created>
+      <changelist id="51d8fee0-285d-4056-9699-5ed3d23d2c0d" name="Default Changelist" comment="" />
+      <created>1570394937753</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570333576410</updated>
-      <workItem from="1570333577556" duration="365000" />
+      <updated>1570394937753</updated>
+      <workItem from="1570394938821" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="365000" />
+    <option name="totallyTimeSpent" value="331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -124,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        <state relative-caret-position="88">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

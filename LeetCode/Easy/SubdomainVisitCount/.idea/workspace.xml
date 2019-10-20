@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="966f3fa4-ed15-4647-8b27-8192a3341bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../UniqueMorseCodeWords/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BoldWordsInAString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoldWordsInAString/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,20 +23,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -100,16 +86,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571088250956</updated>
-      <workItem from="1571088252024" duration="576000" />
+      <workItem from="1571088252024" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="576000" />
+    <option name="totallyTimeSpent" value="994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -141,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="392">
+          <caret line="27" column="109" selection-start-line="27" selection-start-column="109" selection-end-line="27" selection-end-column="109" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

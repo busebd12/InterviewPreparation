@@ -3,6 +3,7 @@
 #include <string>
 #include <algorithm>
 #include <vector>
+#include <sstream>
 using namespace std;
 
 /*
@@ -17,6 +18,11 @@ using namespace std;
  * If the subdomain has not seen before, then map it to its visited count. If it has been seen before, then we increment
  * the number of it has been seen by the domain's visited count. After looping through all the domains, we build the
  * count-paired domains strings and add them to our vector<string> result.
+ *
+ * Time complexity: O(n * L) [where n is the number of count-paired domains and L is the average length of a count-paired domain]
+ * Space complexity: O(number of count-paired domains and number of subdomains for each count-paired domains)
+ *
+ * 2) Same logic as the first solution except that we use getline instead of >> when parsing the count-paired domain strings.
  *
  * Time complexity: O(n * L) [where n is the number of count-paired domains and L is the average length of a count-paired domain]
  * Space complexity: O(number of count-paired domains and number of subdomains for each count-paired domains)

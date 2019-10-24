@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LemonadeChange" targetName="LemonadeChange" />
+      <config projectName="MonotonicArray" targetName="MonotonicArray" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23b19726-97dc-4fcd-8626-d7bef7d8a863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SubdomainVisitCount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SubdomainVisitCount/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SubdomainVisitCount/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SubdomainVisitCount/main.cpp" afterDir="false" />
+    <list default="true" id="0ad804f0-2ca4-4404-af4c-97ddac045942" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LemonadeChange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LemonadeChange/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LemonadeChange" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LemonadeChange" TARGET_NAME="LemonadeChange" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LemonadeChange" RUN_TARGET_NAME="LemonadeChange">
+    <configuration name="MonotonicArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MonotonicArray" TARGET_NAME="MonotonicArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MonotonicArray" RUN_TARGET_NAME="MonotonicArray">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23b19726-97dc-4fcd-8626-d7bef7d8a863" name="Default Changelist" comment="" />
-      <created>1571540067382</created>
+      <changelist id="0ad804f0-2ca4-4404-af4c-97ddac045942" name="Default Changelist" comment="" />
+      <created>1571952059775</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571540067382</updated>
-      <workItem from="1571540068578" duration="1085000" />
+      <updated>1571952059775</updated>
+      <workItem from="1571952061004" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1085000" />
+    <option name="totallyTimeSpent" value="276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -127,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        <state relative-caret-position="270">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

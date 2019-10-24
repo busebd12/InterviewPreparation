@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LemonadeChange" targetName="LemonadeChange" />
+      <config projectName="BinaryGap" targetName="BinaryGap" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23b19726-97dc-4fcd-8626-d7bef7d8a863" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SubdomainVisitCount/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SubdomainVisitCount/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SubdomainVisitCount/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SubdomainVisitCount/main.cpp" afterDir="false" />
+    <list default="true" id="46a73816-3b53-41fe-8cdc-5c241a403cd5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LemonadeChange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LemonadeChange/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -71,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LemonadeChange" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LemonadeChange" TARGET_NAME="LemonadeChange" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LemonadeChange" RUN_TARGET_NAME="LemonadeChange">
+    <configuration name="BinaryGap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinaryGap" TARGET_NAME="BinaryGap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinaryGap" RUN_TARGET_NAME="BinaryGap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23b19726-97dc-4fcd-8626-d7bef7d8a863" name="Default Changelist" comment="" />
-      <created>1571540067382</created>
+      <changelist id="46a73816-3b53-41fe-8cdc-5c241a403cd5" name="Default Changelist" comment="" />
+      <created>1571691778844</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571540067382</updated>
-      <workItem from="1571540068578" duration="1085000" />
+      <updated>1571691778844</updated>
+      <workItem from="1571691779918" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1085000" />
+    <option name="totallyTimeSpent" value="267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -100,11 +99,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -127,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1695">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        <state relative-caret-position="283">
+          <caret line="91" column="20" lean-forward="true" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

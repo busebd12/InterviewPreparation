@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="IncreasingOrderSearchTree" targetName="IncreasingOrderSearchTree" />
+      <config projectName="SortArrayByParityII" targetName="SortArrayByParityII" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f960236-dd59-4472-b139-b263f8c78f29" name="Default Changelist" comment="" />
+    <list default="true" id="41635590-ad58-4333-9628-9069e98e2f20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../IncreasingOrderSearchTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IncreasingOrderSearchTree/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +40,16 @@
     <option name="width" value="1680" />
     <option name="height" value="951" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -66,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="IncreasingOrderSearchTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IncreasingOrderSearchTree" TARGET_NAME="IncreasingOrderSearchTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IncreasingOrderSearchTree" RUN_TARGET_NAME="IncreasingOrderSearchTree">
+    <configuration name="SortArrayByParityII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortArrayByParityII" TARGET_NAME="SortArrayByParityII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortArrayByParityII" RUN_TARGET_NAME="SortArrayByParityII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -77,12 +81,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f960236-dd59-4472-b139-b263f8c78f29" name="Default Changelist" comment="" />
-      <created>1571954126707</created>
+      <changelist id="41635590-ad58-4333-9628-9069e98e2f20" name="Default Changelist" comment="" />
+      <created>1572143119269</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571954126707</updated>
-      <workItem from="1571954127801" duration="525000" />
+      <updated>1572143119269</updated>
+      <workItem from="1572143120339" duration="525000" />
     </task>
     <servers />
   </component>
@@ -122,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="-737">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

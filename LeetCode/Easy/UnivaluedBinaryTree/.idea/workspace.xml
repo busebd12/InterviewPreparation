@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="IncreasingOrderSearchTree" targetName="IncreasingOrderSearchTree" />
+      <config projectName="UnivaluedBinaryTree" targetName="UnivaluedBinaryTree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f960236-dd59-4472-b139-b263f8c78f29" name="Default Changelist" comment="" />
+    <list default="true" id="be445331-b376-43c3-b2a8-3978e0b3a010" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../UniqueEmailAddresses/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IncreasingOrderSearchTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IncreasingOrderSearchTree/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +24,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -66,7 +82,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="IncreasingOrderSearchTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IncreasingOrderSearchTree" TARGET_NAME="IncreasingOrderSearchTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IncreasingOrderSearchTree" RUN_TARGET_NAME="IncreasingOrderSearchTree">
+    <configuration name="UnivaluedBinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UnivaluedBinaryTree" TARGET_NAME="UnivaluedBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UnivaluedBinaryTree" RUN_TARGET_NAME="UnivaluedBinaryTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -77,20 +93,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2f960236-dd59-4472-b139-b263f8c78f29" name="Default Changelist" comment="" />
-      <created>1571954126707</created>
+      <changelist id="be445331-b376-43c3-b2a8-3978e0b3a010" name="Default Changelist" comment="" />
+      <created>1572382207659</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571954126707</updated>
-      <workItem from="1571954127801" duration="525000" />
+      <updated>1572382207659</updated>
+      <workItem from="1572382208834" duration="202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525000" />
+    <option name="totallyTimeSpent" value="202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -122,8 +139,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        <state relative-caret-position="705">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

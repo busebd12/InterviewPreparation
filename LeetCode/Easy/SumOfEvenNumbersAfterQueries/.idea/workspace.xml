@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="UnivaluedBinaryTree" targetName="UnivaluedBinaryTree" />
+      <config projectName="SumOfEvenNumbersAfterQueries" targetName="SumOfEvenNumbersAfterQueries" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be445331-b376-43c3-b2a8-3978e0b3a010" name="Default Changelist" comment="" />
+    <list default="true" id="dc934ae0-4e8a-4c10-b04a-238b5710941c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +40,9 @@
     <option name="width" value="1680" />
     <option name="height" value="951" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -66,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="UnivaluedBinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UnivaluedBinaryTree" TARGET_NAME="UnivaluedBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UnivaluedBinaryTree" RUN_TARGET_NAME="UnivaluedBinaryTree">
+    <configuration name="SumOfEvenNumbersAfterQueries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SumOfEvenNumbersAfterQueries" TARGET_NAME="SumOfEvenNumbersAfterQueries" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SumOfEvenNumbersAfterQueries" RUN_TARGET_NAME="SumOfEvenNumbersAfterQueries">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -77,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be445331-b376-43c3-b2a8-3978e0b3a010" name="Default Changelist" comment="" />
-      <created>1572382207659</created>
+      <changelist id="dc934ae0-4e8a-4c10-b04a-238b5710941c" name="Default Changelist" comment="" />
+      <created>1572575452454</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572382207659</updated>
-      <workItem from="1572382208834" duration="895000" />
+      <updated>1572575452454</updated>
+      <workItem from="1572575453558" duration="579000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="895000" />
+    <option name="totallyTimeSpent" value="579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -122,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="345">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ComplimentOfABase10Integer" targetName="ComplimentOfABase10Integer" />
+      <config projectName="PartitionArrayIntoThreePartsWithEqualSum" targetName="PartitionArrayIntoThreePartsWithEqualSum" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2888ae4-de06-4a03-b8ec-8855e644a894" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="021cd7c3-a58a-4171-b7c5-0c730a58d60c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ComplimentOfABase10Integer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComplimentOfABase10Integer/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ComplimentOfABase10Integer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComplimentOfABase10Integer" TARGET_NAME="ComplimentOfABase10Integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComplimentOfABase10Integer" RUN_TARGET_NAME="ComplimentOfABase10Integer">
+    <configuration name="PartitionArrayIntoThreePartsWithEqualSum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PartitionArrayIntoThreePartsWithEqualSum" TARGET_NAME="PartitionArrayIntoThreePartsWithEqualSum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PartitionArrayIntoThreePartsWithEqualSum" RUN_TARGET_NAME="PartitionArrayIntoThreePartsWithEqualSum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2888ae4-de06-4a03-b8ec-8855e644a894" name="Default Changelist" comment="" />
-      <created>1573164183177</created>
+      <changelist id="021cd7c3-a58a-4171-b7c5-0c730a58d60c" name="Default Changelist" comment="" />
+      <created>1573247275587</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573164183177</updated>
-      <workItem from="1573164184355" duration="318000" />
+      <updated>1573247275587</updated>
+      <workItem from="1573247276769" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318000" />
+    <option name="totallyTimeSpent" value="331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -126,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="188">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

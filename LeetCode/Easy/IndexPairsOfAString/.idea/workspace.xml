@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ComplimentOfABase10Integer" targetName="ComplimentOfABase10Integer" />
+      <config projectName="IndexPairsOfAString" targetName="IndexPairsOfAString" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2888ae4-de06-4a03-b8ec-8855e644a894" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="42cfa367-f166-4729-8971-f74ca2458495" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SumOfRootToLeafBinaryNumbers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComplimentOfABase10Integer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComplimentOfABase10Integer/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +24,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -36,6 +50,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="948" />
@@ -70,7 +85,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ComplimentOfABase10Integer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComplimentOfABase10Integer" TARGET_NAME="ComplimentOfABase10Integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComplimentOfABase10Integer" RUN_TARGET_NAME="ComplimentOfABase10Integer">
+    <configuration name="IndexPairsOfAString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IndexPairsOfAString" TARGET_NAME="IndexPairsOfAString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IndexPairsOfAString" RUN_TARGET_NAME="IndexPairsOfAString">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,20 +96,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2888ae4-de06-4a03-b8ec-8855e644a894" name="Default Changelist" comment="" />
-      <created>1573164183177</created>
+      <changelist id="42cfa367-f166-4729-8971-f74ca2458495" name="Default Changelist" comment="" />
+      <created>1573608759506</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573164183177</updated>
-      <workItem from="1573164184355" duration="318000" />
+      <updated>1573608759506</updated>
+      <workItem from="1573608760657" duration="352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318000" />
+    <option name="totallyTimeSpent" value="352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
+    <frame x="-1" y="23" width="1680" height="948" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -126,8 +142,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="105">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ComplimentOfABase10Integer" targetName="ComplimentOfABase10Integer" />
+      <config projectName="MatrixCellsInDistanceOrder" targetName="MatrixCellsInDistanceOrder" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2888ae4-de06-4a03-b8ec-8855e644a894" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UnivaluedBinaryTree/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="39668dd9-f17e-4770-bcd8-b11150536e60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SumOfRootToLeafBinaryNumbers/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComplimentOfABase10Integer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComplimentOfABase10Integer/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ComplimentOfABase10Integer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ComplimentOfABase10Integer" TARGET_NAME="ComplimentOfABase10Integer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ComplimentOfABase10Integer" RUN_TARGET_NAME="ComplimentOfABase10Integer">
+    <configuration name="MatrixCellsInDistanceOrder" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MatrixCellsInDistanceOrder" TARGET_NAME="MatrixCellsInDistanceOrder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MatrixCellsInDistanceOrder" RUN_TARGET_NAME="MatrixCellsInDistanceOrder">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2888ae4-de06-4a03-b8ec-8855e644a894" name="Default Changelist" comment="" />
-      <created>1573164183177</created>
+      <changelist id="39668dd9-f17e-4770-bcd8-b11150536e60" name="Default Changelist" comment="" />
+      <created>1573362130137</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573164183177</updated>
-      <workItem from="1573164184355" duration="318000" />
+      <updated>1573362130137</updated>
+      <workItem from="1573362131228" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318000" />
+    <option name="totallyTimeSpent" value="587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="6" />
@@ -127,9 +128,9 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="IndexPairsOfAString" targetName="IndexPairsOfAString" />
+      <config projectName="OccurrencesAfterBigram" targetName="OccurrencesAfterBigram" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42cfa367-f166-4729-8971-f74ca2458495" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d6a51a75-1791-4dff-b06b-e406bfb77c46" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../IndexPairsOfAString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IndexPairsOfAString/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="IndexPairsOfAString" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IndexPairsOfAString" TARGET_NAME="IndexPairsOfAString" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IndexPairsOfAString" RUN_TARGET_NAME="IndexPairsOfAString">
+    <configuration name="OccurrencesAfterBigram" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OccurrencesAfterBigram" TARGET_NAME="OccurrencesAfterBigram" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OccurrencesAfterBigram" RUN_TARGET_NAME="OccurrencesAfterBigram">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42cfa367-f166-4729-8971-f74ca2458495" name="Default Changelist" comment="" />
-      <created>1573608759506</created>
+      <changelist id="d6a51a75-1791-4dff-b06b-e406bfb77c46" name="Default Changelist" comment="" />
+      <created>1573682211366</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573608759506</updated>
-      <workItem from="1573608760657" duration="893000" />
+      <updated>1573682211366</updated>
+      <workItem from="1573682212451" duration="393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="893000" />
+    <option name="totallyTimeSpent" value="393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="948" extended-state="6" />
@@ -127,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        <state relative-caret-position="165">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

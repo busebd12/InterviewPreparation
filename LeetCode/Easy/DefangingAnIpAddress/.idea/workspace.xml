@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TwoSumLessThanK" targetName="TwoSumLessThanK" />
+      <config projectName="DefangingAnIpAddress" targetName="DefangingAnIpAddress" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea418021-eb72-4013-873f-8fb5f43ab5e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../IndexPairsOfAString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IndexPairsOfAString/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5304f44f-b1e5-49b4-9622-0337da7ef603" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../TwoSumLessThanK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSumLessThanK/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TwoSumLessThanK" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TwoSumLessThanK" TARGET_NAME="TwoSumLessThanK" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TwoSumLessThanK" RUN_TARGET_NAME="TwoSumLessThanK">
+    <configuration name="DefangingAnIpAddress" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DefangingAnIpAddress" TARGET_NAME="DefangingAnIpAddress" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DefangingAnIpAddress" RUN_TARGET_NAME="DefangingAnIpAddress">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ea418021-eb72-4013-873f-8fb5f43ab5e1" name="Default Changelist" comment="" />
-      <created>1573781288537</created>
+      <changelist id="5304f44f-b1e5-49b4-9622-0337da7ef603" name="Default Changelist" comment="" />
+      <created>1573868418381</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573781288537</updated>
-      <workItem from="1573781289736" duration="919000" />
+      <updated>1573868418381</updated>
+      <workItem from="1573868419557" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="919000" />
+    <option name="totallyTimeSpent" value="504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="948" extended-state="6" />
@@ -127,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

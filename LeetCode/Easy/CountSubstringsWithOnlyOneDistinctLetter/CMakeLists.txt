@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.13)
+project(CountSubstringsWithOnlyOneDistinctLetter)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(CountSubstringsWithOnlyOneDistinctLetter main.cpp)

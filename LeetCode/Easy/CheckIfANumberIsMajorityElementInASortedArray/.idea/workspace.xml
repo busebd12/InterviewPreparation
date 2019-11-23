@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="LargestUniqueNumber" targetName="LargestUniqueNumber" />
+      <config projectName="CheckIfANumberIsMajorityElementInASortedArray" targetName="CheckIfANumberIsMajorityElementInASortedArray" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91949d57-90d5-488e-978b-95f6d785fb14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../TwoSumLessThanK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TwoSumLessThanK/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="364db8f5-a8a5-4dd5-b9fa-d2ad516ac344" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LargestUniqueNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LargestUniqueNumber/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="LargestUniqueNumber" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LargestUniqueNumber" TARGET_NAME="LargestUniqueNumber" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LargestUniqueNumber" RUN_TARGET_NAME="LargestUniqueNumber">
+    <configuration name="CheckIfANumberIsMajorityElementInASortedArray" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CheckIfANumberIsMajorityElementInASortedArray" TARGET_NAME="CheckIfANumberIsMajorityElementInASortedArray" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CheckIfANumberIsMajorityElementInASortedArray" RUN_TARGET_NAME="CheckIfANumberIsMajorityElementInASortedArray">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="91949d57-90d5-488e-978b-95f6d785fb14" name="Default Changelist" comment="" />
-      <created>1574028792853</created>
+      <changelist id="364db8f5-a8a5-4dd5-b9fa-d2ad516ac344" name="Default Changelist" comment="" />
+      <created>1574113483948</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574028792853</updated>
-      <workItem from="1574028793958" duration="462000" />
+      <updated>1574113483948</updated>
+      <workItem from="1574113485058" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462000" />
+    <option name="totallyTimeSpent" value="244000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="948" extended-state="6" />
@@ -100,11 +100,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -127,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="-932">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="HowManyApplesCanYouPutIntoTheBasket" targetName="HowManyApplesCanYouPutIntoTheBasket" />
+      <config projectName="UniqueNumberOfOccurrences" targetName="UniqueNumberOfOccurrences" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35eed95e-eedc-4e81-ab0c-4e993c61b2d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../DietPlanPerformance/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LargestUniqueNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LargestUniqueNumber/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="11734a77-3c92-498a-8066-7e978dbc1d88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../HowManyApplesCanYouPutIntoTheBasket/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HowManyApplesCanYouPutIntoTheBasket/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="HowManyApplesCanYouPutIntoTheBasket" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HowManyApplesCanYouPutIntoTheBasket" TARGET_NAME="HowManyApplesCanYouPutIntoTheBasket" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HowManyApplesCanYouPutIntoTheBasket" RUN_TARGET_NAME="HowManyApplesCanYouPutIntoTheBasket">
+    <configuration name="UniqueNumberOfOccurrences" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UniqueNumberOfOccurrences" TARGET_NAME="UniqueNumberOfOccurrences" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UniqueNumberOfOccurrences" RUN_TARGET_NAME="UniqueNumberOfOccurrences">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -83,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35eed95e-eedc-4e81-ab0c-4e993c61b2d6" name="Default Changelist" comment="" />
-      <created>1574524587895</created>
+      <changelist id="11734a77-3c92-498a-8066-7e978dbc1d88" name="Default Changelist" comment="" />
+      <created>1574558637549</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574524587895</updated>
-      <workItem from="1574524589050" duration="289000" />
+      <updated>1574558637549</updated>
+      <workItem from="1574558638751" duration="310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289000" />
+    <option name="totallyTimeSpent" value="310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="948" extended-state="6" />
@@ -128,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="405">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

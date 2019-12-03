@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/PartitionEqualSubsetSum.dir/main.cpp.o  -o PartitionEqualSubsetSum 

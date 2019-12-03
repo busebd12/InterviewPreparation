@@ -1,3 +1,0 @@
-/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/DiagonalTraverse/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/DiagonalTraverse/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/DiagonalTraverse/cmake-build-debug/CMakeFiles/DiagonalTraverse.dir

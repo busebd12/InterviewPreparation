@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="AddTwoNumbers" targetName="AddTwoNumbers" />
+      <config projectName="LongestPalindromicSubstring" targetName="LongestPalindromicSubstring" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23b6d37d-f0fc-4ef0-8761-8e0a2fe049fd" name="Default Changelist" comment="" />
+    <list default="true" id="5c105f4f-5fd5-4ace-8d38-c6c20422120c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AddTwoNumbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddTwoNumbers/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AddTwoNumbers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AddTwoNumbers" TARGET_NAME="AddTwoNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AddTwoNumbers" RUN_TARGET_NAME="AddTwoNumbers">
+    <configuration name="LongestPalindromicSubstring" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LongestPalindromicSubstring" TARGET_NAME="LongestPalindromicSubstring" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LongestPalindromicSubstring" RUN_TARGET_NAME="LongestPalindromicSubstring">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -80,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23b6d37d-f0fc-4ef0-8761-8e0a2fe049fd" name="Default Changelist" comment="" />
-      <created>1575335468514</created>
+      <changelist id="5c105f4f-5fd5-4ace-8d38-c6c20422120c" name="Default Changelist" comment="" />
+      <created>1575676965703</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575335468514</updated>
-      <workItem from="1575335469662" duration="1063000" />
+      <updated>1575676965703</updated>
+      <workItem from="1575676966917" duration="559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1063000" />
+    <option name="totallyTimeSpent" value="559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="948" extended-state="0" />
@@ -125,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="360">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

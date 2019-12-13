@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="AddTwoNumbers" targetName="AddTwoNumbers" />
+      <config projectName="IntegerToRoman" targetName="IntegerToRoman" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23b6d37d-f0fc-4ef0-8761-8e0a2fe049fd" name="Default Changelist" comment="" />
+    <list default="true" id="f94e1dcc-f369-4052-bb18-3220d5b37bc0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AddTwoNumbers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddTwoNumbers/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +41,14 @@
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -69,7 +69,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="AddTwoNumbers" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AddTwoNumbers" TARGET_NAME="AddTwoNumbers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AddTwoNumbers" RUN_TARGET_NAME="AddTwoNumbers">
+    <configuration name="IntegerToRoman" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="IntegerToRoman" TARGET_NAME="IntegerToRoman" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="IntegerToRoman" RUN_TARGET_NAME="IntegerToRoman">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -80,17 +80,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="23b6d37d-f0fc-4ef0-8761-8e0a2fe049fd" name="Default Changelist" comment="" />
-      <created>1575335468514</created>
+      <changelist id="f94e1dcc-f369-4052-bb18-3220d5b37bc0" name="Default Changelist" comment="" />
+      <created>1575783385164</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575335468514</updated>
-      <workItem from="1575335469662" duration="1063000" />
+      <updated>1575783385164</updated>
+      <workItem from="1575783386315" duration="366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1063000" />
+    <option name="totallyTimeSpent" value="366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1680" height="948" extended-state="0" />
@@ -125,10 +125,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="703">
+          <caret line="166" column="18" lean-forward="true" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/LetterCombinationsOfAPhoneNumber/main.cpp
+algorithm
+-
+iostream
+-
+iterator
+-
+string
+-
+unordered_map
+-
+vector
+-
+

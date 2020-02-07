@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/4Sum/main.cpp
+algorithm
+-
+iostream
+-
+iterator
+-
+set
+-
+unordered_map
+-
+vector
+-
+

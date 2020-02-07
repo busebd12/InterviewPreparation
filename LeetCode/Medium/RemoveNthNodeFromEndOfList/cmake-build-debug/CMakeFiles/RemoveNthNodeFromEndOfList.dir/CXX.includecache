@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/ListNode.h
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/RemoveNthNodeFromEndOfList/main.cpp
+../ListNode.h
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/ListNode.h
+iostream
+-
+

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BinaryTreeInOrderTraversal" targetName="BinaryTreeInOrderTraversal" />
+      <config projectName="ConstructBinaryTreeFromInorderAndPostorderTraversal" targetName="ConstructBinaryTreeFromInorderAndPostorderTraversal" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,12 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a9f7a58-2c75-45a1-baa4-79bc345e3b44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MinimumPathSum/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SpiralMatrixII/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquePathsII/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3SumClosest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3SumClosest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ListNode.h" afterDir="false" />
+    <list default="true" id="19c6b1f7-70cd-4ff0-a05e-6f7058944c8b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeInOrderTraversal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeInOrderTraversal/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BinaryTreeInOrderTraversal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinaryTreeInOrderTraversal" TARGET_NAME="BinaryTreeInOrderTraversal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinaryTreeInOrderTraversal" RUN_TARGET_NAME="BinaryTreeInOrderTraversal">
+    <configuration name="ConstructBinaryTreeFromInorderAndPostorderTraversal" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConstructBinaryTreeFromInorderAndPostorderTraversal" TARGET_NAME="ConstructBinaryTreeFromInorderAndPostorderTraversal" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConstructBinaryTreeFromInorderAndPostorderTraversal" RUN_TARGET_NAME="ConstructBinaryTreeFromInorderAndPostorderTraversal">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -85,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4a9f7a58-2c75-45a1-baa4-79bc345e3b44" name="Default Changelist" comment="" />
-      <created>1581110609424</created>
+      <changelist id="19c6b1f7-70cd-4ff0-a05e-6f7058944c8b" name="Default Changelist" comment="" />
+      <created>1581468871382</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581110609424</updated>
-      <workItem from="1581110610851" duration="2091000" />
+      <updated>1581468871382</updated>
+      <workItem from="1581468872531" duration="438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2091000" />
+    <option name="totallyTimeSpent" value="438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -103,11 +99,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -130,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="-1082">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>

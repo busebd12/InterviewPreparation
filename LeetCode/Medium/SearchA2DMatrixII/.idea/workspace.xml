@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="PopulatingNextRightPointersInEachNodeII" targetName="PopulatingNextRightPointersInEachNodeII" />
+      <config projectName="SearchA2DMatrixII" targetName="SearchA2DMatrixII" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a7507e1-3492-4a11-ae3a-71917ae712b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeInOrderTraversal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeInOrderTraversal/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="82c5ba03-79ad-4226-b5a9-100ba022cd99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CopyListWithRandomPointer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PopulatingNextRightPointersInEachNodeII/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PopulatingNextRightPointersInEachNodeII/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +41,9 @@
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -69,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="PopulatingNextRightPointersInEachNodeII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PopulatingNextRightPointersInEachNodeII" TARGET_NAME="PopulatingNextRightPointersInEachNodeII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PopulatingNextRightPointersInEachNodeII" RUN_TARGET_NAME="PopulatingNextRightPointersInEachNodeII">
+    <configuration name="SearchA2DMatrixII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SearchA2DMatrixII" TARGET_NAME="SearchA2DMatrixII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SearchA2DMatrixII" RUN_TARGET_NAME="SearchA2DMatrixII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -80,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a7507e1-3492-4a11-ae3a-71917ae712b0" name="Default Changelist" comment="" />
-      <created>1581934133002</created>
+      <changelist id="82c5ba03-79ad-4226-b5a9-100ba022cd99" name="Default Changelist" comment="" />
+      <created>1583036776883</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581934133002</updated>
-      <workItem from="1581934134128" duration="370000" />
+      <updated>1583036776883</updated>
+      <workItem from="1583036777966" duration="229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370000" />
+    <option name="totallyTimeSpent" value="229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -125,10 +127,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1847">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="90">
+          <caret line="6" column="119" selection-start-line="6" selection-start-column="119" selection-end-line="6" selection-end-column="119" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

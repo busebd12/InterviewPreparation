@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/CoinChange/main.cpp
+algorithm
+-
+cmath
+-
+iostream
+-
+iterator
+-
+queue
+-
+unordered_map
+-
+unordered_set
+-
+vector
+-
+

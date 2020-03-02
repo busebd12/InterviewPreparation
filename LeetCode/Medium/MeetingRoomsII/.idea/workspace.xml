@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="PopulatingNextRightPointersInEachNodeII" targetName="PopulatingNextRightPointersInEachNodeII" />
+      <config projectName="MeetingRoomsII" targetName="MeetingRoomsII" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a7507e1-3492-4a11-ae3a-71917ae712b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BinaryTreeInOrderTraversal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeInOrderTraversal/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4bf3286e-54b1-4713-a198-fe9ee59e9357" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CopyListWithRandomPointer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PopulatingNextRightPointersInEachNodeII/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PopulatingNextRightPointersInEachNodeII/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +47,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -69,7 +69,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="PopulatingNextRightPointersInEachNodeII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PopulatingNextRightPointersInEachNodeII" TARGET_NAME="PopulatingNextRightPointersInEachNodeII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PopulatingNextRightPointersInEachNodeII" RUN_TARGET_NAME="PopulatingNextRightPointersInEachNodeII">
+    <configuration name="MeetingRoomsII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MeetingRoomsII" TARGET_NAME="MeetingRoomsII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MeetingRoomsII" RUN_TARGET_NAME="MeetingRoomsII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -80,17 +80,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a7507e1-3492-4a11-ae3a-71917ae712b0" name="Default Changelist" comment="" />
-      <created>1581934133002</created>
+      <changelist id="4bf3286e-54b1-4713-a198-fe9ee59e9357" name="Default Changelist" comment="" />
+      <created>1582341847149</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581934133002</updated>
-      <workItem from="1581934134128" duration="370000" />
+      <updated>1582341847149</updated>
+      <workItem from="1582341848244" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370000" />
+    <option name="totallyTimeSpent" value="937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -125,8 +125,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1847">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="345">
+          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

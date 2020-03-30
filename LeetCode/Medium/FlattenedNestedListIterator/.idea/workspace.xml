@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TimeBasedKey_ValueStore" targetName="TimeBasedKey_ValueStore" />
+      <config projectName="FlattenedNestedListIterator" targetName="FlattenedNestedListIterator" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41413b50-fc66-4b2c-ba2d-1b080077fc4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="887ff2fe-f2e3-422e-a3c8-444718eb0163" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FractionToRecurringDecimal/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeBasedKey-ValueStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeBasedKey-ValueStore/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TimeBasedKey_ValueStore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimeBasedKey_ValueStore" TARGET_NAME="TimeBasedKey_ValueStore" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimeBasedKey_ValueStore" RUN_TARGET_NAME="TimeBasedKey_ValueStore">
+    <configuration name="FlattenedNestedListIterator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FlattenedNestedListIterator" TARGET_NAME="FlattenedNestedListIterator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FlattenedNestedListIterator" RUN_TARGET_NAME="FlattenedNestedListIterator">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41413b50-fc66-4b2c-ba2d-1b080077fc4c" name="Default Changelist" comment="" />
-      <created>1583185088158</created>
+      <changelist id="887ff2fe-f2e3-422e-a3c8-444718eb0163" name="Default Changelist" comment="" />
+      <created>1585428129527</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583185088158</updated>
-      <workItem from="1583185089392" duration="935000" />
+      <updated>1585428129527</updated>
+      <workItem from="1585428130763" duration="622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="935000" />
+    <option name="totallyTimeSpent" value="622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -99,11 +100,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -126,8 +127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        <state relative-caret-position="719">
+          <caret line="125" column="2" selection-start-line="125" selection-start-column="2" selection-end-line="125" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

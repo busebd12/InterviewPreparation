@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TimeBasedKey_ValueStore" targetName="TimeBasedKey_ValueStore" />
+      <config projectName="BinaryTreeRightSideView" targetName="BinaryTreeRightSideView" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41413b50-fc66-4b2c-ba2d-1b080077fc4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="34239c63-d8c6-4094-b1b7-4296c852c265" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../FractionToRecurringDecimal/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TimeBasedKey-ValueStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeBasedKey-ValueStore/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +71,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TimeBasedKey_ValueStore" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TimeBasedKey_ValueStore" TARGET_NAME="TimeBasedKey_ValueStore" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TimeBasedKey_ValueStore" RUN_TARGET_NAME="TimeBasedKey_ValueStore">
+    <configuration name="BinaryTreeRightSideView" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BinaryTreeRightSideView" TARGET_NAME="BinaryTreeRightSideView" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BinaryTreeRightSideView" RUN_TARGET_NAME="BinaryTreeRightSideView">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +82,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41413b50-fc66-4b2c-ba2d-1b080077fc4c" name="Default Changelist" comment="" />
-      <created>1583185088158</created>
+      <changelist id="34239c63-d8c6-4094-b1b7-4296c852c265" name="Default Changelist" comment="" />
+      <created>1585238863823</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1583185088158</updated>
-      <workItem from="1583185089392" duration="935000" />
+      <updated>1585238863823</updated>
+      <workItem from="1585238864898" duration="336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="935000" />
+    <option name="totallyTimeSpent" value="336000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,11 +127,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>

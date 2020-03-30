@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/LongestStringChain/main.cpp
+algorithm
+-
+cmath
+-
+iostream
+-
+iterator
+-
+queue
+-
+string
+-
+unordered_set
+-
+utility
+-
+vector
+-
+

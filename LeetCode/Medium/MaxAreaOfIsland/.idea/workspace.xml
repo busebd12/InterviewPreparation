@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="GrumpyBookstoreOwner" targetName="GrumpyBookstoreOwner" />
+      <config projectName="MaxAreaOfIsland" targetName="MaxAreaOfIsland" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,9 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5b37545-2f52-41ba-8709-f8a034c56806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FractionToRecurringDecimal/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TimeBasedKey-ValueStore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TimeBasedKey-ValueStore/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cf723051-5b4c-4e70-81b7-9c53536c6ba0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GrumpyBookstoreOwner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrumpyBookstoreOwner/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,9 +40,7 @@
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -71,7 +68,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="GrumpyBookstoreOwner" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GrumpyBookstoreOwner" TARGET_NAME="GrumpyBookstoreOwner" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GrumpyBookstoreOwner" RUN_TARGET_NAME="GrumpyBookstoreOwner">
+    <configuration name="MaxAreaOfIsland" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaxAreaOfIsland" TARGET_NAME="MaxAreaOfIsland" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaxAreaOfIsland" RUN_TARGET_NAME="MaxAreaOfIsland">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -82,17 +79,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f5b37545-2f52-41ba-8709-f8a034c56806" name="Default Changelist" comment="" />
-      <created>1585607084750</created>
+      <changelist id="cf723051-5b4c-4e70-81b7-9c53536c6ba0" name="Default Changelist" comment="" />
+      <created>1585943943416</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585607084750</updated>
-      <workItem from="1585607085884" duration="1015000" />
+      <updated>1585943943416</updated>
+      <workItem from="1585943944493" duration="723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1015000" />
+    <option name="totallyTimeSpent" value="723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -127,10 +124,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="4755">
+          <caret line="317" column="11" selection-start-line="317" selection-start-column="11" selection-end-line="317" selection-end-column="11" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

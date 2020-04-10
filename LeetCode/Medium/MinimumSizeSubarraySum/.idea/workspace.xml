@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="UTF_8Validation" targetName="UTF_8Validation" />
+      <config projectName="MinimumSizeSubarraySum" targetName="MinimumSizeSubarraySum" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad8eae95-5ab9-4396-b083-36e75b2b605b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../GrumpyBookstoreOwner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GrumpyBookstoreOwner/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1cc0d7c8-0f1d-4d8a-8a66-76edf266f33b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../UTF-8Validation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UTF-8Validation/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +40,9 @@
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="UTF_8Validation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="UTF_8Validation" TARGET_NAME="UTF_8Validation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="UTF_8Validation" RUN_TARGET_NAME="UTF_8Validation">
+    <configuration name="MinimumSizeSubarraySum" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinimumSizeSubarraySum" TARGET_NAME="MinimumSizeSubarraySum" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinimumSizeSubarraySum" RUN_TARGET_NAME="MinimumSizeSubarraySum">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad8eae95-5ab9-4396-b083-36e75b2b605b" name="Default Changelist" comment="" />
-      <created>1586120681725</created>
+      <changelist id="1cc0d7c8-0f1d-4d8a-8a66-76edf266f33b" name="Default Changelist" comment="" />
+      <created>1586276598387</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586120681725</updated>
-      <workItem from="1586120682945" duration="251000" />
+      <updated>1586276598387</updated>
+      <workItem from="1586276599511" duration="475000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251000" />
+    <option name="totallyTimeSpent" value="475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -124,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/brendanbusey/Desktop/Github/InterviewPreparation/LeetCode/Medium/ReorganizeString/main.cpp
+algorithm
+-
+cmath
+-
+iostream
+-
+iterator
+-
+string
+-
+unordered_map
+-
+vector
+-
+

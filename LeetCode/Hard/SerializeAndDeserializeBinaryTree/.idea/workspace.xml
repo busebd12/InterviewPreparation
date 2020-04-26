@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TaskScheduler" targetName="TaskScheduler" />
+      <config projectName="SerializeAndDeserializeBinaryTree" targetName="SerializeAndDeserializeBinaryTree" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57edf3b-9fd3-4a0d-adda-af0db0a5e001" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UTF-8Validation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UTF-8Validation/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0be9425d-ecbc-48e4-a60f-4c2710a2d562" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TaskScheduler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TaskScheduler" TARGET_NAME="TaskScheduler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TaskScheduler" RUN_TARGET_NAME="TaskScheduler">
+    <configuration name="SerializeAndDeserializeBinaryTree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SerializeAndDeserializeBinaryTree" TARGET_NAME="SerializeAndDeserializeBinaryTree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SerializeAndDeserializeBinaryTree" RUN_TARGET_NAME="SerializeAndDeserializeBinaryTree">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a57edf3b-9fd3-4a0d-adda-af0db0a5e001" name="Default Changelist" comment="" />
-      <created>1586544112113</created>
+      <changelist id="0be9425d-ecbc-48e4-a60f-4c2710a2d562" name="Default Changelist" comment="" />
+      <created>1587381144104</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586544112113</updated>
-      <workItem from="1586544113313" duration="1472000" />
+      <updated>1587381144104</updated>
+      <workItem from="1587381145307" duration="812000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1472000" />
+    <option name="totallyTimeSpent" value="812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="90" lean-forward="true" selection-start-line="135" selection-start-column="90" selection-end-line="135" selection-end-column="90" />
+        <state relative-caret-position="255">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>

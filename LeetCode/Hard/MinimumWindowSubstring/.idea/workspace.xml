@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="TaskScheduler" targetName="TaskScheduler" />
+      <config projectName="MinimumWindowSubstring" targetName="MinimumWindowSubstring" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a57edf3b-9fd3-4a0d-adda-af0db0a5e001" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../UTF-8Validation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UTF-8Validation/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ea8aaeb4-e76f-4059-9f2f-21f6b8adb97d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="TaskScheduler" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TaskScheduler" TARGET_NAME="TaskScheduler" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="TaskScheduler" RUN_TARGET_NAME="TaskScheduler">
+    <configuration name="MinimumWindowSubstring" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MinimumWindowSubstring" TARGET_NAME="MinimumWindowSubstring" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MinimumWindowSubstring" RUN_TARGET_NAME="MinimumWindowSubstring">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a57edf3b-9fd3-4a0d-adda-af0db0a5e001" name="Default Changelist" comment="" />
-      <created>1586544112113</created>
+      <changelist id="ea8aaeb4-e76f-4059-9f2f-21f6b8adb97d" name="Default Changelist" comment="" />
+      <created>1587322130685</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1586544112113</updated>
-      <workItem from="1586544113313" duration="1472000" />
+      <updated>1587322130685</updated>
+      <workItem from="1587322131904" duration="1096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1472000" />
+    <option name="totallyTimeSpent" value="1096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="90" lean-forward="true" selection-start-line="135" selection-start-column="90" selection-end-line="135" selection-end-column="90" />
+        <state relative-caret-position="645">
+          <caret line="43" column="129" selection-start-line="43" selection-start-column="129" selection-end-line="43" selection-end-column="129" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

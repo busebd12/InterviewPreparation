@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BasicCalculator" targetName="BasicCalculator" />
+      <config projectName="LFUCache" targetName="LFUCache" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="552df630-94f8-422d-8129-8370c040b6c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BasicCalculator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BasicCalculator" TARGET_NAME="BasicCalculator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BasicCalculator" RUN_TARGET_NAME="BasicCalculator">
+    <configuration name="LFUCache" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LFUCache" TARGET_NAME="LFUCache" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LFUCache" RUN_TARGET_NAME="LFUCache">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="" />
-      <created>1587861865014</created>
+      <changelist id="552df630-94f8-422d-8129-8370c040b6c2" name="Default Changelist" comment="" />
+      <created>1589401058285</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587861865014</updated>
-      <workItem from="1587861866239" duration="614000" />
+      <updated>1589401058285</updated>
+      <workItem from="1589401059609" duration="1590000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614000" />
+    <option name="totallyTimeSpent" value="1590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="360">
+          <caret line="24" column="70" lean-forward="true" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

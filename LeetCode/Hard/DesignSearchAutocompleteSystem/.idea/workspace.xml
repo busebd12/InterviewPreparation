@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BasicCalculator" targetName="BasicCalculator" />
+      <config projectName="DesignSearchAutocompleteSystem" targetName="DesignSearchAutocompleteSystem" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5dae6fc9-8935-4378-809e-b07dbd3fe447" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,16 +40,14 @@
     <option name="width" value="1680" />
     <option name="height" value="948" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +68,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BasicCalculator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BasicCalculator" TARGET_NAME="BasicCalculator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BasicCalculator" RUN_TARGET_NAME="BasicCalculator">
+    <configuration name="DesignSearchAutocompleteSystem" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignSearchAutocompleteSystem" TARGET_NAME="DesignSearchAutocompleteSystem" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignSearchAutocompleteSystem" RUN_TARGET_NAME="DesignSearchAutocompleteSystem">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +79,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="" />
-      <created>1587861865014</created>
+      <changelist id="5dae6fc9-8935-4378-809e-b07dbd3fe447" name="Default Changelist" comment="" />
+      <created>1588191102020</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587861865014</updated>
-      <workItem from="1587861866239" duration="614000" />
+      <updated>1588191102020</updated>
+      <workItem from="1588191103175" duration="4856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614000" />
+    <option name="totallyTimeSpent" value="4856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -99,14 +97,15 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32943925" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32943925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -127,9 +126,9 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="122" selection-start-line="16" selection-start-column="122" selection-end-line="16" selection-end-column="122" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

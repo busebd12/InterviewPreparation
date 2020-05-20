@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BasicCalculator" targetName="BasicCalculator" />
+      <config projectName="WordSearchII" targetName="WordSearchII" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="86e18e09-50ea-4fa5-8f2b-465cda758634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BasicCalculator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BasicCalculator" TARGET_NAME="BasicCalculator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BasicCalculator" RUN_TARGET_NAME="BasicCalculator">
+    <configuration name="WordSearchII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WordSearchII" TARGET_NAME="WordSearchII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="WordSearchII" RUN_TARGET_NAME="WordSearchII">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,29 +81,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="" />
-      <created>1587861865014</created>
+      <changelist id="86e18e09-50ea-4fa5-8f2b-465cda758634" name="Default Changelist" comment="" />
+      <created>1588278664618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587861865014</updated>
-      <workItem from="1587861866239" duration="614000" />
+      <updated>1588278664618</updated>
+      <workItem from="1588278665909" duration="1066000" />
+      <workItem from="1588319519915" duration="162000" />
+      <workItem from="1588864531637" duration="51000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614000" />
+    <option name="totallyTimeSpent" value="1279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -111,10 +108,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,10 +128,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="1605">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

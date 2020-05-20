@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="BasicCalculator" targetName="BasicCalculator" />
+      <config projectName="AllO_oneDataStructure" targetName="AllO_oneDataStructure" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/TaskScheduler/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e16ce492-2d60-46bc-83cc-b2092291e948" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BasicCalculator/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="BasicCalculator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="BasicCalculator" TARGET_NAME="BasicCalculator" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="BasicCalculator" RUN_TARGET_NAME="BasicCalculator">
+    <configuration name="AllO_oneDataStructure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AllO_oneDataStructure" TARGET_NAME="AllO_oneDataStructure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AllO_oneDataStructure" RUN_TARGET_NAME="AllO_oneDataStructure">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6d607839-0478-4022-a6cd-3070bde0a332" name="Default Changelist" comment="" />
-      <created>1587861865014</created>
+      <changelist id="e16ce492-2d60-46bc-83cc-b2092291e948" name="Default Changelist" comment="" />
+      <created>1588864583613</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587861865014</updated>
-      <workItem from="1587861866239" duration="614000" />
+      <updated>1588864583613</updated>
+      <workItem from="1588864585463" duration="2425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="614000" />
+    <option name="totallyTimeSpent" value="2425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="960">
+          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

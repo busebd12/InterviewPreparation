@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="SortList" targetName="SortList" />
+      <config projectName="DivisorGame" targetName="DivisorGame" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aafc81cf-0d23-4a22-b94d-6777c232401f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Hard/BasicCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hard/BasicCalculator/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c1c507c-b5b5-4b8d-96b9-6cc8828b9d63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Medium/SortList/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/SortList/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="SortList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SortList" TARGET_NAME="SortList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SortList" RUN_TARGET_NAME="SortList">
+    <configuration name="DivisorGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DivisorGame" TARGET_NAME="DivisorGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DivisorGame" RUN_TARGET_NAME="DivisorGame">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="aafc81cf-0d23-4a22-b94d-6777c232401f" name="Default Changelist" comment="" />
-      <created>1589963949330</created>
+      <changelist id="1c1c507c-b5b5-4b8d-96b9-6cc8828b9d63" name="Default Changelist" comment="" />
+      <created>1591199461970</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589963949330</updated>
-      <workItem from="1589963950407" duration="394000" />
+      <updated>1591199461970</updated>
+      <workItem from="1591199463046" duration="412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="394000" />
+    <option name="totallyTimeSpent" value="412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1455">
-          <caret line="97" column="36" selection-start-line="97" selection-start-column="36" selection-end-line="97" selection-end-column="36" />
+        <state relative-caret-position="-1127">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

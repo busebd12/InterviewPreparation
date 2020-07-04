@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="FindTheCelebrity" targetName="FindTheCelebrity" />
+      <config projectName="InsertInterval" targetName="InsertInterval" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fde0055-083c-4b41-a307-dfa240ca87c4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bb4d8279-74bc-4641-a5d7-5df29bfb25c5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Medium/FindTheCelebrity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/FindTheCelebrity/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -70,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="FindTheCelebrity" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FindTheCelebrity" TARGET_NAME="FindTheCelebrity" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="FindTheCelebrity" RUN_TARGET_NAME="FindTheCelebrity">
+    <configuration name="InsertInterval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InsertInterval" TARGET_NAME="InsertInterval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InsertInterval" RUN_TARGET_NAME="InsertInterval">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9fde0055-083c-4b41-a307-dfa240ca87c4" name="Default Changelist" comment="" />
-      <created>1592580112966</created>
+      <changelist id="bb4d8279-74bc-4641-a5d7-5df29bfb25c5" name="Default Changelist" comment="" />
+      <created>1593721891168</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1592580112966</updated>
-      <workItem from="1592580114170" duration="867000" />
+      <updated>1593721891168</updated>
+      <workItem from="1593721892531" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="867000" />
+    <option name="totallyTimeSpent" value="337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -126,8 +126,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="21" lean-forward="true" selection-start-line="121" selection-start-column="21" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="225">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

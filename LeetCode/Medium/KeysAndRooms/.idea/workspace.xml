@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="InsertInterval" targetName="InsertInterval" />
+      <config projectName="KeysAndRooms" targetName="KeysAndRooms" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d8279-74bc-4641-a5d7-5df29bfb25c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Medium/FindTheCelebrity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/FindTheCelebrity/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="334ab8b0-3d41-4a9e-b451-1e170938cfbc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Hard/InsertInterval/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hard/InsertInterval/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +23,20 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -70,7 +83,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="InsertInterval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InsertInterval" TARGET_NAME="InsertInterval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InsertInterval" RUN_TARGET_NAME="InsertInterval">
+    <configuration name="KeysAndRooms" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="KeysAndRooms" TARGET_NAME="KeysAndRooms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="KeysAndRooms" RUN_TARGET_NAME="KeysAndRooms">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,20 +94,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb4d8279-74bc-4641-a5d7-5df29bfb25c5" name="Default Changelist" comment="" />
-      <created>1593721891168</created>
+      <changelist id="334ab8b0-3d41-4a9e-b451-1e170938cfbc" name="Default Changelist" comment="" />
+      <created>1594674289860</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593721891168</updated>
-      <workItem from="1593721892531" duration="346000" />
+      <updated>1594674289860</updated>
+      <workItem from="1594674291050" duration="464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346000" />
+    <option name="totallyTimeSpent" value="464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
@@ -126,8 +140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="315">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

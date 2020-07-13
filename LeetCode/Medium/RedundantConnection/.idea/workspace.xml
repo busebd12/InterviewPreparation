@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="InsertInterval" targetName="InsertInterval" />
+      <config projectName="RedundantConnection" targetName="RedundantConnection" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb4d8279-74bc-4641-a5d7-5df29bfb25c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Medium/FindTheCelebrity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/FindTheCelebrity/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="39f37a9d-ccd1-4023-b20e-c0792ddbfafb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Hard/InsertInterval/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Hard/InsertInterval/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,12 +48,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RedundantConnection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RedundantConnection" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -70,7 +81,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="InsertInterval" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="InsertInterval" TARGET_NAME="InsertInterval" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="InsertInterval" RUN_TARGET_NAME="InsertInterval">
+    <configuration name="RedundantConnection" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RedundantConnection" TARGET_NAME="RedundantConnection" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RedundantConnection" RUN_TARGET_NAME="RedundantConnection">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -81,29 +92,25 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb4d8279-74bc-4641-a5d7-5df29bfb25c5" name="Default Changelist" comment="" />
-      <created>1593721891168</created>
+      <changelist id="39f37a9d-ccd1-4023-b20e-c0792ddbfafb" name="Default Changelist" comment="" />
+      <created>1594156536576</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1593721891168</updated>
-      <workItem from="1593721892531" duration="346000" />
+      <updated>1594156536576</updated>
+      <workItem from="1594156537807" duration="487000" />
+      <workItem from="1594244353548" duration="1003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="346000" />
+    <option name="totallyTimeSpent" value="1490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -111,10 +118,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,8 +138,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="435">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

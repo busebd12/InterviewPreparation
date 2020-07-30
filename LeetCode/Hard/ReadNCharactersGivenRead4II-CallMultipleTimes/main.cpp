@@ -2,7 +2,9 @@
 #include <queue>
 
 /*
- * Solution: inspired from this post --> https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/discuss/613198/Simple-and-short-c%2B%2B-with-queue-beats-100-memory-%2B-runtime
+ * Solution: the first time our function is called, we read all the characters from the file into a std::queue<char>.
+ * Then, we read the desired amount of characters from the queue into the buffer and return the number of characters read.
+ * For all subsequent calls, we just read the required amount of characters in the buffer from the queue and return the number of characters read.
  *
  * Time complexity: O(c) [where c is the number of times the read function is called]
  * Space complexity: O(m) [where m is the number of characters in the file being read from]
@@ -22,7 +24,7 @@ class Solution
         {
             int totalCharactersRead=0;
 
-            while(totalCharactersRead < n && !Q.empty())
+            while(!Q.empty() && totalCharactersRead < n)
             {
                 buf[totalCharactersRead]=Q.front();
 
@@ -31,32 +33,30 @@ class Solution
                 totalCharactersRead++;
             }
 
-            while(totalCharactersRead < n)
+            while(true)
             {
                 char nextCharacters[4];
 
                 int charactersReadFromFile=read4(nextCharacters);
 
-                int i=0;
-
-                for(;i<charactersReadFromFile;i++)
-                {
-                    if(totalCharactersRead==n)
-                    {
-                        Q.push(nextCharacters[i]);
-                    }
-                    else
-                    {
-                        buf[totalCharactersRead]=nextCharacters[i];
-
-                        totalCharactersRead++;
-                    }
-                }
-
-                if(i==charactersReadFromFile && charactersReadFromFile < 4)
+                if(charactersReadFromFile==0)
                 {
                     break;
                 }
+
+                for(int index=0;index<charactersReadFromFile;index++)
+                {
+                    Q.emplace(nextCharacters[index]);
+                }
+            }
+
+            while(!Q.empty() && totalCharactersRead < n)
+            {
+                buf[totalCharactersRead]=Q.front();
+
+                Q.pop();
+
+                totalCharactersRead++;
             }
 
             return totalCharactersRead;

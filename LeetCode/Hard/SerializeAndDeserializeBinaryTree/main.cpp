@@ -26,6 +26,15 @@
  *
  * Time complexity: O(n) [where n is the number of nodes in the binary tree]
  * Space complexity: O(n)
+ *
+ *
+ * 3. We use breadth-first search to serialize the binary tree as a string where each each character is
+ * the value of each node and the number of children each node has, separated by a space. If the node only has
+ * one child, then the value is 1L (for only a left child) and 1R (for only a right child). To deserialize, we use
+ * breadth-first search along with a std::stringstream object to parse out the necessary information from the string.
+ *
+ * Time complexity: O(n) [where n is the number of nodes in the N-ary tree]
+ * Space complexity: O(h) [where h is the height of the N-ary tree]
  */
 class Codec
 {
@@ -295,3 +304,166 @@ class Codec
         }
 };
 
+
+class Codec
+{
+    public:
+
+        // Encodes a tree to a single string.
+        std::string serialize(TreeNode* root)
+        {
+            std::string data{};
+
+            if(root==nullptr)
+            {
+                return data;
+            }
+
+            std::queue<TreeNode*> Q;
+
+            Q.emplace(root);
+
+            while(!Q.empty())
+            {
+                int qSize=int(Q.size());
+
+                for(int count=0;count<qSize;count++)
+                {
+                    auto node=Q.front();
+
+                    Q.pop();
+
+                    int numberOfChildren=0;
+
+                    bool leftChild=false;
+
+                    bool rightChild=false;
+
+                    if(node->left!=nullptr)
+                    {
+                        numberOfChildren++;
+
+                        leftChild=true;
+
+                        Q.emplace(node->left);
+                    }
+
+                    if(node->right!=nullptr)
+                    {
+                        numberOfChildren++;
+
+                        rightChild=true;
+
+                        Q.emplace(node->right);
+                    }
+
+                    data+=std::to_string(node->val) + " " + std::to_string(numberOfChildren);
+
+                    if(numberOfChildren==1)
+                    {
+                        if(leftChild)
+                        {
+                            data+='L';
+                        }
+                        else if(rightChild)
+                        {
+                            data+='R';
+                        }
+                    }
+
+                    data+=" ";
+                }
+            }
+
+            return data;
+        }
+
+        // Decodes your encoded data to tree.
+        TreeNode* deserialize(std::string data)
+        {
+            TreeNode* root=nullptr;
+
+            if(data.empty())
+            {
+                return root;
+            }
+
+            std::stringstream ss(data);
+
+            int nodeValue=0;
+
+            ss >> nodeValue;
+
+            std::string childrenInfo{};
+
+            ss >> childrenInfo;
+
+            root=new TreeNode(nodeValue);
+
+            std::queue<std::pair<TreeNode*, std::string>> Q;
+
+            Q.emplace(std::make_pair(root, childrenInfo));
+
+            while(!Q.empty())
+            {
+                int qSize=int(Q.size());
+
+                for(int count=0;count<qSize;count++)
+                {
+                    auto current=Q.front();
+
+                    Q.pop();
+
+                    int children=current.second[0] - '0';
+
+                    bool leftChild=false;
+
+                    bool rightChild=false;
+
+                    if(children==1)
+                    {
+                        if(current.second[1]=='L')
+                        {
+                            leftChild=true;
+                        }
+                        else if(current.second[1]=='R')
+                        {
+                            rightChild=true;
+                        }
+                    }
+                    else if(children==2)
+                    {
+                        leftChild=true;
+
+                        rightChild=true;
+                    }
+
+                    for(int i=0;i<children;i++)
+                    {
+                        ss >> nodeValue;
+
+                        ss >> childrenInfo;
+
+                        if(leftChild)
+                        {
+                            current.first->left=new TreeNode(nodeValue);
+
+                            leftChild=false;
+
+                            Q.emplace(std::make_pair(current.first->left, childrenInfo));
+                        }
+                        else if(rightChild)
+                        {
+                            current.first->right=new TreeNode(nodeValue);
+
+                            rightChild=false;
+
+                            Q.emplace(std::make_pair(current.first->right, childrenInfo));
+                        }
+                    }
+                }
+            }
+
+            return root;
+        }
+};

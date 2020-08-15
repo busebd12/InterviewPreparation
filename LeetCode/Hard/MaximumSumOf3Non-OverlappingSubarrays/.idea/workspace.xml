@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DeleteNodeInABST" targetName="DeleteNodeInABST" />
+      <config projectName="MaximumSumOf3Non_OverlappingSubarrays" targetName="MaximumSumOf3Non_OverlappingSubarrays" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83933770-ade4-4adc-bec1-9cb0af7fce11" name="Default Changelist" comment="" />
+    <list default="true" id="45486668-ea57-4c07-bba8-39a50699d164" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Medium/DeleteNodeInABST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Medium/DeleteNodeInABST/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="DeleteNodeInABST" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DeleteNodeInABST" TARGET_NAME="DeleteNodeInABST" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DeleteNodeInABST" RUN_TARGET_NAME="DeleteNodeInABST">
+    <configuration name="MaximumSumOf3Non_OverlappingSubarrays" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MaximumSumOf3Non_OverlappingSubarrays" TARGET_NAME="MaximumSumOf3Non_OverlappingSubarrays" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MaximumSumOf3Non_OverlappingSubarrays" RUN_TARGET_NAME="MaximumSumOf3Non_OverlappingSubarrays">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -79,17 +81,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83933770-ade4-4adc-bec1-9cb0af7fce11" name="Default Changelist" comment="" />
-      <created>1596923080222</created>
+      <changelist id="45486668-ea57-4c07-bba8-39a50699d164" name="Default Changelist" comment="" />
+      <created>1597352998949</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596923080222</updated>
-      <workItem from="1596923081438" duration="685000" />
+      <updated>1597352998949</updated>
+      <workItem from="1597353000231" duration="2050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="685000" />
+    <option name="totallyTimeSpent" value="2050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -124,10 +126,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="3390">
+          <caret line="226" column="36" lean-forward="true" selection-start-line="226" selection-start-column="36" selection-end-line="226" selection-end-column="36" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

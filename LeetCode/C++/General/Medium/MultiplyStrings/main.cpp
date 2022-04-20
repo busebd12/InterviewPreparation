@@ -1,6 +1,7 @@
 #include <deque>
 #include <iostream>
 #include <string>
+using namespace std;
 
 /*
  * Solution: we use the grade school multiplication algorithm.
@@ -15,182 +16,119 @@
  * Space complexity: O(length of the smaller string)
  */
 
-std::deque<int> add(std::deque<int> x, std::deque<int> y)
+class Solution
 {
-    if(x.empty())
-    {
-        return y;
-    }
-
-    if(y.empty())
-    {
-        return x;
-    }
-
-    int i=int(x.size()-1);
-
-    int j=int(y.size()-1);
-
-    std::deque<int> result;
-
-    int carry=0;
-
-    while(i >= 0 && j >= 0)
-    {
-        int total=carry + x[i] + y[j];
-
-        carry=total/10;
-
-        result.push_front(total % 10);
-
-        if(i==0 && j==0 && carry > 0)
+    public:
+        void helper(deque<deque<int>> & products, int n, string num1, char digit, int zeros)
         {
-            result.push_front(carry);
+            deque<int> product;
+            
+            for(int count=0;count<zeros;count++)
+            {
+                product.emplace_front(0);
+            }
+            
+            int carry=0;
+            
+            for(int i=n-1;i>=0;i--)
+            {
+                int digit1=num1[i] - '0';
+                
+                int digit2=digit - '0';
+                
+                int total=carry + (digit1 * digit2);
+                
+                product.emplace_front(total % 10);
+                
+                carry=total / 10;
+            }
+            
+            if(carry > 0)
+            {
+                product.emplace_front(carry);
+            }
+            
+            products.push_back(product);
         }
-
-        i--;
-
-        j--;
-    }
-
-    while(i >= 0)
-    {
-        int total=carry + x[i];
-
-        carry=total/10;
-
-        result.push_front(total % 10);
-
-        if(i==0 && carry > 0)
+        
+        string multiply(string num1, string num2)
         {
-            result.push_front(carry);
+            string result{};
+            
+            if(num1=="0" || num2=="0")
+            {
+                return "0";
+            }
+            
+            if(num1=="1")
+            {
+                return num2;
+            }
+            
+            if(num2=="1")
+            {
+                return num1;
+            }
+            
+            deque<deque<int>> products;
+            
+            int zeros=0;
+            
+            int n=num1.size();
+            
+            int m=num2.size();
+            
+            for(int j=m-1;j>=0;j--)
+            {   
+                helper(products, n, num1, num2[j], zeros);
+                
+                zeros+=1;
+            }
+            
+            int length=products.back().size();
+            
+            for(auto & product : products)
+            {
+                while(product.size() < length)
+                {
+                    product.emplace_front(0);
+                }
+            }
+            
+            int carry=0;
+            
+            deque<int> finalDigits;
+            
+            for(int column=length-1;column>=0;column--)
+            {
+                int columnSum=0;
+                
+                for(int row=0;row<products.size();row++)
+                {
+                    int digit=products[row][column];
+                    
+                    columnSum+=digit;
+                }
+                
+                columnSum+=carry;
+                
+                finalDigits.emplace_front(columnSum % 10);
+                
+                carry=columnSum / 10;
+            }
+            
+            if(carry > 0)
+            {
+                finalDigits.emplace_front(carry);
+            }
+            
+            while(!finalDigits.empty())
+            {
+                result.push_back(finalDigits.front() + '0');
+                
+                finalDigits.pop_front();
+            }
+            
+            return result;
         }
-
-        i--;
-    }
-
-    while(j >= 0)
-    {
-        int total=carry + y[j];
-
-        carry=total/10;
-
-        result.push_front(total % 10);
-
-        if(j==0 && carry > 0)
-        {
-            result.push_front(carry);
-        }
-
-        j--;
-    }
-
-    return result;
-}
-
-std::string multiply(std::string num1, std::string num2)
-{
-    std::string result{};
-
-    if(num1.empty() && num2.empty())
-    {
-        return result;
-    }
-
-    if(num1.empty())
-    {
-        return num2;
-    }
-
-    if(num2.empty())
-    {
-        return num1;
-    }
-
-    if(num1=="0" || num2=="0")
-    {
-        return "0";
-    }
-
-    if(num1=="1")
-    {
-        return num2;
-    }
-
-    if(num2=="1")
-    {
-        return num1;
-    }
-
-    std::deque<int> dq;
-
-    std::string longer{};
-
-    std::string shorter{};
-
-    if(num1.size()==num2.size())
-    {
-        shorter=num1;
-
-        longer=num2;
-    }
-    else if(num1.size() < num2.size())
-    {
-        shorter=num1;
-
-        longer=num2;
-    }
-    else
-    {
-        shorter=num2;
-
-        longer=num1;
-    }
-
-    int n=int(shorter.size());
-
-    int m=int(longer.size());
-
-    int zeroes=0;
-
-    for(int i=n-1;i>=0;--i)
-    {
-        int carry=0;
-
-        int x=shorter[i] - '0';
-
-        std::deque<int> row;
-
-        for(int count=0;count<zeroes;++count)
-        {
-            row.push_front(0);
-        }
-
-        for(int j=m-1;j>=0;--j)
-        {
-            int y=longer[j] - '0';
-
-            int total=carry + (x  * y);
-
-            carry=total/10;
-
-            row.push_front(total % 10);
-        }
-
-        if(carry > 0)
-        {
-            row.push_front(carry);
-        }
-
-        dq=add(dq, row);
-
-        zeroes++;
-    }
-
-    for(auto & digit : dq)
-    {
-        result+=char(digit + '0');
-    }
-
-    return result;
-}
+};

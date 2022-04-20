@@ -27,7 +27,7 @@
  * Time complexity: O(n) [where n is the number of nodes in the binary search tree]
  * Space complexity: O(h) [where h is the height of the binary search tree]
  *
- * 5) Keep to Nodes, head and tail, and create the doubly linked-list as we iterative through the binary search tree
+ * 5) Keep two Nodes, head and tail, and create the doubly linked-list as we iterative through the binary search tree
  * using in-order traversal. After traversing the tree, link the head and tail nodes together.
  *
  * Time complexity: O(n) [where n is the number of nodes in the binary search tree]

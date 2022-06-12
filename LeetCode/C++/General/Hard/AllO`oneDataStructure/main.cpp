@@ -20,7 +20,7 @@
  * 2. In order to improve the time complexity of the getMinKey() and getMaxKey() functions, we use another hashtable
  * (std::map<int, unordered_set<std::string>>) to group the strings into buckets based on frequency. Each frequency is
  * mapped to a std::unordered_set<std::string> that holds all strings with said frequency. Since std::map keeps its keys
- * sorted in increasing order the getMinKey() and getMaxKey() functions now take O(1) time but the inc() and dec() functions
+ * sorted in increasing order, the getMinKey() and getMaxKey() functions now take O(1) time but the inc() and dec() functions
  * take O(log(u)) time [where u is the number of unique keys in the map]. Space complexity is now O(f) + O(n) [where
  * f is the total number of unique frequencies and n is the total number of unique strings]
  *
@@ -41,7 +41,7 @@
  * b. We have seen the string before
  *  i. If we already have a bucket for the increased frequency, just place the string into that bucket
  *
- *  ii. If no bucket for the increased frequency exists, create the bucket after bucket the string currently resides
+ *  ii. If no bucket for the increased frequency exists, create the bucket after the bucket the string currently resides
  *  in and insert the string into the newly created bucket. This will ensure we keep the ordering property of the linked-list.
  *
  *  iii. Erase the string from its old bucket

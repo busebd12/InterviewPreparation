@@ -12,53 +12,71 @@
 
 class Solution
 {
-    public:
-        std::queue<char> Q;
+    private:
+        char buf4[4]={0};
 
+        int buf4Pointer=0;
+
+        int buf4Size=0;
+    
+    public:
         /**
-         * @param buf Destination buffer
-         * @param n   Number of characters to read
-         * @return    The number of actual characters read
-         */
+        * @param buf Destination buffer
+        * @param n   Number of characters to read
+        * @return    The number of actual characters read
+        */
         int read(char *buf, int n)
         {
             int totalCharactersRead=0;
 
-            while(!Q.empty() && totalCharactersRead < n)
+            while(totalCharactersRead < n)
             {
-                buf[totalCharactersRead]=Q.front();
-
-                Q.pop();
-
-                totalCharactersRead++;
-            }
-
-            while(true)
-            {
-                char nextCharacters[4];
-
-                int charactersReadFromFile=read4(nextCharacters);
-
-                if(charactersReadFromFile==0)
+                //If there is data left in buf4 from a previous call of read, read that data into buf
+                if(buf4Pointer < buf4Size)
                 {
-                    break;
-                }
+                    buf[totalCharactersRead]=buf4[buf4Pointer];
 
-                for(int index=0;index<charactersReadFromFile;index++)
+                    totalCharactersRead+=1;
+
+                    buf4Pointer+=1;
+                }
+                //Else, no data remaining from previous call to read
+                else
                 {
-                    Q.emplace(nextCharacters[index]);
+                    //How many characters left to be read
+                    int charactersLeft=n - totalCharactersRead;
+
+                    //If characters left is at least 4, then we can read them directly into buf and skip copying them into buf4 and then copying them from buf4 into buf
+                    if(charactersLeft >= 4)
+                    {
+                        int charactersRead=read4(buf + totalCharactersRead);
+
+                        //No more characters to read, return the total amount read from the file
+                        if(charactersRead==0)
+                        {
+                            return totalCharactersRead;
+                        }
+
+                        totalCharactersRead+=charactersRead;
+                    }
+                    //Else, less than four characters left, so we just read them into buf4 and we will copy them into buf later
+                    else
+                    {
+                        //Read characters from the file into buf4
+                        buf4Size=read4(buf4);
+
+                        //Reset the buf4Pointer
+                        buf4Pointer=0;
+
+                        //If we read zero characters from the file, then there are no more characters to be read
+                        if(buf4Size==0)
+                        {
+                            return totalCharactersRead;
+                        }
+                    }
                 }
-            }
-
-            while(!Q.empty() && totalCharactersRead < n)
-            {
-                buf[totalCharactersRead]=Q.front();
-
-                Q.pop();
-
-                totalCharactersRead++;
             }
 
             return totalCharactersRead;
         }
-};
+    };

@@ -520,3 +520,99 @@ int minDominoRotations(std::vector<int> & A, std::vector<int> & B)
 
     return result;
 }
+
+class Solution
+{
+    public:
+        int minDominoRotations(vector<int> & tops, vector<int> & bottoms)
+        {
+            int result=numeric_limits<int>::max();
+
+            int n=tops.size();
+
+            int firstTop=tops[0];
+
+            bool allTopsTheSame=all_of(tops.begin(), tops.end(), [&firstTop] (int & value) {return value==firstTop;});
+
+            int firstBottom=bottoms[0];
+
+            bool allBottomsTheSame=all_of(bottoms.begin(), bottoms.end(), [&firstBottom] (int & value) {return value==firstBottom;});
+
+            if(allTopsTheSame==true or allBottomsTheSame==true)
+            {
+                return 0;
+            }
+
+            for(int top=1;top<7;top++)
+            {
+                vector<bool> used(n, false);
+
+                for(int i=0;i<n;i++)
+                {
+                    if(tops[i]==top)
+                    {
+                        used[i]=true;
+                    }
+                }
+
+                int flips=0;
+
+                int flipsNeeded=0;
+
+                for(int i=0;i<n;i++)
+                {
+                    if(used[i]==false)
+                    {
+                        flipsNeeded+=1;
+                        
+                        if(bottoms[i]==top)
+                        {
+                            flips+=1;
+                        }
+                    }
+                }
+
+                if(flips==flipsNeeded)
+                {
+                    result=min(result, flips);
+                }
+            }
+
+            for(int bottom=1;bottom<7;bottom++)
+            {
+                vector<bool> used(n, false);
+
+                for(int i=0;i<n;i++)
+                {
+                    if(bottoms[i]==bottom)
+                    {
+                        used[i]=true;
+                    }
+                }
+
+                int flips=0;
+
+                int flipsNeeded=0;
+
+                for(int i=0;i<n;i++)
+                {
+                    if(used[i]==false)
+                    {
+                        flipsNeeded+=1;
+                        
+                        if(tops[i]==bottom)
+                        {
+                            flips+=1;
+                        }
+                    }
+                }
+
+                if(flips==flipsNeeded)
+                {
+                    result=min(result, flips);
+                }
+            }
+
+            return (result==numeric_limits<int>::max()) ? -1 : result;
+        }
+};

@@ -13,7 +13,7 @@ Space complexity: O(n)
 class Solution
 {
     public:
-        string inOrderTraversal(TreeNode* root, unordered_map<string, int> & subtreeFrequency, vector<TreeNode*> & result)
+        string postOrderTraversal(TreeNode* root, unordered_map<string, int> & subtreeFrequency, vector<TreeNode*> & result)
         {
             if(root==nullptr)
             {
@@ -56,8 +56,71 @@ class Solution
             
             unordered_map<string, int> subtreeFrequency;
             
-            inOrderTraversal(root, subtreeFrequency, result);
+            postOrderTraversal(root, subtreeFrequency, result);
             
             return result;
+        }
+};
+
+/*
+2/27/2023 solution
+
+Submission result: accepted.
+
+Time complexity: O(n) [where n=number of nodes in the tree]
+Space complexity: O(h + n) [where h=height of tree]
+*/
+
+class Solution
+{
+    private:
+        unordered_map<string, pair<int, TreeNode*>> subtreeFrequencies;
+
+    public:
+        vector<TreeNode*> findDuplicateSubtrees(TreeNode* root)
+        {
+            vector<TreeNode*> result;
+            
+            helper(root);
+
+            for(pair<string, pair<int, TreeNode*>> element : subtreeFrequencies)
+            {
+                if(element.second.first > 1)
+                {
+                    result.push_back(element.second.second);
+                }
+            }
+
+            return result;
+        }
+
+        string helper(TreeNode* root)
+        {
+            if(root==nullptr)
+            {
+                return "#";
+            }
+
+            string leftSubtree=helper(root->left);
+
+            string rightSubtree=helper(root->right);
+
+            string rootString=to_string(root->val) + "$" + leftSubtree + "$" + rightSubtree;
+
+            if(subtreeFrequencies.find(rootString)==subtreeFrequencies.end())
+            {
+                subtreeFrequencies.emplace(rootString, make_pair(1, nullptr));
+            }
+            else
+            {
+                subtreeFrequencies[rootString].first+=1;
+
+                if(subtreeFrequencies[rootString].second==nullptr)
+                {
+                    subtreeFrequencies[rootString].second=root;
+                }
+            }
+
+            return rootString;
         }
 };

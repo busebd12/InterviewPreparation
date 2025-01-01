@@ -5,6 +5,9 @@ Solution: inspired by this post --> https://leetcode.com/problems/remove-zero-su
 Time complexity: O(n) [where n is the number of nodes in the linked list]
 Space complexity: O(n)
 */
+#include <iterator>
+#include <unordered_map>
+using namespace std;
 
 class Solution
 {

@@ -144,3 +144,162 @@ class Codec
             return result;
         }
 };
+
+
+/*
+1/13/2023 solution
+*/
+
+class Codec
+{
+    public:
+
+        // Encodes a list of strings to a single string.
+        string encode(vector<string> & strs)
+        {
+            string encoded="$";
+
+            int n=strs.size();
+
+            for(string & str : strs)
+            {
+                string compressed=getCompressedString(str);
+
+                encoded.append(compressed);
+
+                encoded.push_back('$');
+            }
+
+            return encoded;
+        }
+
+        // Decodes a single string to a list of strings.
+        vector<string> decode(string s)
+        {
+            vector<string> words;
+
+            stringstream wordStream(s);
+
+            string token="";
+
+            char wordDelimeter='$';
+
+            while(getline(wordStream, token, wordDelimeter))
+            {
+                if(!token.empty())
+                {
+                    string word="";
+
+                    stringstream letterStream(token);
+
+                    string part="";
+
+                    char letterDelimeter='|';
+
+                    while(getline(letterStream, part, letterDelimeter))
+                    {
+                        if(!part.empty())
+                        {
+                            int poundIndex=part.find('#');
+
+                            int times=stoi(part.substr(0, poundIndex));
+
+                            string asciiString="";
+
+                            char letter='$';
+
+                            if(part.find('d')==string::npos)
+                            {
+                                asciiString=part.substr(poundIndex + 1, string::npos);
+
+                                int ascii=stoi(asciiString);
+
+                                letter=char(ascii);
+                            }
+                            else
+                            {
+                                letter=part.back();
+                            }
+
+                            for(int count=0;count<times;count++)
+                            {
+                                word.push_back(letter);
+                            }
+                        }
+                    }
+
+                    words.push_back(word);
+                }
+            }
+
+            return words;
+        }
+
+        string getCompressedString(string & str)
+        {
+            string compressed="|";
+
+            int L=str.size();
+
+            int count=1;
+
+            char character=str[0];
+
+            for(int i=1;i<L;i++)
+            {
+                if(str[i]==character)
+                {
+                    count+=1;
+                }
+                else
+                {
+                    compressed.append(to_string(count));
+
+                    compressed.push_back('#');
+
+                    if(!isdigit(character))
+                    {
+                        int ascii=int(character);
+
+                        compressed.append(to_string(ascii));
+                    }
+                    else
+                    {
+                        compressed.push_back('d');
+                        
+                        compressed.push_back(character);
+                    }
+
+                    compressed.push_back('|');
+
+                    character=str[i];
+
+                    count=1;
+                }
+            }
+
+            if(count > 0)
+            {
+                compressed.append(to_string(count));
+
+                compressed.push_back('#');
+
+                if(!isdigit(character))
+                {
+                    int ascii=int(character);
+
+                    compressed.append(to_string(ascii));
+                }
+                else
+                {
+                    compressed.push_back('d');
+                    
+                    compressed.push_back(character);
+                }
+
+                compressed.push_back('|');
+            }
+
+            return compressed;
+        }
+};

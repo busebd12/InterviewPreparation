@@ -122,3 +122,118 @@ class Codec
             return root;
         }
 };
+
+class Codec
+{
+    public:
+        // Encodes a tree to a single string.
+        string serialize(Node* root)
+        {
+            string serialized="";
+
+            if(root==nullptr)
+            {
+                return serialized;
+            }
+
+            deque<Node*> queue;
+
+            serialized.append(to_string(root->val));
+
+            serialized.push_back('$');
+
+            queue.push_back(root);
+
+            while(!queue.empty())
+            {
+                int qSize=queue.size();
+
+                for(int count=0;count<qSize;count++)
+                {
+                    Node* parent=queue.front();
+
+                    queue.pop_front();
+
+                    if(parent->children.empty())
+                    {
+                        serialized.append("nullptr");
+                    }
+                    else
+                    {
+                        for(Node* child : parent->children)
+                        {
+                            serialized.append(to_string(child->val));
+
+                            serialized.push_back(',');
+
+                            queue.push_back(child);
+                        }
+                    }
+
+                    serialized.push_back('$');
+                }
+            }
+
+            return serialized;
+        }
+        
+        // Decodes your encoded data to tree.
+        Node* deserialize(string data)
+        {
+            Node* root=nullptr;
+
+            if(data.empty())
+            {
+                return root;
+            }
+
+            stringstream ss(data);
+
+            const char parentDelimeter='$';
+
+            const char childDelimeter=',';
+
+            string token="";
+
+            vector<string> children;
+
+            while(getline(ss, token, parentDelimeter))
+            {
+                if(!token.empty())
+                {
+                    children.push_back(token);
+                }
+            }
+
+            root=new Node(stoi(children[0]), vector<Node*>());
+
+            deque<Node*> queue;
+
+            queue.push_back(root);
+
+            for(int i=1;i<children.size();i++)
+            {
+                Node* parent=queue.front();
+
+                queue.pop_front();
+                
+                if(children[i]!="nullptr")
+                {
+                    stringstream childrenSS(children[i]);
+
+                    string child="";
+
+                    while(getline(childrenSS, child, childDelimeter))
+                    {
+                        Node* c=new Node(stoi(child), vector<Node*>());
+
+                        parent->children.push_back(c);
+
+                        queue.push_back(c);
+                    }
+                }
+            }
+
+            return root;
+        }
+};

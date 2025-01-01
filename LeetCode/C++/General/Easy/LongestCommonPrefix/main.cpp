@@ -1,4 +1,5 @@
 #include <iostream>
+#include <memory>
 #include <string>
 #include <vector>
 using namespace std;
@@ -90,3 +91,149 @@ string longestCommonPrefix(vector<string> & strs)
 
     return result;
 }
+
+/*
+3/2/2023 solution using Trie
+*/
+
+class TrieNode
+{
+    private:
+        vector<unique_ptr<TrieNode>> children;
+
+        int nonNullChildren;
+
+        char firstNonNullLetter;
+
+        bool endOfWord;
+
+    public:
+        TrieNode()
+        {
+            children.resize(26);
+            
+            nonNullChildren=0;
+
+            firstNonNullLetter='$';
+
+            endOfWord=false;
+        }
+
+        vector<unique_ptr<TrieNode>> & getChildren()
+        {
+            return children;
+        }
+
+        int getNonNullChildren()
+        {
+            return nonNullChildren;
+        }
+
+        void incrementNonNullChildren()
+        {
+            nonNullChildren+=1;
+        }
+
+        char getFirstNonNullLetter()
+        {
+            return firstNonNullLetter;
+        }
+
+        void setFirstNonNullLetter(char letter)
+        {
+            firstNonNullLetter=letter;
+        }
+
+        bool getEndOfWord()
+        {
+            return endOfWord;
+        }
+
+        void setEndOfWord()
+        {
+            endOfWord=true;
+        }
+};
+
+class Trie
+{
+    private:
+        unique_ptr<TrieNode> root;
+
+    public:
+        Trie()
+        {
+            root=make_unique<TrieNode>();
+        }
+
+        void insert(string & word)
+        {
+            TrieNode* node=root.get();
+
+            for(char letter : word)
+            {
+                int asciiIndex=letter - 'a';
+
+                if(node->getChildren()[asciiIndex]==nullptr)
+                {
+                    node->getChildren()[asciiIndex]=make_unique<TrieNode>();
+
+                    if(node->getNonNullChildren()==0)
+                    {
+                        node->setFirstNonNullLetter(letter);
+                    }
+
+                    node->incrementNonNullChildren();
+                }
+
+                node=node->getChildren()[asciiIndex].get();
+            }
+
+            node->setEndOfWord();
+        }
+
+        string getLongestCommonPrefix()
+        {
+            string prefix="";
+
+            TrieNode* node=root.get();
+
+            while(node!=nullptr)
+            {
+                if(node->getEndOfWord()==true or node->getNonNullChildren() > 1)
+                {
+                    break;
+                }
+
+                char letter=node->getFirstNonNullLetter();
+
+                prefix.push_back(letter);
+
+                int asciiIndex=letter - 'a';
+
+                node=node->getChildren()[asciiIndex].get();
+            }
+
+            return prefix;
+        }
+};
+
+class Solution
+{
+    public:
+        string longestCommonPrefix(vector<string> & strs)
+        {
+            string result="";
+
+            Trie trie;
+
+            for(string str : strs)
+            {
+                trie.insert(str);
+            }
+
+            result=trie.getLongestCommonPrefix();
+
+            return result;
+        }
+};

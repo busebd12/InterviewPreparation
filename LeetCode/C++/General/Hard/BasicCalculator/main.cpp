@@ -1,177 +1,82 @@
-#include <algorithm>
-#include <iostream>
-#include <stack>
+#include <deque>
 #include <string>
+#include <utility>
+using namespace std;
 
 /*
- * Solution: the idea is to evaluate the string using the order of operations: PEMDAS.
- * Since the input string will only contain the characters '(', ')', '+', and/or, '-',
- * we first evaluate all expressions enclosed in parentheses first. We evaluate the parentheses
- * enclosed expressions by extracting each part of the string that is surrounded by parentheses,
- * erase that substring from the string, erase that substring from the original string, and then
- * pass the expression to the helper function. This helper function evaluates string expressions
- * with only '+', '-', and/or digits in it. Once we have finished evaluating all the parenthetical
- * expressions, we evaluate the remaining expression, if it is not a valid number.
- *
- * Time complexity: O(n^2) [where n is the length of the input string]
- * Space complexity: O(n)
- */
+Solution: see comments.
 
-int helper(std::string & substring)
+Time complexity: O(n) [where n is the length of s]
+Space complexity: O(n)
+*/
+
+class Solution
 {
-    std::stack<int> digitsStack;
-
-    std::stack<char> operatorsStack;
-
-    auto n=int(substring.size());
-
-    for(auto i=0;i<n;)
-    {
-        char c=substring[i];
-
-        if(std::isspace(c))
+    public:
+        int calculate(string s)
         {
-            i++;
-        }
+            int result=0;
 
-        else if(c=='+' || c=='-')
-        {
-            operatorsStack.push(c);
+            int n=s.size();
 
-            i++;
-        }
-        else
-        {
-            int num2=0;
+            //Stack used to store the state of the evaluated expression so far when we encounter a '('
+            //Each pair is {value of the evaluated expression so far, 1 or -1 [1==positive, -1==negative]}
+            deque<pair<int, int>> stack;
 
-            while(std::isdigit(substring[i]))
+            //Keeps track of positive or negative
+            //1==positive and -1==negative
+            int sign=1;
+
+            for(int i=0;i<n;i++)
             {
-                num2=(num2 * 10 ) + (substring[i] - '0');
-
-                i++;
-            }
-
-            if(!operatorsStack.empty())
-            {
-                int num1=digitsStack.top();
-
-                digitsStack.pop();
-
-                char op=operatorsStack.top();
-
-                operatorsStack.pop();
-
-                int num3=0;
-
-                if(op=='+')
-                {
-                    num3=num1 + num2;
+                if(s[i]=='+')
+                {   
+                    sign=1;
                 }
-                else
-                {
-                    num3=num1 - num2;
+                else if(s[i]=='-')
+                {   
+                    sign=-1;
                 }
+                else if(isdigit(s[i]))
+                {   
+                    int total=s[i] - '0';
 
-                digitsStack.push(num3);
-            }
-            else
-            {
-                digitsStack.push(num2);
-            }
-        }
-    }
-
-    return digitsStack.top();
-}
-
-int calculate(std::string & s)
-{
-    int result=0;
-
-    if(s.empty())
-    {
-        return result;
-    }
-
-    while(s.find('(')!=std::string::npos)
-    {
-        auto openingParenthesisIndex=s.find_last_of('(');
-
-        std::size_t closingParenthesisIndex=0;
-
-        for(auto i=openingParenthesisIndex;i<s.size();++i)
-        {
-            if(s[i]==')')
-            {
-                closingParenthesisIndex=i;
-
-                break;
-            }
-        }
-
-        std::size_t substringLength=(closingParenthesisIndex - openingParenthesisIndex) - 1;
-
-        std::string substring=s.substr(openingParenthesisIndex+1, substringLength);
-
-        std::size_t eraseLength=(closingParenthesisIndex - openingParenthesisIndex) + 1;
-
-        s.erase(openingParenthesisIndex, eraseLength);
-
-        int subproblemResult=helper(substring);
-
-        if(!s.empty())
-        {
-            if(openingParenthesisIndex-1 > 0 && openingParenthesisIndex-1 < s.size())
-            {
-                if(subproblemResult < 0)
-                {
-                    if(s[openingParenthesisIndex-1]=='-')
+                    //Keep adding digits to our total until we reach a non-digit character
+                    while(i + 1 < n and isdigit(s[i + 1]))
                     {
-                        subproblemResult*=-1;
+                        total=(total * 10) + (s[i + 1] - '0');
 
-                        s[openingParenthesisIndex-1]='+';
+                        i+=1;
                     }
-                    else if(s[openingParenthesisIndex-1]=='+')
-                    {
-                        subproblemResult*=-1;
 
-                        s[openingParenthesisIndex-1]='-';
-                    }
+                    //Make sure to update our result with the total we just calculated
+                    result+=(total * sign);
+                }
+                else if(s[i]=='(')
+                {
+                    //IMPORTANT: make sure to push the "state" on to the stack
+                    //The state represents the value the part of the expression we have evaluated up to
+                    //this point and the sign let's us know if the value should be positive or negative
+                    stack.emplace_back(result, sign);
+
+                    //Reset the result and sign since we are starting a new calculation that is independent of the one we just finished
+                    result=0;
+
+                    sign=1;
+                }
+                else if(s[i]==')')
+                {
+                    //Remove the state we just pushed onto the stack so we can either
+                    //add it to or subtract it from the total we calculate from inside the parenthesis
+                    auto [amount, op]=stack.back();
+
+                    stack.pop_back();
+
+                    //Update the result accordingly
+                    result=(result * op) + amount;
                 }
             }
+
+            return result;
         }
-
-        substring=std::to_string(subproblemResult);
-
-        if(s.empty())
-        {
-            s=substring;
-        }
-        else if(openingParenthesisIndex >= s.size())
-        {
-            s+=substring;
-        }
-        else
-        {
-            if(openingParenthesisIndex >= 0 && openingParenthesisIndex < s.size())
-            {
-                s.insert(openingParenthesisIndex, substring);
-            }
-        }
-    }
-
-    auto numberOfMinusSigns=std::count(s.begin(), s.end(), '-');
-
-    auto numberOfPlusSigns=std::count(s.begin(), s.end(), '+');
-
-    if((numberOfMinusSigns > 1 || (numberOfMinusSigns==1 && s[0]!='-') || numberOfPlusSigns >= 1))
-    {
-        result=helper(s);
-    }
-    else
-    {
-        result=std::stoi(s);
-    }
-
-    return result;
-}
+};

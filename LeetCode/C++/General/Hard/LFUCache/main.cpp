@@ -327,3 +327,149 @@ class LFUCache
             }
         }
 };
+
+/*
+1/28/2023 solution
+*/
+
+class LFUCache
+{
+    private:
+        //Mapping of frequency of list of keys that have that frequency
+        unordered_map<int, list<int>> frequencyToKeys;
+
+        //Map key to tuple of {value, frequency, iterator pointing to which frequency list the key is in}
+        unordered_map<int, tuple<int, int, list<int>::iterator>> hashmap;
+
+        //Ordered set of frequencies
+        set<int> frequencies;
+
+        int maxSize;
+    
+    public:
+        LFUCache(int capacity)
+        {
+            maxSize=capacity;
+        }
+        
+        int get(int key)
+        {   
+            //If the key is not found
+            if(hashmap.find(key)==hashmap.end())
+            {   
+                return -1;
+            }
+
+            //Calling get on this key results in its frequency being increased,
+            //so we need to move it to the list of values associated with the increased frequency
+            moveToHigherFrequencyList(key);
+
+            //Return the current value for the key
+            return std::get<0>(hashmap[key]);
+        }
+        
+        void put(int key, int value)
+        {
+            if(maxSize==0)
+            {
+                return;
+            }
+            
+            //If the key already exists
+            if(hashmap.find(key)!=hashmap.end())
+            {
+                //Update the value
+                std::get<0>(hashmap[key])=value;
+                
+                //Since updating the value results in the frequency for this key increasing,
+                //we need to move it to the list of keys associated with this increased frequency
+                moveToHigherFrequencyList(key);
+            }
+            //Else, the key does not exist
+            else
+            {
+                //If the cache is full
+                if(hashmap.size()==maxSize)
+                {   
+                    evictLeastRecentlyUsed();
+                }
+
+                //Since this is the first time inserting the key into the cache, the key's frequency will be 1
+                int frequency=1;
+
+                //Insert the key into the list associated with frequency 1 and return an iterator pointing to the key's location within the list
+                auto itr=frequencyToKeys[frequency].insert(frequencyToKeys[frequency].begin(), key);
+
+                //In the hashmap, create the tuple {value, frequency, iterator we got from inserting the new key} and map it to the key
+                hashmap[key]=make_tuple(value, frequency, itr);
+
+                //If the frequency doesn't exist in the ordered set
+                if(frequencies.find(frequency)==frequencies.end())
+                {
+                    //Insert it
+                    frequencies.insert(frequency);
+                }
+            }
+        }
+
+        void moveToHigherFrequencyList(int key)
+        {
+            int previousFrequency=std::get<1>(hashmap[key]);
+
+            list<int>::iterator previousFrequencyListIterator=std::get<2>(hashmap[key]);
+
+            //The new, increased frequency for the key
+            int higherFrequency=previousFrequency + 1;
+
+            //Insert the key into the list associated with the higher frequency and return an iterator pointing the key's position in the new list
+            auto currentFrequencyListIterator=frequencyToKeys[higherFrequency].insert(frequencyToKeys[higherFrequency].begin(), key);
+
+            //If the higher frequency is not in the ordered set of frequencies
+            if(frequencies.find(higherFrequency)==frequencies.end())
+            {
+                //Insert it
+                frequencies.insert(higherFrequency);
+            }
+
+            std::get<1>(hashmap[key])=higherFrequency;
+
+            std::get<2>(hashmap[key])=currentFrequencyListIterator;
+
+            //Erase the key from the list associated with the previous frequency
+            frequencyToKeys[previousFrequency].erase(previousFrequencyListIterator);
+
+            //If the list of keys associated with the previous frequency is empty
+            if(frequencyToKeys[previousFrequency].empty())
+            {
+                //Erase the previous frequency from the ordered set of frequencies
+                frequencies.erase(previousFrequency);
+
+                //Erase previousFrequency from frequencyToKeys now that the list associated with it is empty
+                frequencyToKeys.erase(previousFrequency);
+            }
+        }
+
+        void evictLeastRecentlyUsed()
+        {
+            int lowestFrequency=*(frequencies.begin());
+            
+            //Least recently used key from the list of least frequently used keys
+            int key=frequencyToKeys[lowestFrequency].back();
+
+            //Remove the key from the hashmap
+            hashmap.erase(key);
+
+            //Remove the least recently used key from the list of least frequently used keys
+            frequencyToKeys[lowestFrequency].pop_back();
+
+            //If the list of keys associated with the lowest frequency is empty
+            if(frequencyToKeys[lowestFrequency].empty())
+            {   
+                //Erase the lowest frequency from the ordered set of frequencies
+                frequencies.erase(lowestFrequency);
+
+                //Erase the lowest frequency from frequencyToKeys now that the list associated with it is empty
+                frequencyToKeys.erase(lowestFrequency);
+            }
+        }
+};

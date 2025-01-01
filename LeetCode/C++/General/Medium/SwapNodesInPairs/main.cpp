@@ -118,3 +118,64 @@ ListNode* swapPairs(ListNode* head)
 
     return newStart;
 }
+
+/*5/16/2023 solution*/
+
+class Solution
+{
+    public:
+        ListNode* swapPairs(ListNode* head)
+        {
+            if(head==nullptr)
+            {
+                return head;
+            }
+            
+            if(head->next==nullptr)
+            {
+                return head;
+            }
+            
+            ListNode* dummy=new ListNode(-1);
+            
+            ListNode* current=dummy;
+
+            ListNode* first=head->next;
+
+            ListNode* second=head;
+
+            while(first!=nullptr and second!=nullptr)
+            {   
+                if(first!=nullptr)
+                {
+                    current->next=new ListNode(first->val);
+
+                    if(first->next!=nullptr)
+                    {
+                        first=first->next->next;
+                    }
+
+                    current=current->next;
+                }
+
+                if(second!=nullptr)
+                {
+                    current->next=new ListNode(second->val);
+
+                    if(second->next!=nullptr)
+                    {
+                        second=second->next->next;
+                    }
+
+                    current=current->next;
+                }
+            }
+
+            if(second!=nullptr)
+            {
+                current->next=new ListNode(second->val);
+            }
+
+            return dummy->next;
+        }
+};

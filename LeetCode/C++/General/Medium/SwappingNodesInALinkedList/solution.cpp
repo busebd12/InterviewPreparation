@@ -42,3 +42,53 @@ class Solution
             return head;
         }
 };
+
+/*05/16/2023 solution*/
+
+class Solution
+{
+    public:
+        ListNode* swapNodes(ListNode* head, int k)
+        {
+            int n=getLength(head);
+
+            if(n < k)
+            {
+                return head;
+            }
+            
+            ListNode* node1=head;
+            
+            for(int count=0;count<k-1;count+=1)
+            {
+                node1=node1->next;
+            }
+
+            ListNode* node2=head;
+
+            for(int count=0;count<n-k;count+=1)
+            {
+                node2=node2->next;
+            }
+
+            swap(node1->val, node2->val);
+            
+            return head;
+        }
+
+        int getLength(ListNode* head)
+        {
+            int length=0;
+
+            ListNode* current=head;
+
+            while(current!=nullptr)
+            {
+                length+=1;
+
+                current=current->next;
+            }
+
+            return length;
+        }
+};

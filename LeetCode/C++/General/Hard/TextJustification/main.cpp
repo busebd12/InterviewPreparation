@@ -4,229 +4,151 @@
 #include <string>
 #include <vector>
 
-/*
- * Solutions:
- *
- * 1. We put all the words into a queue. Then, while the queue is not empty, we place all the words that can fit
- * on the next line we want to build into a deque. Next, we use the buildLine function to build the correct
- * space separated line. We then place the built string into the result vector.
- *
- * Time complexity: O(w^2) [where w is the number of words in the input vector]
- * Space complexity: O(w)
- *
- * 2. Similar approach as the first solution except that we don't use the queue to store all the words.
- * We just iterate through the vector of the words.
- *
- * Time complexity: O(w^2)
- * Space complexity: O(w)
- */
-
-std::string buildLine(std::deque<std::string> & dq, int & maxWidth, int & nonSpaceCharacters, bool & lastLine)
+class Solution
 {
-    std::string line{};
-
-    int spaces=maxWidth - nonSpaceCharacters;
-
-    int spotsForSpaces=static_cast<int>(dq.size()) - 1;
-
-    std::vector<int> buckets;
-
-    if(lastLine)
-    {
-        buckets.resize(spotsForSpaces, 1);
-    }
-    else
-    {
-        if(spotsForSpaces==0)
+    public:
+        vector<string> fullJustify(vector<string> & words, int maxWidth)
         {
-            buckets.resize(1, spaces);
-        }
-        else
-        {
-            buckets.resize(spotsForSpaces, 0);
+            vector<string> result;
 
-            int count=0;
+            deque<string> queue;
 
-            while(count < spaces)
+            for(string word : words)
             {
-                for(auto i=0;i<spotsForSpaces;++i)
-                {
-                    if(count < spaces)
-                    {
-                        buckets[i]++;
+                queue.push_back(word);
+            }
 
-                        count++;
+            while(!queue.empty())
+            {
+                deque<string> wordsInSentence;
+
+                int lineLength=0;
+
+                int totalLetters=0;
+
+                while(!queue.empty() and lineLength <= maxWidth)
+                {
+                    if(lineLength + queue.front().size() + 1 <= maxWidth)
+                    {
+                        wordsInSentence.push_back(queue.front());
+
+                        lineLength+=queue.front().size() + 1;
+
+                        totalLetters+=queue.front().size();
+
+                        queue.pop_front();
+                    }
+                    else if(lineLength + queue.front().size() <= maxWidth)
+                    {
+                        wordsInSentence.push_back(queue.front());
+
+                        lineLength+=queue.front().size();
+
+                        totalLetters+=queue.front().size();
+
+                        queue.pop_front();
+                    }
+                    else
+                    {
+                        break;
                     }
                 }
-            }
-        }
-    }
 
-    int bucketsSize=static_cast<int>(buckets.size());
+                string line="";
 
-    int index=0;
-
-    while(!dq.empty())
-    {
-        auto str=dq.front();
-
-        dq.pop_front();
-
-        line+=str;
-
-        if(index < bucketsSize)
-        {
-            std::string extraSpaces(buckets[index], ' ');
-
-            line+=extraSpaces;
-
-            spaces-=buckets[index];
-        }
-
-        index++;
-    }
-
-    if(lastLine)
-    {
-        while(spaces > 0)
-        {
-            line+=' ';
-
-            spaces--;
-        }
-    }
-
-    return line;
-}
-
-std::vector<std::string> fullJustify(std::vector<std::string> & words, int maxWidth)
-{
-    std::vector<std::string> result{};
-
-    if(words.empty() || maxWidth <= 0)
-    {
-        return result;
-    }
-
-    std::queue<std::string> Q;
-
-    for(const auto & word : words)
-    {
-        Q.emplace(word);
-    }
-
-    while(!Q.empty())
-    {
-        std::deque<std::string> dq;
-
-        int count=0;
-
-        int nonSpaceCharacters=0;
-
-        bool lastLine=false;
-
-        while(!Q.empty())
-        {
-            int length=static_cast<int>(Q.front().size());
-
-            if(length + count <= maxWidth)
-            {
-                dq.emplace_back(Q.front());
-
-                Q.pop();
-
-                nonSpaceCharacters+=length;
-
-                count+=length;
-
-                if(count + 1 <= maxWidth)
+                if(queue.empty())
                 {
-                    count+=1;
+                    line=createLastLine(wordsInSentence, maxWidth, totalLetters);
+                }
+                else
+                {
+                    line=createLine(wordsInSentence, maxWidth, totalLetters);
+                }
+
+                result.push_back(line);
+            }
+
+            return result;
+        }
+
+        string createLine(deque<string> & wordsInSentence, int maxWidth, int totalLetters)
+        {
+            string line="";
+
+            int spaces=maxWidth - totalLetters;
+
+            int spotsForSpaces=wordsInSentence.size() - 1;
+
+            if(spotsForSpaces==0)
+            {
+                spotsForSpaces=1;
+            }
+
+            int minimumSpaces=spaces / spotsForSpaces;
+
+            int leftover=spaces % spotsForSpaces;
+
+            vector<int> buckets(spotsForSpaces, minimumSpaces);
+
+            while(leftover > 0)
+            {
+                for(int i=0;i<spotsForSpaces and leftover>0;i++)
+                {
+                    buckets[i]+=1;
+
+                    leftover-=1;
                 }
             }
-            else
+
+            int bucketsIndex=0;
+
+            while(!wordsInSentence.empty())
             {
-                break;
-            }
-        }
+                line.append(wordsInSentence.front());
 
-        if(Q.empty())
-        {
-            lastLine=true;
-        }
+                wordsInSentence.pop_front();
 
-        std::string subproblem=buildLine(dq, maxWidth, nonSpaceCharacters, lastLine); //O(w)
+                if(bucketsIndex < spotsForSpaces)
+                {
+                    for(int count=0;count<buckets[bucketsIndex];count++)
+                    {
+                        line.push_back(' ');
+                    }
 
-        result.emplace_back(subproblem);
-
-        dq.clear();
-    }
-
-    return result;
-}
-
-std::vector<std::string> fullJustify(std::vector<std::string> & words, int maxWidth)
-{
-    std::vector<std::string> result{};
-
-    if(words.empty() || maxWidth <= 0)
-    {
-        return result;
-    }
-
-    int count=0;
-
-    int nonSpaceCharacters=0;
-
-    bool lastLine=false;
-
-    std::deque<std::string> dq;
-
-    auto n=int(words.size());
-
-    for(auto index=0;index<n;)
-    {
-        std::string word=words[index];
-
-        int length=static_cast<int>(word.size());
-
-        if(length + count <= maxWidth)
-        {
-            dq.emplace_back(word);
-
-            nonSpaceCharacters+=length;
-
-            count+=length;
-
-            if(count + 1 <= maxWidth)
-            {
-                count+=1;
+                    bucketsIndex+=1;
+                }
             }
 
-            index++;
+            return line;
         }
-        else
+
+        string createLastLine(deque<string> & wordsInSentence, int maxWidth, int totalLetters)
         {
-            std::string subproblem=buildLine(dq, maxWidth, nonSpaceCharacters, lastLine);
+            string line="";
 
-            result.emplace_back(subproblem);
+            int spaces=maxWidth - totalLetters;
 
-            dq.clear();
+            while(!wordsInSentence.empty())
+            {
+                line.append(wordsInSentence.front());
 
-            count=0;
+                wordsInSentence.pop_front();
 
-            nonSpaceCharacters=0;
+                if(spaces > 0)
+                {
+                    line.push_back(' ');
+
+                    spaces-=1;
+                }
+            }
+
+            while(spaces > 0)
+            {
+                line.push_back(' ');
+
+                spaces-=1;
+            }
+
+            return line;
         }
-    }
-
-    if(!dq.empty())
-    {
-        lastLine=true;
-
-        std::string last=buildLine(dq, maxWidth, nonSpaceCharacters, lastLine);
-
-        result.emplace_back(last);
-    }
-
-    return result;
-}
+};
